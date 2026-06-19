@@ -1,0 +1,51 @@
+user_id,age,gender,diet,goal
+1,25,Male,Non-Vegetarian,Weight Loss
+2,32,Male,Non-Vegetarian,Maintenance
+3,52,Male,Non-Vegetarian,Weight Loss
+4,19,Male,Vegetarian,Maintenance
+5,19,Male,Non-Vegetarian,Maintenance
+6,52,Female,Vegetarian,Maintenance
+7,35,Male,Non-Vegetarian,Weight Loss
+8,45,Female,Vegetarian,Weight Loss
+9,39,Male,Vegetarian,Weight Loss
+10,40,Female,Non-Vegetarian,Weight Loss
+11,47,Male,Vegan,Muscle Gain
+12,23,Female,Vegan,Maintenance
+13,41,Male,Non-Vegetarian,Weight Loss
+14,32,Female,Vegan,Weight Loss
+15,24,Female,Vegetarian,Maintenance
+16,41,Male,Vegetarian,Weight Loss
+17,35,Male,Non-Vegetarian,Weight Loss
+18,52,Male,Vegetarian,Muscle Gain
+19,35,Male,Non-Vegetarian,Weight Loss
+20,32,Male,Vegan,Muscle Gain
+21,35,Male,Vegetarian,Maintenance
+22,38,Male,Non-Vegetarian,Muscle Gain
+23,47,Male,Vegetarian,Weight Loss
+24,53,Female,Non-Vegetarian,Muscle Gain
+25,55,Female,Vegetarian,Weight Loss
+26,50,Female,Vegetarian,Weight Loss
+27,25,Male,Non-Vegetarian,Maintenance
+28,45,Male,Vegetarian,Maintenance
+29,47,Female,Vegan,Weight Loss
+30,25,Female,Non-Vegetarian,Muscle Gain
+31,25,Female,Non-Vegetarian,Muscle Gain
+32,18,Female,Vegan,Weight Loss
+33,50,Male,Vegan,Muscle Gain
+34,50,Male,Vegetarian,Weight Loss
+35,52,Male,Non-Vegetarian,Muscle Gain
+36,19,Male,Vegan,Muscle Gain
+37,33,Male,Vegetarian,Maintenance
+38,23,Male,Non-Vegetarian,Weight Loss
+39,52,Male,Vegetarian,Muscle Gain
+40,53,Male,Vegetarian,Maintenance
+41,45,Male,Vegan,Maintenance
+42,30,Female,Vegetarian,Maintenance
+43,41,Female,Vegan,Muscle Gain
+44,25,Male,Vegetarian,Muscle Gain
+45,19,Male,Non-Vegetarian,Weight Loss
+46,22,Male,Vegetarian,Weight Loss
+47,39,Male,Non-Vegetarian,Muscle Gain
+48,49,Male,Non-Vegetarian,Maintenance
+49,54,Female,Vegetarian,Muscle Gain
+50,44,Male,Vegetarian,Maintenance
