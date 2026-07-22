@@ -72,17 +72,10 @@ def generate_meal_plan(user_id: int, profile):
 @meal_bp.route("", methods=["GET"])
 @jwt_required()
 def get_meals():
-    """Return today's meal plan grouped by type (including snacks)."""
+    """Return the user's saved meals grouped by type. Only shows meals the user explicitly saved."""
     user_id = int(get_jwt_identity())
-    today = date.today()
 
-    meals = MealPlan.query.filter_by(user_id=user_id, date=today).all()
-
-    # Auto-generate if no meals exist for today
-    if not meals:
-        profile = Profile.query.filter_by(user_id=user_id).first()
-        generate_meal_plan(user_id, profile)
-        meals = MealPlan.query.filter_by(user_id=user_id, date=today).all()
+    meals = MealPlan.query.filter_by(user_id=user_id).order_by(MealPlan.date.desc()).all()
 
     grouped = {"breakfast": [], "lunch": [], "dinner": [], "snack": []}
     for m in meals:
