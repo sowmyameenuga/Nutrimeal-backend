@@ -34,6 +34,17 @@ def create_app():
     with app.app_context():
         db.create_all()
 
+        # ── Auto-migrate: add missing columns to existing tables ──
+        from sqlalchemy import inspect, text
+        inspector = inspect(db.engine)
+        if 'progress_logs' in inspector.get_table_names():
+            columns = [col['name'] for col in inspector.get_columns('progress_logs')]
+            if 'protein_consumed' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE progress_logs ADD COLUMN protein_consumed FLOAT DEFAULT 0'))
+                    conn.commit()
+                print("[migration] Added protein_consumed column to progress_logs")
+
     # ── Health check ──
     @app.route("/api/health", methods=["GET"])
     def health():

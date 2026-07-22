@@ -27,18 +27,27 @@ def get_dashboard():
             "calories": m.calories,
         })
 
-    # Total nutrition from today's meal plan
-    total_calories = sum(m.calories for m in meals)
-    total_protein = sum(m.protein for m in meals)
-    total_water = progress.water_litres if progress else 0.0
+    # Planned nutrition from today's meal plan
+    planned_calories = sum(m.calories for m in meals)
+    planned_protein = sum(m.protein for m in meals)
+
+    # Actual consumed values from ProgressLog (updated when user clicks 'I Ate This!' or logs water)
+    consumed_calories = progress.calories_consumed if progress else 0
+    consumed_protein = getattr(progress, 'protein_consumed', 0.0) or 0.0 if progress else 0.0
+    consumed_water = progress.water_litres if progress else 0.0
+    water_glasses = int(consumed_water / 0.25) if consumed_water else 0  # 1 glass = 250ml
 
     return jsonify({
         "user_name": user.name if user else "User",
         "daily_summary": {
-            "calories": total_calories,
-            "protein": round(total_protein, 1),
-            "water": round(total_water, 1),
+            "calories": consumed_calories,
+            "planned_calories": planned_calories,
+            "protein": round(consumed_protein, 1),
+            "planned_protein": round(planned_protein, 1),
+            "water": round(consumed_water, 1),
+            "water_glasses": water_glasses,
         },
         "today_meals": today_meals,
         "profile_complete": profile is not None and profile.goal is not None,
     }), 200
+

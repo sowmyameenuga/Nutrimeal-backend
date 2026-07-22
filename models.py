@@ -107,6 +107,7 @@ class ProgressLog(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
     date = db.Column(db.Date, default=date.today)
     calories_consumed = db.Column(db.Integer, default=0)
+    protein_consumed = db.Column(db.Float, default=0)
     water_litres = db.Column(db.Float, default=0)
     current_weight = db.Column(db.Float, default=0)
 
@@ -116,6 +117,7 @@ class ProgressLog(db.Model):
             "user_id": self.user_id,
             "date": self.date.isoformat() if self.date else None,
             "calories_consumed": self.calories_consumed,
+            "protein_consumed": self.protein_consumed,
             "water_litres": self.water_litres,
             "current_weight": self.current_weight,
         }

@@ -67,6 +67,8 @@ def log_progress():
 
     if "calories_consumed" in data:
         log.calories_consumed = int(data["calories_consumed"])
+    if "protein_consumed" in data:
+        log.protein_consumed = float(data["protein_consumed"])
     if "water_litres" in data:
         log.water_litres = float(data["water_litres"])
     if "current_weight" in data:
@@ -83,23 +85,25 @@ def log_progress():
 @progress_bp.route("/log_meal", methods=["POST"])
 @jwt_required()
 def log_meal():
-    """Add a meal's calories to today's progress."""
+    """Add a meal's calories and protein to today's progress."""
     user_id = int(get_jwt_identity())
     data = request.get_json() or {}
     calories = data.get("calories", 0)
-    
+    protein = data.get("protein", 0)
+
     today = date.today()
     log = ProgressLog.query.filter_by(user_id=user_id, date=today).first()
-    
+
     if log is None:
         log = ProgressLog(user_id=user_id, date=today)
         db.session.add(log)
-        
+
     log.calories_consumed += int(calories)
+    log.protein_consumed += float(protein)
     db.session.commit()
-    
+
     return jsonify({
-        "message": f"Added {calories} kcal successfully",
+        "message": f"Added {calories} kcal and {protein}g protein successfully",
         "progress": log.to_dict(),
     }), 200
 

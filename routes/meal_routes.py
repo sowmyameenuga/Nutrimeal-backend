@@ -104,6 +104,23 @@ def get_meal_detail(meal_id):
     return jsonify(meal.to_dict()), 200
 
 
+@meal_bp.route("/<int:meal_id>", methods=["DELETE"])
+@jwt_required()
+def delete_meal(meal_id):
+    """Delete a meal from today's plan."""
+    user_id = int(get_jwt_identity())
+    meal = MealPlan.query.filter_by(id=meal_id, user_id=user_id).first()
+
+    if meal is None:
+        return jsonify({"error": "Meal not found"}), 404
+
+    db.session.delete(meal)
+    db.session.commit()
+
+    return jsonify({"message": "Meal deleted successfully"}), 200
+
+
+
 @meal_bp.route("/refresh", methods=["POST"])
 @jwt_required()
 def refresh_meals():
