@@ -121,3 +121,31 @@ class ProgressLog(db.Model):
             "water_litres": self.water_litres,
             "current_weight": self.current_weight,
         }
+
+
+# ─── Logged Meal ─────────────────────────────────────────────────────────────
+class LoggedMeal(db.Model):
+    __tablename__ = "logged_meals"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    meal_id = db.Column(db.Integer, nullable=True) # Optional link to meal plan or recipe id
+    title = db.Column(db.String(200), nullable=False)
+    calories = db.Column(db.Integer, default=0)
+    protein = db.Column(db.Float, default=0)
+    carbs = db.Column(db.Float, default=0)
+    fat = db.Column(db.Float, default=0)
+    date = db.Column(db.Date, default=date.today)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "user_id": self.user_id,
+            "meal_id": self.meal_id,
+            "title": self.title,
+            "calories": self.calories,
+            "protein": self.protein,
+            "carbs": self.carbs,
+            "fat": self.fat,
+            "date": self.date.isoformat() if self.date else None,
+        }
