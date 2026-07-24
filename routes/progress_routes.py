@@ -97,7 +97,14 @@ def log_meal():
     fat = float(data.get("fat", 0))
     confirm_duplicate = data.get("confirm_duplicate", False)
 
-    today = date.today()
+    date_str = data.get("date")
+    if date_str:
+        try:
+            today = date.fromisoformat(date_str)
+        except ValueError:
+            today = date.today()
+    else:
+        today = date.today()
 
     # Check for duplicate if not confirmed
     if not confirm_duplicate:
@@ -120,6 +127,18 @@ def log_meal():
         date=today
     )
     db.session.add(logged_meal)
+
+    # Mark corresponding MealPlan as eaten
+    if meal_id:
+        meal = MealPlan.query.filter_by(id=meal_id, user_id=user_id).first()
+        if meal:
+            meal.eaten = True
+            completion_time = data.get("completion_time")
+            if not completion_time:
+                from datetime import datetime, timezone, timedelta
+                completion_time = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=5, minutes=30))).strftime('%I:%M %p')
+            meal.completion_time = completion_time
+
     db.session.commit()
 
     # Recalculate daily totals from all logged meals today
@@ -138,7 +157,7 @@ def log_meal():
     db.session.commit()
 
     return jsonify({
-        "message": f"Logged {title} successfully",
+        "message": "Meal logged successfully",
         "progress": log.to_dict(),
         "logged_meal": logged_meal.to_dict()
     }), 200

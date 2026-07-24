@@ -85,25 +85,79 @@ def log_progress():
 @progress_bp.route("/log_meal", methods=["POST"])
 @jwt_required()
 def log_meal():
-    """Add a meal's calories and protein to today's progress."""
+    """Add a meal to today's logged meals and update progress."""
     user_id = int(get_jwt_identity())
     data = request.get_json() or {}
-    calories = data.get("calories", 0)
-    protein = data.get("protein", 0)
+    
+    meal_id = data.get("meal_id")
+    title = data.get("title", "Unknown Meal")
+    calories = int(data.get("calories", 0))
+    protein = float(data.get("protein", 0))
+    carbs = float(data.get("carbs", 0))
+    fat = float(data.get("fat", 0))
+    confirm_duplicate = data.get("confirm_duplicate", False)
 
-    today = date.today()
+    date_str = data.get("date")
+    if date_str:
+        try:
+            today = date.fromisoformat(date_str)
+        except ValueError:
+            today = date.today()
+    else:
+        today = date.today()
+
+    # Check for duplicate if not confirmed
+    if not confirm_duplicate:
+        existing = LoggedMeal.query.filter_by(user_id=user_id, date=today, title=title).first()
+        if existing:
+            return jsonify({
+                "error": "Duplicate meal",
+                "message": f"You already logged '{title}' today."
+            }), 409
+
+    # Add the logged meal
+    logged_meal = LoggedMeal(
+        user_id=user_id,
+        meal_id=meal_id,
+        title=title,
+        calories=calories,
+        protein=protein,
+        carbs=carbs,
+        fat=fat,
+        date=today
+    )
+    db.session.add(logged_meal)
+
+    # Mark corresponding MealPlan as eaten
+    if meal_id:
+        meal = MealPlan.query.filter_by(id=meal_id, user_id=user_id).first()
+        if meal:
+            meal.eaten = True
+            completion_time = data.get("completion_time")
+            if not completion_time:
+                from datetime import datetime, timezone, timedelta
+                completion_time = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=5, minutes=30))).strftime('%I:%M %p')
+            meal.completion_time = completion_time
+
+    db.session.commit()
+
+    # Recalculate daily totals from all logged meals today
+    all_logged_today = LoggedMeal.query.filter_by(user_id=user_id, date=today).all()
+    total_calories = sum(m.calories for m in all_logged_today)
+    total_protein = sum(m.protein for m in all_logged_today)
+
+    # Update ProgressLog
     log = ProgressLog.query.filter_by(user_id=user_id, date=today).first()
-
     if log is None:
         log = ProgressLog(user_id=user_id, date=today)
         db.session.add(log)
-
-    log.calories_consumed += int(calories)
-    log.protein_consumed += float(protein)
+    
+    log.calories_consumed = total_calories
+    log.protein_consumed = total_protein
     db.session.commit()
 
     return jsonify({
-        "message": f"Added {calories} kcal and {protein}g protein successfully",
+        "message": "Meal logged successfully",
         "progress": log.to_dict(),
     }), 200
 

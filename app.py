@@ -45,6 +45,19 @@ def create_app():
                     conn.commit()
                 print("[migration] Added protein_consumed column to progress_logs")
 
+        if 'meal_plans' in inspector.get_table_names():
+            columns = [col['name'] for col in inspector.get_columns('meal_plans')]
+            if 'eaten' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE meal_plans ADD COLUMN eaten BOOLEAN DEFAULT FALSE'))
+                    conn.commit()
+                print("[migration] Added eaten column to meal_plans")
+            if 'completion_time' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE meal_plans ADD COLUMN completion_time VARCHAR(50)'))
+                    conn.commit()
+                print("[migration] Added completion_time column to meal_plans")
+
     # ── Health check ──
     @app.route("/api/health", methods=["GET"])
     def health():
