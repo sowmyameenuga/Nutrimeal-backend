@@ -97,4 +97,12 @@ def create_app():
     def health():
         return {"status": "ok", "message": "AI Nutrition API is running"}, 200
 
+    @app.errorhandler(Exception)
+    def handle_exception(e):
+        import traceback
+        return {
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }, 500
+
     return app
