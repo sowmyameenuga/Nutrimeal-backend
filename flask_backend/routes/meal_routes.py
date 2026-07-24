@@ -72,7 +72,7 @@ def generate_meal_plan(user_id: int, profile):
 @meal_bp.route("", methods=["GET"])
 @jwt_required()
 def get_meals():
-    """Return today's meal plan grouped by type."""
+    """Return today's meal plan grouped by type (including snacks)."""
     user_id = int(get_jwt_identity())
     today = date.today()
 
