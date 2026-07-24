@@ -91,6 +91,11 @@ def create_app():
                     conn.execute(text('ALTER TABLE logged_meals ADD COLUMN fat FLOAT DEFAULT 0.0'))
                     conn.commit()
                 print("[migration] Added fat column to logged_meals")
+            if 'completion_time' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE logged_meals ADD COLUMN completion_time VARCHAR(50)'))
+                    conn.commit()
+                print("[migration] Added completion_time column to logged_meals")
 
     # ── Health check ──
     @app.route("/api/health", methods=["GET"])

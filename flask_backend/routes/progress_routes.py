@@ -115,6 +115,11 @@ def log_meal():
                 "message": f"You already logged '{title}' today."
             }), 409
 
+    completion_time = data.get("completion_time")
+    if not completion_time:
+        from datetime import datetime, timezone, timedelta
+        completion_time = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=5, minutes=30))).strftime('%I:%M %p')
+
     # Add the logged meal
     logged_meal = LoggedMeal(
         user_id=user_id,
@@ -124,7 +129,8 @@ def log_meal():
         protein=protein,
         carbs=carbs,
         fat=fat,
-        date=today
+        date=today,
+        completion_time=completion_time
     )
     db.session.add(logged_meal)
 
@@ -133,10 +139,6 @@ def log_meal():
         meal = MealPlan.query.filter_by(id=meal_id, user_id=user_id).first()
         if meal:
             meal.eaten = True
-            completion_time = data.get("completion_time")
-            if not completion_time:
-                from datetime import datetime, timezone, timedelta
-                completion_time = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=5, minutes=30))).strftime('%I:%M %p')
             meal.completion_time = completion_time
 
     db.session.commit()

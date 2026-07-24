@@ -143,6 +143,7 @@ class LoggedMeal(db.Model):
     carbs = db.Column(db.Float, default=0)
     fat = db.Column(db.Float, default=0)
     date = db.Column(db.Date, default=date.today)
+    completion_time = db.Column(db.String(50), nullable=True)
 
     def to_dict(self):
         return {
@@ -155,4 +156,5 @@ class LoggedMeal(db.Model):
             "carbs": self.carbs,
             "fat": self.fat,
             "date": self.date.isoformat() if self.date else None,
+            "completion_time": self.completion_time
         }
