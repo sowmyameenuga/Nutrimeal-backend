@@ -35,7 +35,7 @@ def get_dashboard():
     consumed_calories = progress.calories_consumed if progress else 0
     consumed_protein = getattr(progress, 'protein_consumed', 0.0) or 0.0 if progress else 0.0
     consumed_water = progress.water_litres if progress else 0.0
-    water_glasses = int(consumed_water / 0.25) if consumed_water else 0  # 1 glass = 250ml
+    water_glasses = int(consumed_water / 0.5) if consumed_water else 0  # 1 glass = 500ml
 
     return jsonify({
         "user_name": user.name if user else "User",
