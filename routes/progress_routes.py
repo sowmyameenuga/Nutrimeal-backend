@@ -18,7 +18,7 @@ def get_daily_progress():
 
     # Target values based on profile
     calorie_target = 2000
-    water_target = 3.0
+    water_target = 4.0
     weight_goal = 60.0
 
     if profile:
