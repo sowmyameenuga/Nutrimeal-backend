@@ -18,7 +18,6 @@ class User(db.Model):
     profile = db.relationship("Profile", backref="user", uselist=False, cascade="all, delete-orphan")
     meal_plans = db.relationship("MealPlan", backref="user", lazy=True, cascade="all, delete-orphan")
     progress_logs = db.relationship("ProgressLog", backref="user", lazy=True, cascade="all, delete-orphan")
-    logged_meals = db.relationship("LoggedMeal", backref="user", lazy=True, cascade="all, delete-orphan")
 
     def set_password(self, password: str):
         self.password_hash = generate_password_hash(password)
@@ -82,9 +81,6 @@ class MealPlan(db.Model):
     health_benefits = db.Column(db.Text, default="")
     recipe_steps = db.Column(db.Text, default="")
     date = db.Column(db.Date, default=date.today)
-    eaten = db.Column(db.Boolean, default=False)
-    completion_time = db.Column(db.String(50), nullable=True)
-    recommendation_reason = db.Column(db.Text, default="")
 
     def to_dict(self):
         return {
@@ -92,17 +88,14 @@ class MealPlan(db.Model):
             "user_id": self.user_id,
             "meal_type": self.meal_type,
             "title": self.title,
-            "calories": self.calories if self.calories is not None else 0,
-            "protein": self.protein if self.protein is not None else 0.0,
-            "carbs": self.carbs if self.carbs is not None else 0.0,
-            "fat": self.fat if self.fat is not None else 0.0,
-            "ingredients": self.ingredients if self.ingredients else "",
-            "health_benefits": self.health_benefits if self.health_benefits else "",
-            "recipe_steps": self.recipe_steps if self.recipe_steps else "",
+            "calories": self.calories,
+            "protein": self.protein,
+            "carbs": self.carbs,
+            "fat": self.fat,
+            "ingredients": self.ingredients,
+            "health_benefits": self.health_benefits,
+            "recipe_steps": self.recipe_steps,
             "date": self.date.isoformat() if self.date else None,
-            "eaten": self.eaten,
-            "completion_time": self.completion_time,
-            "recommendation_reason": self.recommendation_reason if self.recommendation_reason else "Recommended based on your health goals.",
         }
 
 
@@ -127,32 +120,4 @@ class ProgressLog(db.Model):
             "protein_consumed": self.protein_consumed,
             "water_litres": self.water_litres,
             "current_weight": self.current_weight,
-        }
-
-
-# ─── Logged Meal ─────────────────────────────────────────────────────────────
-class LoggedMeal(db.Model):
-    __tablename__ = "logged_meals"
-
-    id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
-    meal_id = db.Column(db.Integer, nullable=True) # Optional link to meal plan or recipe id
-    title = db.Column(db.String(200), nullable=False)
-    calories = db.Column(db.Integer, default=0)
-    protein = db.Column(db.Float, default=0)
-    carbs = db.Column(db.Float, default=0)
-    fat = db.Column(db.Float, default=0)
-    date = db.Column(db.Date, default=date.today)
-
-    def to_dict(self):
-        return {
-            "id": self.id,
-            "user_id": self.user_id,
-            "meal_id": self.meal_id,
-            "title": self.title,
-            "calories": self.calories,
-            "protein": self.protein,
-            "carbs": self.carbs,
-            "fat": self.fat,
-            "date": self.date.isoformat() if self.date else None,
         }
