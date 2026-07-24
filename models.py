@@ -18,6 +18,7 @@ class User(db.Model):
     profile = db.relationship("Profile", backref="user", uselist=False, cascade="all, delete-orphan")
     meal_plans = db.relationship("MealPlan", backref="user", lazy=True, cascade="all, delete-orphan")
     progress_logs = db.relationship("ProgressLog", backref="user", lazy=True, cascade="all, delete-orphan")
+    logged_meals = db.relationship("LoggedMeal", backref="user", lazy=True, cascade="all, delete-orphan")
 
     def set_password(self, password: str):
         self.password_hash = generate_password_hash(password)
