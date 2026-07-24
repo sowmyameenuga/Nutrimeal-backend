@@ -37,6 +37,8 @@ def create_app():
         # ── Auto-migrate: add missing columns to existing tables ──
         from sqlalchemy import inspect, text
         inspector = inspect(db.engine)
+        
+        # progress_logs table
         if 'progress_logs' in inspector.get_table_names():
             columns = [col['name'] for col in inspector.get_columns('progress_logs')]
             if 'protein_consumed' not in columns:
@@ -45,6 +47,7 @@ def create_app():
                     conn.commit()
                 print("[migration] Added protein_consumed column to progress_logs")
 
+        # meal_plans table
         if 'meal_plans' in inspector.get_table_names():
             columns = [col['name'] for col in inspector.get_columns('meal_plans')]
             if 'eaten' not in columns:
@@ -74,6 +77,20 @@ def create_app():
                     conn.execute(text('ALTER TABLE meal_plans ADD COLUMN recommendation_reason TEXT'))
                     conn.commit()
                 print("[migration] Added recommendation_reason column to meal_plans")
+
+        # logged_meals table
+        if 'logged_meals' in inspector.get_table_names():
+            columns = [col['name'] for col in inspector.get_columns('logged_meals')]
+            if 'carbs' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE logged_meals ADD COLUMN carbs FLOAT DEFAULT 0.0'))
+                    conn.commit()
+                print("[migration] Added carbs column to logged_meals")
+            if 'fat' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE logged_meals ADD COLUMN fat FLOAT DEFAULT 0.0'))
+                    conn.commit()
+                print("[migration] Added fat column to logged_meals")
 
     # ── Health check ──
     @app.route("/api/health", methods=["GET"])
