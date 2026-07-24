@@ -8,10 +8,11 @@
             "fat": 8,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Rolled oats (50g)\n\u00e2\u20ac\u00a2 Blueberries (40g)\n\u00e2\u20ac\u00a2 Strawberries (30g)\n\u00e2\u20ac\u00a2 Almond milk (200ml)\n\u00e2\u20ac\u00a2 Chia seeds (1 tsp)\n\u00e2\u20ac\u00a2 Maple syrup (1 tsp)",
+            "ingredients": "â€¢ Rolled oats (50g)\nâ€¢ Blueberries (40g)\nâ€¢ Strawberries (30g)\nâ€¢ Almond milk (200ml)\nâ€¢ Chia seeds (1 tsp)\nâ€¢ Maple syrup (1 tsp)",
             "health_benefits": "Rich in soluble fiber that lowers cholesterol and stabilizes blood sugar. Berries provide powerful antioxidants. Chia seeds add omega-3 fatty acids for brain health.",
             "recipe_steps": "1. Heat almond milk in a saucepan over medium heat.\n2. Add oats and cook for 5 minutes, stirring occasionally.\n3. Transfer to a bowl and top with fresh berries.\n4. Sprinkle chia seeds and drizzle maple syrup.\n5. Serve warm.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Banana Almond Smoothie",
@@ -23,10 +24,11 @@
             "tags": [
                 "nuts"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Banana (1 large)\n\u00e2\u20ac\u00a2 Almond butter (1 tbsp)\n\u00e2\u20ac\u00a2 Almond milk (200ml)\n\u00e2\u20ac\u00a2 Oats (2 tbsp)\n\u00e2\u20ac\u00a2 Cinnamon (pinch)\n\u00e2\u20ac\u00a2 Ice cubes",
+            "ingredients": "â€¢ Banana (1 large)\nâ€¢ Almond butter (1 tbsp)\nâ€¢ Almond milk (200ml)\nâ€¢ Oats (2 tbsp)\nâ€¢ Cinnamon (pinch)\nâ€¢ Ice cubes",
             "health_benefits": "Bananas are rich in potassium for heart and muscle function. Almond butter provides healthy monounsaturated fats and vitamin E. Quick-digesting energy, perfect for mornings.",
             "recipe_steps": "1. Peel and slice the banana.\n2. Add banana, almond butter, milk, oats, and cinnamon to a blender.\n3. Add ice cubes and blend on high for 60 seconds.\n4. Pour into a glass and serve immediately.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Avocado Toast with Seeds",
@@ -36,10 +38,11 @@
             "fat": 20,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Sourdough bread (2 slices)\n\u00e2\u20ac\u00a2 Avocado (1/2 ripe)\n\u00e2\u20ac\u00a2 Cherry tomatoes (4)\n\u00e2\u20ac\u00a2 Pumpkin seeds (1 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice (1 tsp)\n\u00e2\u20ac\u00a2 Red pepper flakes\n\u00e2\u20ac\u00a2 Salt & pepper",
+            "ingredients": "â€¢ Sourdough bread (2 slices)\nâ€¢ Avocado (1/2 ripe)\nâ€¢ Cherry tomatoes (4)\nâ€¢ Pumpkin seeds (1 tbsp)\nâ€¢ Lemon juice (1 tsp)\nâ€¢ Red pepper flakes\nâ€¢ Salt & pepper",
             "health_benefits": "Avocado provides heart-healthy monounsaturated fats and fiber. Sourdough is easier to digest due to fermentation. Pumpkin seeds are rich in zinc and magnesium.",
             "recipe_steps": "1. Toast sourdough slices until golden.\n2. Mash avocado with lemon juice, salt, and pepper.\n3. Spread avocado mixture on toast.\n4. Top with halved cherry tomatoes and pumpkin seeds.\n5. Sprinkle red pepper flakes.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Overnight Chia Pudding",
@@ -49,10 +52,11 @@
             "fat": 12,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Chia seeds (3 tbsp)\n\u00e2\u20ac\u00a2 Coconut milk (200ml)\n\u00e2\u20ac\u00a2 Mango (1/2, diced)\n\u00e2\u20ac\u00a2 Granola (2 tbsp)\n\u00e2\u20ac\u00a2 Maple syrup (1 tsp)",
+            "ingredients": "â€¢ Chia seeds (3 tbsp)\nâ€¢ Coconut milk (200ml)\nâ€¢ Mango (1/2, diced)\nâ€¢ Granola (2 tbsp)\nâ€¢ Maple syrup (1 tsp)",
             "health_benefits": "Chia seeds are loaded with omega-3 fatty acids and fiber. Coconut milk provides healthy medium-chain fats. Mango is rich in vitamin C and beta-carotene.",
             "recipe_steps": "1. Mix chia seeds with coconut milk and maple syrup in a jar.\n2. Stir well and refrigerate overnight (at least 4 hours).\n3. In the morning, top with diced mango and granola.\n4. Serve chilled.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Tofu Scramble",
@@ -62,10 +66,11 @@
             "fat": 12,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Firm tofu (200g)\n\u00e2\u20ac\u00a2 Turmeric (1/2 tsp)\n\u00e2\u20ac\u00a2 Spinach (40g)\n\u00e2\u20ac\u00a2 Bell pepper (1/4, diced)\n\u00e2\u20ac\u00a2 Onion (1/4, diced)\n\u00e2\u20ac\u00a2 Nutritional yeast (1 tbsp)\n\u00e2\u20ac\u00a2 Olive oil (1 tsp)",
+            "ingredients": "â€¢ Firm tofu (200g)\nâ€¢ Turmeric (1/2 tsp)\nâ€¢ Spinach (40g)\nâ€¢ Bell pepper (1/4, diced)\nâ€¢ Onion (1/4, diced)\nâ€¢ Nutritional yeast (1 tbsp)\nâ€¢ Olive oil (1 tsp)",
             "health_benefits": "Tofu provides complete plant-based protein with all essential amino acids. Turmeric has powerful anti-inflammatory properties. Nutritional yeast adds B-vitamins.",
             "recipe_steps": "1. Crumble tofu with hands into rough chunks.\n2. Heat olive oil in a pan, saut onion and bell pepper 3 mins.\n3. Add crumbled tofu and turmeric, cook 5 minutes stirring.\n4. Add spinach and nutritional yeast, cook until spinach wilts.\n5. Season and serve warm.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Egg White Omelette",
@@ -77,10 +82,11 @@
             "tags": [
                 "eggs"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Egg whites (4)\n\u00e2\u20ac\u00a2 Spinach (30g)\n\u00e2\u20ac\u00a2 Bell pepper (1/4, diced)\n\u00e2\u20ac\u00a2 Mushrooms (3, sliced)\n\u00e2\u20ac\u00a2 Olive oil spray\n\u00e2\u20ac\u00a2 Salt & pepper",
+            "ingredients": "â€¢ Egg whites (4)\nâ€¢ Spinach (30g)\nâ€¢ Bell pepper (1/4, diced)\nâ€¢ Mushrooms (3, sliced)\nâ€¢ Olive oil spray\nâ€¢ Salt & pepper",
             "health_benefits": "Ultra-high protein with minimal fat, ideal for muscle building. Spinach adds iron and folate. Very low calorie, perfect for weight loss goals.",
             "recipe_steps": "1. Heat a non-stick pan with olive oil spray.\n2. Saut mushrooms and bell pepper for 2 minutes.\n3. Add spinach and cook until wilted.\n4. Pour egg whites over vegetables, cook until set.\n5. Fold in half and serve.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Paneer Paratha",
@@ -93,10 +99,11 @@
                 "dairy",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Whole wheat flour (100g)\n\u00e2\u20ac\u00a2 Paneer (80g, crumbled)\n\u00e2\u20ac\u00a2 Green chili (1, minced)\n\u00e2\u20ac\u00a2 Cumin seeds (1/2 tsp)\n\u00e2\u20ac\u00a2 Coriander leaves\n\u00e2\u20ac\u00a2 Ghee (1 tbsp)\n\u00e2\u20ac\u00a2 Salt",
+            "ingredients": "â€¢ Whole wheat flour (100g)\nâ€¢ Paneer (80g, crumbled)\nâ€¢ Green chili (1, minced)\nâ€¢ Cumin seeds (1/2 tsp)\nâ€¢ Coriander leaves\nâ€¢ Ghee (1 tbsp)\nâ€¢ Salt",
             "health_benefits": "Paneer is rich in calcium and casein protein for slow digestion. Whole wheat provides complex carbs and fiber. A filling, traditional Indian breakfast that sustains energy.",
             "recipe_steps": "1. Knead whole wheat dough with water and salt, rest 15 mins.\n2. Mix crumbled paneer with chili, cumin, coriander, and salt.\n3. Roll dough ball, stuff with paneer mixture, seal and roll flat.\n4. Cook on a hot tawa with ghee on both sides until golden.\n5. Serve hot with curd or pickle.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Greek Yogurt Parfait",
@@ -108,10 +115,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Greek yogurt (150g)\n\u00e2\u20ac\u00a2 Granola (30g)\n\u00e2\u20ac\u00a2 Honey (1 tbsp)\n\u00e2\u20ac\u00a2 Mixed berries (50g)\n\u00e2\u20ac\u00a2 Flaxseed (1 tsp)",
+            "ingredients": "â€¢ Greek yogurt (150g)\nâ€¢ Granola (30g)\nâ€¢ Honey (1 tbsp)\nâ€¢ Mixed berries (50g)\nâ€¢ Flaxseed (1 tsp)",
             "health_benefits": "Greek yogurt is rich in probiotics for gut health and protein. Honey has natural antibacterial properties. Flaxseed provides plant-based omega-3s.",
             "recipe_steps": "1. Layer Greek yogurt at the bottom of a glass or bowl.\n2. Add a layer of granola.\n3. Add a layer of mixed berries.\n4. Repeat layers.\n5. Drizzle honey on top and sprinkle flaxseed.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Masala Dosa",
@@ -121,10 +129,11 @@
             "fat": 14,
             "diet_type": "Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Dosa batter (1 ladle)\n\u00e2\u20ac\u00a2 Potato (1, boiled & mashed)\n\u00e2\u20ac\u00a2 Mustard seeds (1/2 tsp)\n\u00e2\u20ac\u00a2 Curry leaves (5-6)\n\u00e2\u20ac\u00a2 Turmeric (1/4 tsp)\n\u00e2\u20ac\u00a2 Green chili (1)\n\u00e2\u20ac\u00a2 Oil (1 tsp)\n\u00e2\u20ac\u00a2 Coconut chutney & sambar",
+            "ingredients": "â€¢ Dosa batter (1 ladle)\nâ€¢ Potato (1, boiled & mashed)\nâ€¢ Mustard seeds (1/2 tsp)\nâ€¢ Curry leaves (5-6)\nâ€¢ Turmeric (1/4 tsp)\nâ€¢ Green chili (1)\nâ€¢ Oil (1 tsp)\nâ€¢ Coconut chutney & sambar",
             "health_benefits": "Fermented batter is excellent for gut health and easier to digest. Potatoes provide vitamin B6 and potassium. A traditional South Indian dish that's light yet filling.",
             "recipe_steps": "1. Heat oil, add mustard seeds and curry leaves until they splutter.\n2. Add mashed potato, turmeric, chili, and salt. Mix well.\n3. Spread dosa batter thin on a hot tawa in a circular motion.\n4. Drizzle oil around edges, cook until crisp.\n5. Place potato filling in center, fold and serve with chutney & sambar.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Idli Sambar",
@@ -134,10 +143,11 @@
             "fat": 4,
             "diet_type": "Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Idli batter (for 4 idlis)\n\u00e2\u20ac\u00a2 Toor dal (50g)\n\u00e2\u20ac\u00a2 Mixed vegetables (carrot, drumstick, beans)\n\u00e2\u20ac\u00a2 Sambar powder (1 tbsp)\n\u00e2\u20ac\u00a2 Tamarind paste (1 tsp)\n\u00e2\u20ac\u00a2 Mustard seeds & curry leaves\n\u00e2\u20ac\u00a2 Coconut chutney",
+            "ingredients": "â€¢ Idli batter (for 4 idlis)\nâ€¢ Toor dal (50g)\nâ€¢ Mixed vegetables (carrot, drumstick, beans)\nâ€¢ Sambar powder (1 tbsp)\nâ€¢ Tamarind paste (1 tsp)\nâ€¢ Mustard seeds & curry leaves\nâ€¢ Coconut chutney",
             "health_benefits": "Idlis are steamed, making them one of the lightest Indian breakfasts. Fermented batter provides probiotics. Sambar adds protein from lentils and vitamins from vegetables.",
             "recipe_steps": "1. Steam idli batter in idli moulds for 10-12 minutes.\n2. For sambar: cook toor dal until soft, pressure cook vegetables.\n3. Add tamarind paste, sambar powder, and cooked veggies to dal.\n4. Temper with mustard seeds and curry leaves in oil.\n5. Serve idlis hot with sambar and coconut chutney.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Chicken Sausage Wrap",
@@ -149,10 +159,11 @@
             "tags": [
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken sausages (2)\n\u00e2\u20ac\u00a2 Whole wheat wrap (1)\n\u00e2\u20ac\u00a2 Lettuce (2 leaves)\n\u00e2\u20ac\u00a2 Tomato (1/2, sliced)\n\u00e2\u20ac\u00a2 Mustard sauce (1 tbsp)\n\u00e2\u20ac\u00a2 Cheese slice (1)",
+            "ingredients": "â€¢ Chicken sausages (2)\nâ€¢ Whole wheat wrap (1)\nâ€¢ Lettuce (2 leaves)\nâ€¢ Tomato (1/2, sliced)\nâ€¢ Mustard sauce (1 tbsp)\nâ€¢ Cheese slice (1)",
             "health_benefits": "Good source of lean protein from chicken sausages. Whole wheat wrap adds fiber and complex carbs. A quick, protein-packed breakfast for busy mornings.",
             "recipe_steps": "1. Grill or pan-fry chicken sausages until cooked through.\n2. Warm the whole wheat wrap on a pan.\n3. Layer lettuce, sliced tomato, and cheese on the wrap.\n4. Place sausages on top and drizzle mustard sauce.\n5. Roll tightly and slice in half.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Egg Bhurji on Toast",
@@ -165,10 +176,11 @@
                 "eggs",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Eggs (3)\n\u00e2\u20ac\u00a2 Onion (1/2, diced)\n\u00e2\u20ac\u00a2 Tomato (1/2, diced)\n\u00e2\u20ac\u00a2 Green chili (1)\n\u00e2\u20ac\u00a2 Turmeric (1/4 tsp)\n\u00e2\u20ac\u00a2 Whole wheat bread (2 slices)\n\u00e2\u20ac\u00a2 Butter (1 tsp)\n\u00e2\u20ac\u00a2 Coriander leaves",
+            "ingredients": "â€¢ Eggs (3)\nâ€¢ Onion (1/2, diced)\nâ€¢ Tomato (1/2, diced)\nâ€¢ Green chili (1)\nâ€¢ Turmeric (1/4 tsp)\nâ€¢ Whole wheat bread (2 slices)\nâ€¢ Butter (1 tsp)\nâ€¢ Coriander leaves",
             "health_benefits": "Eggs are a complete protein source with all essential amino acids. Rich in choline for brain health. Indian-spiced scramble with anti-inflammatory turmeric.",
             "recipe_steps": "1. Heat butter in a pan, saut onion until translucent.\n2. Add tomato, green chili, and turmeric. Cook 2 minutes.\n3. Beat eggs and pour into pan. Scramble until just set.\n4. Garnish with coriander leaves.\n5. Toast bread and serve egg bhurji on top.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Smoked Salmon Toast",
@@ -181,10 +193,11 @@
                 "seafood",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Smoked salmon (80g)\n\u00e2\u20ac\u00a2 Cream cheese (30g)\n\u00e2\u20ac\u00a2 Sourdough bread (2 slices)\n\u00e2\u20ac\u00a2 Capers (1 tsp)\n\u00e2\u20ac\u00a2 Red onion (thin slices)\n\u00e2\u20ac\u00a2 Fresh dill\n\u00e2\u20ac\u00a2 Lemon wedge",
+            "ingredients": "â€¢ Smoked salmon (80g)\nâ€¢ Cream cheese (30g)\nâ€¢ Sourdough bread (2 slices)\nâ€¢ Capers (1 tsp)\nâ€¢ Red onion (thin slices)\nâ€¢ Fresh dill\nâ€¢ Lemon wedge",
             "health_benefits": "Salmon is one of the best sources of omega-3 DHA and EPA for brain and heart health. High-quality protein supports muscle maintenance. Anti-inflammatory benefits.",
             "recipe_steps": "1. Toast sourdough slices until golden and crisp.\n2. Spread cream cheese evenly on toast.\n3. Layer smoked salmon slices on top.\n4. Garnish with capers, red onion rings, and fresh dill.\n5. Squeeze lemon juice over and serve.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Turkey Bacon & Eggs",
@@ -196,10 +209,11 @@
             "tags": [
                 "eggs"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Turkey bacon (3 strips)\n\u00e2\u20ac\u00a2 Eggs (2)\n\u00e2\u20ac\u00a2 Avocado (1/4)\n\u00e2\u20ac\u00a2 Salt & pepper\n\u00e2\u20ac\u00a2 Olive oil spray",
+            "ingredients": "â€¢ Turkey bacon (3 strips)\nâ€¢ Eggs (2)\nâ€¢ Avocado (1/4)\nâ€¢ Salt & pepper\nâ€¢ Olive oil spray",
             "health_benefits": "Turkey bacon is leaner than regular bacon with less saturated fat. Eggs provide complete protein and choline. Avocado adds heart-healthy monounsaturated fats.",
             "recipe_steps": "1. Cook turkey bacon in a pan until crisp, set aside.\n2. In the same pan, fry eggs to your preference (sunny side up or scrambled).\n3. Slice avocado.\n4. Plate eggs with turkey bacon and avocado slices.\n5. Season with salt and pepper.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "title": "Poha with Peanuts",
@@ -211,10 +225,11 @@
             "tags": [
                 "nuts"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Flattened rice / poha (100g)\n\u00e2\u20ac\u00a2 Peanuts (2 tbsp)\n\u00e2\u20ac\u00a2 Onion (1/2, diced)\n\u00e2\u20ac\u00a2 Mustard seeds (1/2 tsp)\n\u00e2\u20ac\u00a2 Curry leaves (5-6)\n\u00e2\u20ac\u00a2 Turmeric (1/4 tsp)\n\u00e2\u20ac\u00a2 Lemon juice (1 tsp)\n\u00e2\u20ac\u00a2 Green chili (1)\n\u00e2\u20ac\u00a2 Coriander leaves",
+            "ingredients": "â€¢ Flattened rice / poha (100g)\nâ€¢ Peanuts (2 tbsp)\nâ€¢ Onion (1/2, diced)\nâ€¢ Mustard seeds (1/2 tsp)\nâ€¢ Curry leaves (5-6)\nâ€¢ Turmeric (1/4 tsp)\nâ€¢ Lemon juice (1 tsp)\nâ€¢ Green chili (1)\nâ€¢ Coriander leaves",
             "health_benefits": "Poha is light and easy to digest, rich in iron due to flattened rice. Peanuts add protein and healthy fats. A traditional Indian breakfast that's quick and nutritious.",
             "recipe_steps": "1. Wash poha in water, drain, and set aside.\n2. Heat oil, add mustard seeds, curry leaves, and peanuts.\n3. Add onion and green chili, saut until golden.\n4. Add turmeric and drained poha. Mix gently.\n5. Squeeze lemon juice, garnish with coriander, and serve.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "breakfast"
         },
         {
             "meal_type": "breakfast",
@@ -278,7 +293,7 @@
             "diet_type": "Vegetarian",
             "meal_type": "breakfast",
             "ingredients": "Semolina (rava), onion, green chili, ginger, mustard seeds, curry leaves, peanuts, lemon",
-            "recipe_steps": "1. Dry roast rava until golden.\n2. Saut\u00c3\u00a9 mustard seeds, urad dal, curry leaves, peanuts.\n3. Add onion, green chili, ginger.\n4. Pour boiling water, add rava, stir continuously.\n5. Cover and cook 5 min. Squeeze lemon.",
+            "recipe_steps": "1. Dry roast rava until golden.\n2. SautÃ© mustard seeds, urad dal, curry leaves, peanuts.\n3. Add onion, green chili, ginger.\n4. Pour boiling water, add rava, stir continuously.\n5. Cover and cook 5 min. Squeeze lemon.",
             "health_benefits": "Quick energy source, easy to digest, rich in B vitamins from semolina.",
             "goal_tag": "All"
         },
@@ -292,7 +307,7 @@
             "diet_type": "Vegan",
             "meal_type": "breakfast",
             "ingredients": "Flattened rice, onion, potato, peanuts, turmeric, mustard seeds, curry leaves, lemon, coriander",
-            "recipe_steps": "1. Rinse poha and drain.\n2. Saut\u00c3\u00a9 mustard seeds, curry leaves, peanuts.\n3. Add onion, potato cubes, turmeric, salt.\n4. Add poha, mix gently.\n5. Squeeze lemon, garnish with coriander.",
+            "recipe_steps": "1. Rinse poha and drain.\n2. SautÃ© mustard seeds, curry leaves, peanuts.\n3. Add onion, potato cubes, turmeric, salt.\n4. Add poha, mix gently.\n5. Squeeze lemon, garnish with coriander.",
             "health_benefits": "Light and easy to digest, provides iron from flattened rice, energizing morning meal.",
             "goal_tag": "All"
         },
@@ -362,7 +377,7 @@
             "diet_type": "Non-Vegetarian",
             "meal_type": "breakfast",
             "ingredients": "Eggs, bell pepper, onion, tomato, spinach, cheese, salt, pepper, olive oil",
-            "recipe_steps": "1. Whisk eggs with salt and pepper.\n2. Saut\u00c3\u00a9 diced vegetables in olive oil.\n3. Pour egg mixture over vegetables.\n4. Add grated cheese on one half.\n5. Fold and cook until set. Serve hot.",
+            "recipe_steps": "1. Whisk eggs with salt and pepper.\n2. SautÃ© diced vegetables in olive oil.\n3. Pour egg mixture over vegetables.\n4. Add grated cheese on one half.\n5. Fold and cook until set. Serve hot.",
             "health_benefits": "High protein, loaded with vitamins from vegetables, keeps you full longer.",
             "goal_tag": "Muscle Gain"
         },
@@ -390,10 +405,11 @@
             "fat": 12,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Quinoa (80g dry)\n\u00e2\u20ac\u00a2 Roasted sweet potato (100g)\n\u00e2\u20ac\u00a2 Chickpeas (80g)\n\u00e2\u20ac\u00a2 Kale (40g)\n\u00e2\u20ac\u00a2 Avocado (1/4)\n\u00e2\u20ac\u00a2 Tahini dressing (1 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice",
+            "ingredients": "â€¢ Quinoa (80g dry)\nâ€¢ Roasted sweet potato (100g)\nâ€¢ Chickpeas (80g)\nâ€¢ Kale (40g)\nâ€¢ Avocado (1/4)\nâ€¢ Tahini dressing (1 tbsp)\nâ€¢ Lemon juice",
             "health_benefits": "Quinoa is a complete plant protein with all essential amino acids. Chickpeas add fiber and iron. Kale is a superfood rich in vitamins A, C, and K.",
             "recipe_steps": "1. Cook quinoa per package instructions (15-20 mins).\n2. Cube sweet potato, toss with oil and roast at 200C for 25 mins.\n3. Massage kale with olive oil and lemon juice.\n4. Arrange quinoa, sweet potato, chickpeas, kale in a bowl.\n5. Top with sliced avocado and drizzle tahini dressing.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Rajma Chawal",
@@ -403,10 +419,11 @@
             "fat": 10,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Rajma / kidney beans (100g, soaked overnight)\n\u00e2\u20ac\u00a2 Basmati rice (80g)\n\u00e2\u20ac\u00a2 Onion (1, diced)\n\u00e2\u20ac\u00a2 Tomato (2, pureed)\n\u00e2\u20ac\u00a2 Ginger-garlic paste (1 tbsp)\n\u00e2\u20ac\u00a2 Rajma masala (1 tsp)\n\u00e2\u20ac\u00a2 Cumin seeds\n\u00e2\u20ac\u00a2 Bay leaf\n\u00e2\u20ac\u00a2 Coriander leaves",
+            "ingredients": "â€¢ Rajma / kidney beans (100g, soaked overnight)\nâ€¢ Basmati rice (80g)\nâ€¢ Onion (1, diced)\nâ€¢ Tomato (2, pureed)\nâ€¢ Ginger-garlic paste (1 tbsp)\nâ€¢ Rajma masala (1 tsp)\nâ€¢ Cumin seeds\nâ€¢ Bay leaf\nâ€¢ Coriander leaves",
             "health_benefits": "Kidney beans are among the richest plant-based protein and iron sources. Combined with rice, they form a complete protein. High fiber content aids digestion.",
             "recipe_steps": "1. Pressure cook soaked rajma until soft (5-6 whistles).\n2. Heat oil, add cumin seeds and bay leaf.\n3. Saut onion until golden, add ginger-garlic paste.\n4. Add tomato puree and rajma masala. Cook 5 mins.\n5. Add cooked rajma with liquid, simmer 15 mins.\n6. Serve over steamed basmati rice with fresh coriander.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Dal Tadka with Rice",
@@ -416,10 +433,11 @@
             "fat": 10,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Yellow toor dal (80g)\n\u00e2\u20ac\u00a2 Basmati rice (80g)\n\u00e2\u20ac\u00a2 Onion (1/2)\n\u00e2\u20ac\u00a2 Tomato (1)\n\u00e2\u20ac\u00a2 Garlic (3 cloves)\n\u00e2\u20ac\u00a2 Cumin seeds (1 tsp)\n\u00e2\u20ac\u00a2 Dried red chili (1)\n\u00e2\u20ac\u00a2 Turmeric (1/2 tsp)\n\u00e2\u20ac\u00a2 Ghee or oil (1 tbsp)\n\u00e2\u20ac\u00a2 Coriander leaves",
+            "ingredients": "â€¢ Yellow toor dal (80g)\nâ€¢ Basmati rice (80g)\nâ€¢ Onion (1/2)\nâ€¢ Tomato (1)\nâ€¢ Garlic (3 cloves)\nâ€¢ Cumin seeds (1 tsp)\nâ€¢ Dried red chili (1)\nâ€¢ Turmeric (1/2 tsp)\nâ€¢ Ghee or oil (1 tbsp)\nâ€¢ Coriander leaves",
             "health_benefits": "Lentils are one of the best plant protein sources with high iron and folate. Turmeric is a natural anti-inflammatory. Dal-rice is a perfectly balanced meal.",
             "recipe_steps": "1. Wash and pressure cook dal with turmeric until soft.\n2. Cook basmati rice separately.\n3. For tadka: heat ghee, add cumin seeds, dried red chili, garlic.\n4. Add chopped onion, saut until golden. Add chopped tomato.\n5. Pour tadka over cooked dal, mix and serve with rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Vegetable Stir-Fry with Tofu",
@@ -429,10 +447,11 @@
             "fat": 16,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Firm tofu (150g)\n\u00e2\u20ac\u00a2 Broccoli (80g)\n\u00e2\u20ac\u00a2 Bell pepper (1/2)\n\u00e2\u20ac\u00a2 Soy sauce (1 tbsp)\n\u00e2\u20ac\u00a2 Sesame oil (1 tsp)\n\u00e2\u20ac\u00a2 Ginger (1 tsp, grated)\n\u00e2\u20ac\u00a2 Brown rice (80g cooked)",
+            "ingredients": "â€¢ Firm tofu (150g)\nâ€¢ Broccoli (80g)\nâ€¢ Bell pepper (1/2)\nâ€¢ Soy sauce (1 tbsp)\nâ€¢ Sesame oil (1 tsp)\nâ€¢ Ginger (1 tsp, grated)\nâ€¢ Brown rice (80g cooked)",
             "health_benefits": "Tofu is an excellent plant protein with all essential amino acids. Broccoli is a cruciferous vegetable rich in sulforaphane. Low glycemic meal.",
             "recipe_steps": "1. Press tofu and cut into cubes.\n2. Stir-fry tofu in sesame oil until golden on all sides.\n3. Add grated ginger, broccoli, and bell pepper.\n4. Add soy sauce and stir-fry 3-4 minutes.\n5. Serve over brown rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Paneer Butter Masala + Rice",
@@ -444,10 +463,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Paneer (120g, cubed)\n\u00e2\u20ac\u00a2 Basmati rice (80g)\n\u00e2\u20ac\u00a2 Tomato puree (100ml)\n\u00e2\u20ac\u00a2 Cashew paste (2 tbsp)\n\u00e2\u20ac\u00a2 Butter (1 tbsp)\n\u00e2\u20ac\u00a2 Cream (2 tbsp)\n\u00e2\u20ac\u00a2 Kasuri methi (1 tsp)\n\u00e2\u20ac\u00a2 Garam masala (1 tsp)\n\u00e2\u20ac\u00a2 Red chili powder (1/2 tsp)",
+            "ingredients": "â€¢ Paneer (120g, cubed)\nâ€¢ Basmati rice (80g)\nâ€¢ Tomato puree (100ml)\nâ€¢ Cashew paste (2 tbsp)\nâ€¢ Butter (1 tbsp)\nâ€¢ Cream (2 tbsp)\nâ€¢ Kasuri methi (1 tsp)\nâ€¢ Garam masala (1 tsp)\nâ€¢ Red chili powder (1/2 tsp)",
             "health_benefits": "Paneer is rich in calcium and high-quality casein protein. Tomatoes provide lycopene, a powerful antioxidant. A rich, satisfying meal for muscle recovery.",
             "recipe_steps": "1. Saut paneer cubes in butter until light golden, set aside.\n2. In same pan, add tomato puree and cook 5 mins.\n3. Add cashew paste, garam masala, and chili powder.\n4. Add paneer cubes, cream, and kasuri methi.\n5. Simmer 5 minutes and serve with steamed rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Chole (Chickpea Curry) with Bhature",
@@ -459,10 +479,11 @@
             "tags": [
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Chickpeas (150g, soaked overnight)\n\u00e2\u20ac\u00a2 Onion (1, diced)\n\u00e2\u20ac\u00a2 Tomato (2, pureed)\n\u00e2\u20ac\u00a2 Chole masala (2 tsp)\n\u00e2\u20ac\u00a2 Tea bag (for color, optional)\n\u00e2\u20ac\u00a2 Maida flour (100g, for bhature)\n\u00e2\u20ac\u00a2 Yogurt (2 tbsp)\n\u00e2\u20ac\u00a2 Oil for deep frying",
+            "ingredients": "â€¢ Chickpeas (150g, soaked overnight)\nâ€¢ Onion (1, diced)\nâ€¢ Tomato (2, pureed)\nâ€¢ Chole masala (2 tsp)\nâ€¢ Tea bag (for color, optional)\nâ€¢ Maida flour (100g, for bhature)\nâ€¢ Yogurt (2 tbsp)\nâ€¢ Oil for deep frying",
             "health_benefits": "Chickpeas are an excellent source of plant protein and dietary fiber. Rich in manganese and folate. A beloved North Indian dish that's hearty and satisfying.",
             "recipe_steps": "1. Boil chickpeas with tea bag until soft, drain and discard bag.\n2. Saut onion until golden, add tomato puree and chole masala.\n3. Add boiled chickpeas, simmer 20 mins until thick.\n4. For bhature: knead maida with yogurt, salt, and water. Rest 30 mins.\n5. Roll into ovals and deep fry until puffed and golden.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Palak Paneer with Roti",
@@ -475,10 +496,11 @@
                 "dairy",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Paneer (100g, cubed)\n\u00e2\u20ac\u00a2 Spinach (200g)\n\u00e2\u20ac\u00a2 Onion (1/2)\n\u00e2\u20ac\u00a2 Garlic (3 cloves)\n\u00e2\u20ac\u00a2 Green chili (1)\n\u00e2\u20ac\u00a2 Cream (1 tbsp)\n\u00e2\u20ac\u00a2 Cumin seeds\n\u00e2\u20ac\u00a2 Whole wheat roti (2)",
+            "ingredients": "â€¢ Paneer (100g, cubed)\nâ€¢ Spinach (200g)\nâ€¢ Onion (1/2)\nâ€¢ Garlic (3 cloves)\nâ€¢ Green chili (1)\nâ€¢ Cream (1 tbsp)\nâ€¢ Cumin seeds\nâ€¢ Whole wheat roti (2)",
             "health_benefits": "Spinach is loaded with iron, folate, and vitamin K. Paneer adds calcium and protein. Together they create one of the most nutritious Indian meals.",
             "recipe_steps": "1. Blanch spinach in boiling water 2 mins, cool in ice water.\n2. Blend spinach into smooth paste.\n3. Saut cumin, onion, garlic, and green chili.\n4. Add spinach paste, cook 5 mins.\n5. Add paneer cubes and cream. Simmer 3 mins.\n6. Serve with hot whole wheat roti.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Veg Biryani",
@@ -490,10 +512,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Basmati rice (120g)\n\u00e2\u20ac\u00a2 Mixed vegetables (carrot, beans, peas, potato)\n\u00e2\u20ac\u00a2 Biryani masala (1 tbsp)\n\u00e2\u20ac\u00a2 Yogurt (2 tbsp)\n\u00e2\u20ac\u00a2 Onion (1, sliced)\n\u00e2\u20ac\u00a2 Saffron (pinch) in warm milk\n\u00e2\u20ac\u00a2 Mint & coriander leaves\n\u00e2\u20ac\u00a2 Ghee (1 tbsp)\n\u00e2\u20ac\u00a2 Whole spices (bay leaf, cardamom, cloves)",
+            "ingredients": "â€¢ Basmati rice (120g)\nâ€¢ Mixed vegetables (carrot, beans, peas, potato)\nâ€¢ Biryani masala (1 tbsp)\nâ€¢ Yogurt (2 tbsp)\nâ€¢ Onion (1, sliced)\nâ€¢ Saffron (pinch) in warm milk\nâ€¢ Mint & coriander leaves\nâ€¢ Ghee (1 tbsp)\nâ€¢ Whole spices (bay leaf, cardamom, cloves)",
             "health_benefits": "A complete meal with carbs, vegetables, and aromatic spices. Saffron has mood-enhancing properties. Mixed vegetables provide diverse vitamins and minerals.",
             "recipe_steps": "1. Soak rice 30 mins, parboil with whole spices until 70% done.\n2. Saut sliced onion in ghee until caramelized.\n3. Cook vegetables with yogurt and biryani masala.\n4. Layer: vegetables on bottom, rice on top.\n5. Drizzle saffron milk, top with mint and coriander.\n6. Cover tightly, cook on low heat (dum) for 20 mins.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Grilled Chicken Salad",
@@ -503,10 +526,11 @@
             "fat": 18,
             "diet_type": "Non-Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken breast (150g)\n\u00e2\u20ac\u00a2 Mixed greens (80g)\n\u00e2\u20ac\u00a2 Cherry tomatoes (6)\n\u00e2\u20ac\u00a2 Cucumber (1/2)\n\u00e2\u20ac\u00a2 Olive oil (1 tbsp)\n\u00e2\u20ac\u00a2 Balsamic vinegar (1 tsp)\n\u00e2\u20ac\u00a2 Feta cheese (20g)\n\u00e2\u20ac\u00a2 Salt, pepper, herbs",
+            "ingredients": "â€¢ Chicken breast (150g)\nâ€¢ Mixed greens (80g)\nâ€¢ Cherry tomatoes (6)\nâ€¢ Cucumber (1/2)\nâ€¢ Olive oil (1 tbsp)\nâ€¢ Balsamic vinegar (1 tsp)\nâ€¢ Feta cheese (20g)\nâ€¢ Salt, pepper, herbs",
             "health_benefits": "Lean chicken breast is one of the best sources of high-quality protein. Mixed greens provide folate and vitamin K. Olive oil adds heart-healthy fats and polyphenols.",
             "recipe_steps": "1. Season chicken breast with salt, pepper, and Italian herbs.\n2. Grill on medium-high for 6-7 minutes per side until cooked.\n3. Let rest 5 minutes, then slice into strips.\n4. Toss greens, tomatoes, and cucumber with olive oil and vinegar.\n5. Top salad with grilled chicken and crumbled feta.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Chicken Biryani",
@@ -518,10 +542,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Basmati rice (120g)\n\u00e2\u20ac\u00a2 Chicken (200g, bone-in pieces)\n\u00e2\u20ac\u00a2 Yogurt (3 tbsp)\n\u00e2\u20ac\u00a2 Biryani masala (1.5 tbsp)\n\u00e2\u20ac\u00a2 Onion (2, sliced)\n\u00e2\u20ac\u00a2 Mint & coriander leaves\n\u00e2\u20ac\u00a2 Saffron in milk\n\u00e2\u20ac\u00a2 Ghee (2 tbsp)\n\u00e2\u20ac\u00a2 Whole spices",
+            "ingredients": "â€¢ Basmati rice (120g)\nâ€¢ Chicken (200g, bone-in pieces)\nâ€¢ Yogurt (3 tbsp)\nâ€¢ Biryani masala (1.5 tbsp)\nâ€¢ Onion (2, sliced)\nâ€¢ Mint & coriander leaves\nâ€¢ Saffron in milk\nâ€¢ Ghee (2 tbsp)\nâ€¢ Whole spices",
             "health_benefits": "A complete protein-rich meal. Chicken provides lean protein and B-vitamins. Aromatic spices like cardamom and cinnamon have anti-inflammatory properties.",
             "recipe_steps": "1. Marinate chicken in yogurt and biryani masala for 1 hour.\n2. Soak and parboil basmati rice with whole spices.\n3. Fry sliced onions until deep golden (birista).\n4. Layer: marinated chicken, rice, fried onions, mint, saffron milk.\n5. Seal pot with dough, cook on very low heat for 25 mins.\n6. Serve with raita.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Fish Curry with Rice",
@@ -533,10 +558,11 @@
             "tags": [
                 "seafood"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Fish fillets (rohu/pomfret, 200g)\n\u00e2\u20ac\u00a2 Coconut milk (100ml)\n\u00e2\u20ac\u00a2 Tomato (1, chopped)\n\u00e2\u20ac\u00a2 Onion (1, sliced)\n\u00e2\u20ac\u00a2 Mustard seeds (1/2 tsp)\n\u00e2\u20ac\u00a2 Curry leaves\n\u00e2\u20ac\u00a2 Turmeric & red chili powder\n\u00e2\u20ac\u00a2 Basmati rice (80g)",
+            "ingredients": "â€¢ Fish fillets (rohu/pomfret, 200g)\nâ€¢ Coconut milk (100ml)\nâ€¢ Tomato (1, chopped)\nâ€¢ Onion (1, sliced)\nâ€¢ Mustard seeds (1/2 tsp)\nâ€¢ Curry leaves\nâ€¢ Turmeric & red chili powder\nâ€¢ Basmati rice (80g)",
             "health_benefits": "Fish is rich in omega-3 fatty acids for heart and brain health. Coconut milk provides healthy MCT fats. A traditional coastal Indian meal packed with nutrients.",
             "recipe_steps": "1. Marinate fish with turmeric and salt for 15 mins.\n2. Heat oil, add mustard seeds and curry leaves.\n3. Saut onion, add tomato, turmeric, and chili powder.\n4. Pour coconut milk, bring to gentle simmer.\n5. Add fish fillets and cook on low heat 10-12 mins.\n6. Serve with steamed basmati rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Butter Chicken + Naan",
@@ -549,10 +575,11 @@
                 "dairy",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken (200g, boneless cubes)\n\u00e2\u20ac\u00a2 Yogurt (3 tbsp)\n\u00e2\u20ac\u00a2 Tomato puree (150ml)\n\u00e2\u20ac\u00a2 Butter (2 tbsp)\n\u00e2\u20ac\u00a2 Cream (2 tbsp)\n\u00e2\u20ac\u00a2 Kasuri methi (1 tsp)\n\u00e2\u20ac\u00a2 Garam masala, red chili, ginger-garlic paste\n\u00e2\u20ac\u00a2 Naan bread (2)",
+            "ingredients": "â€¢ Chicken (200g, boneless cubes)\nâ€¢ Yogurt (3 tbsp)\nâ€¢ Tomato puree (150ml)\nâ€¢ Butter (2 tbsp)\nâ€¢ Cream (2 tbsp)\nâ€¢ Kasuri methi (1 tsp)\nâ€¢ Garam masala, red chili, ginger-garlic paste\nâ€¢ Naan bread (2)",
             "health_benefits": "Chicken provides high-quality lean protein for muscle growth. Tomatoes are rich in lycopene. A crowd-favorite Indian dish that's rich in flavor and protein.",
             "recipe_steps": "1. Marinate chicken in yogurt, ginger-garlic paste, spices. Rest 2 hrs.\n2. Grill or pan-sear marinated chicken until charred.\n3. In a pot, melt butter, add tomato puree and cook 10 mins.\n4. Add garam masala, cream, kasuri methi.\n5. Add chicken pieces, simmer 10 mins.\n6. Serve with hot buttered naan.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Tandoori Chicken with Roti",
@@ -565,10 +592,11 @@
                 "dairy",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken legs (2)\n\u00e2\u20ac\u00a2 Yogurt (4 tbsp)\n\u00e2\u20ac\u00a2 Tandoori masala (2 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice (1 tbsp)\n\u00e2\u20ac\u00a2 Ginger-garlic paste (1 tbsp)\n\u00e2\u20ac\u00a2 Red chili powder\n\u00e2\u20ac\u00a2 Oil (1 tbsp)\n\u00e2\u20ac\u00a2 Whole wheat roti (2)\n\u00e2\u20ac\u00a2 Onion rings & lemon wedges",
+            "ingredients": "â€¢ Chicken legs (2)\nâ€¢ Yogurt (4 tbsp)\nâ€¢ Tandoori masala (2 tbsp)\nâ€¢ Lemon juice (1 tbsp)\nâ€¢ Ginger-garlic paste (1 tbsp)\nâ€¢ Red chili powder\nâ€¢ Oil (1 tbsp)\nâ€¢ Whole wheat roti (2)\nâ€¢ Onion rings & lemon wedges",
             "health_benefits": "Yogurt-based marinade tenderizes chicken and aids digestion. High protein, moderate fat. Tandoori cooking retains nutrients without excess oil.",
             "recipe_steps": "1. Mix yogurt, tandoori masala, ginger-garlic paste, lemon juice.\n2. Make deep cuts in chicken, coat with marinade. Rest 4 hours.\n3. Bake at 220C for 25-30 mins or grill until charred.\n4. Baste with oil halfway through.\n5. Serve with roti, onion rings, and lemon wedges.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "title": "Lentil Soup with Bread",
@@ -580,10 +608,11 @@
             "tags": [
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Red lentils (100g)\n\u00e2\u20ac\u00a2 Carrots (1, diced)\n\u00e2\u20ac\u00a2 Celery (1 stalk)\n\u00e2\u20ac\u00a2 Onion (1, diced)\n\u00e2\u20ac\u00a2 Garlic (2 cloves)\n\u00e2\u20ac\u00a2 Cumin (1 tsp)\n\u00e2\u20ac\u00a2 Vegetable stock (500ml)\n\u00e2\u20ac\u00a2 Crusty bread (1 slice)",
+            "ingredients": "â€¢ Red lentils (100g)\nâ€¢ Carrots (1, diced)\nâ€¢ Celery (1 stalk)\nâ€¢ Onion (1, diced)\nâ€¢ Garlic (2 cloves)\nâ€¢ Cumin (1 tsp)\nâ€¢ Vegetable stock (500ml)\nâ€¢ Crusty bread (1 slice)",
             "health_benefits": "Lentils are one of the best plant-based protein sources. Extremely high in fiber for digestive health. Low in fat and very filling, ideal for weight management.",
             "recipe_steps": "1. Saut onion, carrot, celery, and garlic for 5 minutes.\n2. Add lentils, cumin, and vegetable stock.\n3. Bring to boil, then simmer for 25 minutes.\n4. Blend partially for a creamy texture.\n5. Season and serve with crusty bread.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "lunch"
         },
         {
             "meal_type": "lunch",
@@ -686,7 +715,7 @@
             "diet_type": "Vegetarian",
             "meal_type": "lunch",
             "ingredients": "Chickpeas, onion, tomato, ginger-garlic paste, chole masala, maida, yogurt, oil",
-            "recipe_steps": "1. Soak chickpeas overnight and pressure cook.\n2. Saut\u00c3\u00a9 onion, ginger-garlic, add tomato puree.\n3. Add chole masala, chickpeas, simmer 20 min.\n4. Knead maida dough with yogurt, rest 2 hrs.\n5. Roll and deep fry bhature until puffed.",
+            "recipe_steps": "1. Soak chickpeas overnight and pressure cook.\n2. SautÃ© onion, ginger-garlic, add tomato puree.\n3. Add chole masala, chickpeas, simmer 20 min.\n4. Knead maida dough with yogurt, rest 2 hrs.\n5. Roll and deep fry bhature until puffed.",
             "health_benefits": "High protein from chickpeas, rich in fiber, energy-dense meal.",
             "goal_tag": "Weight Gain"
         },
@@ -700,7 +729,7 @@
             "diet_type": "Vegan",
             "meal_type": "lunch",
             "ingredients": "Basmati rice, mixed vegetables, whole spices (bay leaf, cinnamon, cloves), onion, ghee, mint",
-            "recipe_steps": "1. Saut\u00c3\u00a9 whole spices in ghee.\n2. Add sliced onion until golden.\n3. Add mixed vegetables, stir 3 min.\n4. Add washed rice, water, salt.\n5. Cook on low heat until rice is fluffy.",
+            "recipe_steps": "1. SautÃ© whole spices in ghee.\n2. Add sliced onion until golden.\n3. Add mixed vegetables, stir 3 min.\n4. Add washed rice, water, salt.\n5. Cook on low heat until rice is fluffy.",
             "health_benefits": "Balanced meal with vitamins from vegetables, aromatic spices aid digestion.",
             "goal_tag": "All"
         },
@@ -728,7 +757,7 @@
             "diet_type": "Vegetarian",
             "meal_type": "lunch",
             "ingredients": "Arborio rice, mixed mushrooms, onion, garlic, vegetable broth, parmesan, white wine, butter",
-            "recipe_steps": "1. Saut\u00c3\u00a9 mushrooms until golden, set aside.\n2. Cook onion, garlic in butter.\n3. Toast rice, add wine.\n4. Gradually add warm broth, stirring constantly.\n5. Fold in mushrooms, parmesan. Serve creamy.",
+            "recipe_steps": "1. SautÃ© mushrooms until golden, set aside.\n2. Cook onion, garlic in butter.\n3. Toast rice, add wine.\n4. Gradually add warm broth, stirring constantly.\n5. Fold in mushrooms, parmesan. Serve creamy.",
             "health_benefits": "Mushrooms boost immunity, comforting and satisfying, good source of B vitamins.",
             "goal_tag": "All"
         },
@@ -756,7 +785,7 @@
             "diet_type": "Non-Vegetarian",
             "meal_type": "lunch",
             "ingredients": "Chicken, butter, cream, tomato puree, kasuri methi, garam masala, ginger-garlic, naan bread",
-            "recipe_steps": "1. Marinate chicken in yogurt and spices, grill.\n2. Make gravy: saut\u00c3\u00a9 ginger-garlic, add tomato puree.\n3. Add butter, cream, kasuri methi, spices.\n4. Add grilled chicken, simmer 15 min.\n5. Serve with hot buttered naan.",
+            "recipe_steps": "1. Marinate chicken in yogurt and spices, grill.\n2. Make gravy: sautÃ© ginger-garlic, add tomato puree.\n3. Add butter, cream, kasuri methi, spices.\n4. Add grilled chicken, simmer 15 min.\n5. Serve with hot buttered naan.",
             "health_benefits": "Rich in protein, comforting and satisfying, tomatoes provide lycopene.",
             "goal_tag": "Weight Gain"
         },
@@ -784,10 +813,11 @@
             "fat": 14,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Firm tofu (150g)\n\u00e2\u20ac\u00a2 Broccoli florets (80g)\n\u00e2\u20ac\u00a2 Bell pepper (1/2)\n\u00e2\u20ac\u00a2 Soy sauce (1 tbsp)\n\u00e2\u20ac\u00a2 Sesame oil (1 tsp)\n\u00e2\u20ac\u00a2 Ginger (1 tsp, grated)\n\u00e2\u20ac\u00a2 Brown rice (80g cooked)",
+            "ingredients": "â€¢ Firm tofu (150g)\nâ€¢ Broccoli florets (80g)\nâ€¢ Bell pepper (1/2)\nâ€¢ Soy sauce (1 tbsp)\nâ€¢ Sesame oil (1 tsp)\nâ€¢ Ginger (1 tsp, grated)\nâ€¢ Brown rice (80g cooked)",
             "health_benefits": "Tofu is an excellent plant-based protein with all essential amino acids. Broccoli is rich in sulforaphane. Low glycemic dinner option for weight management.",
             "recipe_steps": "1. Press tofu and cut into cubes.\n2. Stir-fry tofu in sesame oil until golden.\n3. Add ginger, broccoli, and bell pepper.\n4. Add soy sauce and cook for 3-4 minutes.\n5. Serve over brown rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Baked Sweet Potato Bowl",
@@ -797,10 +827,11 @@
             "fat": 10,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Sweet potato (1 large)\n\u00e2\u20ac\u00a2 Black beans (80g)\n\u00e2\u20ac\u00a2 Corn kernels (40g)\n\u00e2\u20ac\u00a2 Avocado (1/4)\n\u00e2\u20ac\u00a2 Lime juice\n\u00e2\u20ac\u00a2 Fresh cilantro\n\u00e2\u20ac\u00a2 Cumin (1/2 tsp)",
+            "ingredients": "â€¢ Sweet potato (1 large)\nâ€¢ Black beans (80g)\nâ€¢ Corn kernels (40g)\nâ€¢ Avocado (1/4)\nâ€¢ Lime juice\nâ€¢ Fresh cilantro\nâ€¢ Cumin (1/2 tsp)",
             "health_benefits": "Sweet potatoes are rich in beta-carotene and vitamin A. Black beans provide excellent fiber and plant protein. Very filling and nutrient-dense dinner.",
             "recipe_steps": "1. Bake sweet potato at 200C for 45 minutes until tender.\n2. Heat black beans with cumin and a pinch of salt.\n3. Split sweet potato open and fluff the insides.\n4. Fill with black beans, corn, and sliced avocado.\n5. Squeeze lime and garnish with cilantro.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Roasted Vegetable Soup",
@@ -810,10 +841,11 @@
             "fat": 8,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Carrots (2)\n\u00e2\u20ac\u00a2 Zucchini (1)\n\u00e2\u20ac\u00a2 Onion (1)\n\u00e2\u20ac\u00a2 Garlic (3 cloves)\n\u00e2\u20ac\u00a2 Vegetable stock (400ml)\n\u00e2\u20ac\u00a2 Olive oil (1 tbsp)\n\u00e2\u20ac\u00a2 Thyme & rosemary\n\u00e2\u20ac\u00a2 Salt & pepper",
+            "ingredients": "â€¢ Carrots (2)\nâ€¢ Zucchini (1)\nâ€¢ Onion (1)\nâ€¢ Garlic (3 cloves)\nâ€¢ Vegetable stock (400ml)\nâ€¢ Olive oil (1 tbsp)\nâ€¢ Thyme & rosemary\nâ€¢ Salt & pepper",
             "health_benefits": "Roasting deepens flavor and increases nutrient availability. Low-calorie and highly filling. Perfect light dinner for weight loss goals.",
             "recipe_steps": "1. Chop all vegetables, toss with olive oil and herbs.\n2. Roast at 200C for 25 minutes until caramelized.\n3. Transfer to a pot, add vegetable stock.\n4. Simmer 10 minutes, then blend until smooth.\n5. Season with salt and pepper. Serve hot.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Mushroom & Spinach Pasta",
@@ -825,10 +857,11 @@
             "tags": [
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Penne pasta (100g)\n\u00e2\u20ac\u00a2 Mushrooms (100g, sliced)\n\u00e2\u20ac\u00a2 Spinach (60g)\n\u00e2\u20ac\u00a2 Garlic (3 cloves, minced)\n\u00e2\u20ac\u00a2 Olive oil (1 tbsp)\n\u00e2\u20ac\u00a2 Nutritional yeast (1 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice\n\u00e2\u20ac\u00a2 Chili flakes",
+            "ingredients": "â€¢ Penne pasta (100g)\nâ€¢ Mushrooms (100g, sliced)\nâ€¢ Spinach (60g)\nâ€¢ Garlic (3 cloves, minced)\nâ€¢ Olive oil (1 tbsp)\nâ€¢ Nutritional yeast (1 tbsp)\nâ€¢ Lemon juice\nâ€¢ Chili flakes",
             "health_benefits": "Mushrooms are rich in vitamin D and selenium. Spinach adds iron and folate. Nutritional yeast provides B-vitamins without dairy.",
             "recipe_steps": "1. Cook penne al dente, reserve 1/2 cup pasta water.\n2. Saut garlic in olive oil, add mushrooms and cook 5 mins.\n3. Add spinach, stir until wilted.\n4. Toss in cooked pasta with a splash of pasta water.\n5. Add nutritional yeast, lemon juice, and chili flakes.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Paneer Tikka Masala",
@@ -840,10 +873,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Paneer (150g, cubed)\n\u00e2\u20ac\u00a2 Yogurt (3 tbsp)\n\u00e2\u20ac\u00a2 Tikka masala paste (2 tbsp)\n\u00e2\u20ac\u00a2 Tomato puree (100ml)\n\u00e2\u20ac\u00a2 Cream (2 tbsp)\n\u00e2\u20ac\u00a2 Bell pepper (1/2)\n\u00e2\u20ac\u00a2 Onion (1/2)\n\u00e2\u20ac\u00a2 Kasuri methi\n\u00e2\u20ac\u00a2 Butter (1 tbsp)",
+            "ingredients": "â€¢ Paneer (150g, cubed)\nâ€¢ Yogurt (3 tbsp)\nâ€¢ Tikka masala paste (2 tbsp)\nâ€¢ Tomato puree (100ml)\nâ€¢ Cream (2 tbsp)\nâ€¢ Bell pepper (1/2)\nâ€¢ Onion (1/2)\nâ€¢ Kasuri methi\nâ€¢ Butter (1 tbsp)",
             "health_benefits": "Paneer provides slow-digesting casein protein, ideal for overnight muscle repair. Rich in calcium for bone strength. A satisfying dinner rich in flavor.",
             "recipe_steps": "1. Marinate paneer cubes in yogurt and tikka masala paste, 1 hour.\n2. Grill or pan-sear paneer and bell pepper until charred.\n3. Saut onion in butter, add tomato puree, cook 5 mins.\n4. Add grilled paneer, cream, and kasuri methi.\n5. Simmer 5 minutes and serve with naan or rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Grilled Paneer Salad",
@@ -855,10 +889,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Paneer (120g)\n\u00e2\u20ac\u00a2 Mixed lettuce (60g)\n\u00e2\u20ac\u00a2 Cherry tomatoes (6)\n\u00e2\u20ac\u00a2 Red onion (1/4)\n\u00e2\u20ac\u00a2 Olive oil (1 tbsp)\n\u00e2\u20ac\u00a2 Lemon dressing\n\u00e2\u20ac\u00a2 Tandoori spice mix",
+            "ingredients": "â€¢ Paneer (120g)\nâ€¢ Mixed lettuce (60g)\nâ€¢ Cherry tomatoes (6)\nâ€¢ Red onion (1/4)\nâ€¢ Olive oil (1 tbsp)\nâ€¢ Lemon dressing\nâ€¢ Tandoori spice mix",
             "health_benefits": "Light and protein-rich dinner. Paneer provides casein protein for overnight muscle recovery. Salad greens add fiber and vitamins with minimal calories.",
             "recipe_steps": "1. Marinate paneer cubes in tandoori spice with a little yogurt.\n2. Grill paneer on high heat for 2-3 minutes per side.\n3. Toss lettuce, tomatoes, and onion with lemon dressing.\n4. Top salad with grilled paneer.\n5. Drizzle with olive oil and serve.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Mixed Veg Curry + Chapati",
@@ -870,10 +905,11 @@
             "tags": [
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Mixed vegetables (200g: beans, carrot, potato, peas)\n\u00e2\u20ac\u00a2 Onion (1)\n\u00e2\u20ac\u00a2 Tomato (2)\n\u00e2\u20ac\u00a2 Ginger-garlic paste (1 tsp)\n\u00e2\u20ac\u00a2 Garam masala (1 tsp)\n\u00e2\u20ac\u00a2 Turmeric & red chili powder\n\u00e2\u20ac\u00a2 Whole wheat chapati (2)\n\u00e2\u20ac\u00a2 Oil (1 tbsp)",
+            "ingredients": "â€¢ Mixed vegetables (200g: beans, carrot, potato, peas)\nâ€¢ Onion (1)\nâ€¢ Tomato (2)\nâ€¢ Ginger-garlic paste (1 tsp)\nâ€¢ Garam masala (1 tsp)\nâ€¢ Turmeric & red chili powder\nâ€¢ Whole wheat chapati (2)\nâ€¢ Oil (1 tbsp)",
             "health_benefits": "A balanced dinner with diverse vegetables providing different vitamins. Whole wheat chapati adds fiber and complex carbs. Easy to digest for a good night's sleep.",
             "recipe_steps": "1. Saut onion in oil until golden.\n2. Add ginger-garlic paste, cook 1 minute.\n3. Add tomatoes and cook until mushy.\n4. Add all vegetables with spices and a splash of water.\n5. Cover and cook until vegetables are tender, 12-15 mins.\n6. Serve with hot chapati.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Vegetable Khichdi",
@@ -883,10 +919,11 @@
             "fat": 8,
             "diet_type": "Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Rice (60g)\n\u00e2\u20ac\u00a2 Moong dal (40g)\n\u00e2\u20ac\u00a2 Mixed vegetables (80g)\n\u00e2\u20ac\u00a2 Ghee (1 tbsp)\n\u00e2\u20ac\u00a2 Cumin seeds (1/2 tsp)\n\u00e2\u20ac\u00a2 Turmeric (1/4 tsp)\n\u00e2\u20ac\u00a2 Ginger (1/2 inch)\n\u00e2\u20ac\u00a2 Salt & pepper",
+            "ingredients": "â€¢ Rice (60g)\nâ€¢ Moong dal (40g)\nâ€¢ Mixed vegetables (80g)\nâ€¢ Ghee (1 tbsp)\nâ€¢ Cumin seeds (1/2 tsp)\nâ€¢ Turmeric (1/4 tsp)\nâ€¢ Ginger (1/2 inch)\nâ€¢ Salt & pepper",
             "health_benefits": "Khichdi is the ultimate comfort food and is extremely easy to digest. Rice and dal combine to form a complete protein. Traditional Ayurvedic healing food.",
             "recipe_steps": "1. Wash rice and moong dal together.\n2. Heat ghee, add cumin seeds and ginger.\n3. Add rice, dal, vegetables, turmeric, and 3 cups water.\n4. Pressure cook for 3 whistles or simmer until mushy.\n5. Serve hot with a dollop of ghee and pickle.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Grilled Salmon + Asparagus",
@@ -898,10 +935,11 @@
             "tags": [
                 "seafood"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Salmon fillet (180g)\n\u00e2\u20ac\u00a2 Asparagus (6 spears)\n\u00e2\u20ac\u00a2 Lemon (1/2)\n\u00e2\u20ac\u00a2 Olive oil (1 tbsp)\n\u00e2\u20ac\u00a2 Garlic (1 clove)\n\u00e2\u20ac\u00a2 Dill (fresh)\n\u00e2\u20ac\u00a2 Salt & pepper",
+            "ingredients": "â€¢ Salmon fillet (180g)\nâ€¢ Asparagus (6 spears)\nâ€¢ Lemon (1/2)\nâ€¢ Olive oil (1 tbsp)\nâ€¢ Garlic (1 clove)\nâ€¢ Dill (fresh)\nâ€¢ Salt & pepper",
             "health_benefits": "Salmon is the richest source of omega-3 DHA and EPA. Supports brain function and reduces inflammation. Asparagus provides folate and vitamins A, C, K.",
             "recipe_steps": "1. Marinate salmon with olive oil, garlic, dill, salt and pepper.\n2. Grill on medium heat for 4-5 minutes per side.\n3. Trim asparagus and grill or steam for 3 minutes.\n4. Squeeze fresh lemon over fish before serving.\n5. Plate together and serve.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Chicken Stir-Fry",
@@ -911,10 +949,11 @@
             "fat": 16,
             "diet_type": "Non-Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken breast (150g, sliced)\n\u00e2\u20ac\u00a2 Broccoli (80g)\n\u00e2\u20ac\u00a2 Snow peas (40g)\n\u00e2\u20ac\u00a2 Soy sauce (1.5 tbsp)\n\u00e2\u20ac\u00a2 Sesame oil (1 tsp)\n\u00e2\u20ac\u00a2 Ginger (1 tsp)\n\u00e2\u20ac\u00a2 Garlic (2 cloves)\n\u00e2\u20ac\u00a2 Brown rice (80g cooked)",
+            "ingredients": "â€¢ Chicken breast (150g, sliced)\nâ€¢ Broccoli (80g)\nâ€¢ Snow peas (40g)\nâ€¢ Soy sauce (1.5 tbsp)\nâ€¢ Sesame oil (1 tsp)\nâ€¢ Ginger (1 tsp)\nâ€¢ Garlic (2 cloves)\nâ€¢ Brown rice (80g cooked)",
             "health_benefits": "Lean chicken breast provides high-quality protein for muscle recovery. Stir-frying preserves vegetable nutrients. A balanced, low-calorie dinner.",
             "recipe_steps": "1. Slice chicken breast into thin strips.\n2. Heat sesame oil, stir-fry chicken until cooked. Set aside.\n3. In same pan, add ginger, garlic, broccoli, and snow peas.\n4. Return chicken, add soy sauce, and toss 2 minutes.\n5. Serve over brown rice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Chicken Tikka with Raita",
@@ -926,10 +965,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken breast (200g, cubed)\n\u00e2\u20ac\u00a2 Yogurt (3 tbsp)\n\u00e2\u20ac\u00a2 Tikka masala (1.5 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice (1 tbsp)\n\u00e2\u20ac\u00a2 Cucumber raita (100ml)\n\u00e2\u20ac\u00a2 Onion rings\n\u00e2\u20ac\u00a2 Mint chutney",
+            "ingredients": "â€¢ Chicken breast (200g, cubed)\nâ€¢ Yogurt (3 tbsp)\nâ€¢ Tikka masala (1.5 tbsp)\nâ€¢ Lemon juice (1 tbsp)\nâ€¢ Cucumber raita (100ml)\nâ€¢ Onion rings\nâ€¢ Mint chutney",
             "health_benefits": "High-protein, low-carb dinner ideal for weight loss. Yogurt marinade adds probiotics. Grilling retains nutrition while adding smoky flavor.",
             "recipe_steps": "1. Marinate chicken in yogurt, tikka masala, and lemon juice, 2 hrs.\n2. Thread onto skewers.\n3. Grill or bake at 220C for 15-18 mins, turning once.\n4. For raita: mix yogurt with grated cucumber, cumin, salt.\n5. Serve tikka with raita, onion rings, and mint chutney.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "title": "Egg Curry with Chapati",
@@ -942,10 +982,11 @@
                 "eggs",
                 "gluten"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Eggs (3, boiled)\n\u00e2\u20ac\u00a2 Onion (1, diced)\n\u00e2\u20ac\u00a2 Tomato (2, pureed)\n\u00e2\u20ac\u00a2 Ginger-garlic paste (1 tsp)\n\u00e2\u20ac\u00a2 Garam masala (1 tsp)\n\u00e2\u20ac\u00a2 Turmeric, red chili powder\n\u00e2\u20ac\u00a2 Oil (1 tbsp)\n\u00e2\u20ac\u00a2 Chapati (2)",
+            "ingredients": "â€¢ Eggs (3, boiled)\nâ€¢ Onion (1, diced)\nâ€¢ Tomato (2, pureed)\nâ€¢ Ginger-garlic paste (1 tsp)\nâ€¢ Garam masala (1 tsp)\nâ€¢ Turmeric, red chili powder\nâ€¢ Oil (1 tbsp)\nâ€¢ Chapati (2)",
             "health_benefits": "Eggs are a complete protein source and rich in choline for brain health. Turmeric and ginger have anti-inflammatory benefits. A budget-friendly protein-rich dinner.",
             "recipe_steps": "1. Boil eggs, peel and make shallow cuts.\n2. Heat oil, saut onion until golden.\n3. Add ginger-garlic paste, tomato puree, and spices.\n4. Cook until oil separates, add water for gravy consistency.\n5. Add eggs, simmer 10 mins.\n6. Serve with hot chapati.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "dinner"
         },
         {
             "meal_type": "dinner",
@@ -1076,7 +1117,7 @@
             "diet_type": "Vegetarian",
             "meal_type": "dinner",
             "ingredients": "Black urad dal, rajma, butter, cream, tomato, ginger-garlic, kasuri methi, garam masala",
-            "recipe_steps": "1. Soak dal and rajma overnight, pressure cook.\n2. Saut\u00c3\u00a9 ginger-garlic, add tomato puree.\n3. Add cooked dal, simmer on low for 1 hr.\n4. Finish with butter, cream, kasuri methi.\n5. Serve with roti or rice.",
+            "recipe_steps": "1. Soak dal and rajma overnight, pressure cook.\n2. SautÃ© ginger-garlic, add tomato puree.\n3. Add cooked dal, simmer on low for 1 hr.\n4. Finish with butter, cream, kasuri methi.\n5. Serve with roti or rice.",
             "health_benefits": "Excellent plant protein, fiber-rich lentils, slow-cooked for easy digestion.",
             "goal_tag": "All"
         },
@@ -1090,7 +1131,7 @@
             "diet_type": "Vegetarian",
             "meal_type": "dinner",
             "ingredients": "Penne pasta, zucchini, bell pepper, cherry tomatoes, garlic, olive oil, basil, parmesan",
-            "recipe_steps": "1. Cook pasta al dente.\n2. Saut\u00c3\u00a9 garlic, add sliced vegetables.\n3. Toss with pasta, olive oil, basil.\n4. Season with salt and pepper.\n5. Top with grated parmesan.",
+            "recipe_steps": "1. Cook pasta al dente.\n2. SautÃ© garlic, add sliced vegetables.\n3. Toss with pasta, olive oil, basil.\n4. Season with salt and pepper.\n5. Top with grated parmesan.",
             "health_benefits": "Balanced macros, fiber from vegetables, olive oil provides healthy fats.",
             "goal_tag": "All"
         },
@@ -1118,7 +1159,7 @@
             "diet_type": "Vegan",
             "meal_type": "dinner",
             "ingredients": "Mixed vegetables, coconut milk, cashew paste, onion, ginger, coriander, cumin, turmeric, rice",
-            "recipe_steps": "1. Saut\u00c3\u00a9 onion, ginger until soft.\n2. Add spice powders, cook 1 min.\n3. Add vegetables, coconut milk, cashew paste.\n4. Simmer until vegetables are tender.\n5. Serve with steamed basmati rice.",
+            "recipe_steps": "1. SautÃ© onion, ginger until soft.\n2. Add spice powders, cook 1 min.\n3. Add vegetables, coconut milk, cashew paste.\n4. Simmer until vegetables are tender.\n5. Serve with steamed basmati rice.",
             "health_benefits": "Rich in vitamins from vegetables, coconut milk provides healthy fats, warming spices.",
             "goal_tag": "All"
         },
@@ -1146,7 +1187,7 @@
             "diet_type": "Vegan",
             "meal_type": "dinner",
             "ingredients": "Brown lentils, mashed potato, onion, carrot, celery, tomato paste, vegetable broth, herbs",
-            "recipe_steps": "1. Cook lentils until tender.\n2. Saut\u00c3\u00a9 onion, carrot, celery.\n3. Add tomato paste, lentils, broth, herbs.\n4. Pour into baking dish, top with mashed potato.\n5. Bake at 200\u00c2\u00b0C for 20 min until golden.",
+            "recipe_steps": "1. Cook lentils until tender.\n2. SautÃ© onion, carrot, celery.\n3. Add tomato paste, lentils, broth, herbs.\n4. Pour into baking dish, top with mashed potato.\n5. Bake at 200Â°C for 20 min until golden.",
             "health_benefits": "High fiber, plant protein, hearty and comforting, iron from lentils.",
             "goal_tag": "All"
         },
@@ -1160,7 +1201,7 @@
             "diet_type": "Non-Vegetarian",
             "meal_type": "dinner",
             "ingredients": "Chicken legs, yogurt, tandoori masala, lemon, ginger-garlic, mixed greens, cucumber, onion",
-            "recipe_steps": "1. Marinate chicken in yogurt, tandoori masala, lemon, ginger-garlic.\n2. Refrigerate for at least 2 hours.\n3. Grill or bake at 220\u00c2\u00b0C for 25-30 min.\n4. Prepare salad with greens, cucumber, onion.\n5. Serve chicken with salad and lemon wedges.",
+            "recipe_steps": "1. Marinate chicken in yogurt, tandoori masala, lemon, ginger-garlic.\n2. Refrigerate for at least 2 hours.\n3. Grill or bake at 220Â°C for 25-30 min.\n4. Prepare salad with greens, cucumber, onion.\n5. Serve chicken with salad and lemon wedges.",
             "health_benefits": "Very high protein, low carb, yogurt marinade aids digestion.",
             "goal_tag": "Muscle Gain"
         },
@@ -1174,7 +1215,7 @@
             "diet_type": "Vegetarian",
             "meal_type": "dinner",
             "ingredients": "Bell peppers, quinoa, black beans, corn, tomato sauce, cumin, cheese, cilantro",
-            "recipe_steps": "1. Cut peppers, remove seeds.\n2. Cook quinoa, mix with beans, corn, spices.\n3. Stuff peppers with quinoa mixture.\n4. Top with tomato sauce and cheese.\n5. Bake at 190\u00c2\u00b0C for 25 min.",
+            "recipe_steps": "1. Cut peppers, remove seeds.\n2. Cook quinoa, mix with beans, corn, spices.\n3. Stuff peppers with quinoa mixture.\n4. Top with tomato sauce and cheese.\n5. Bake at 190Â°C for 25 min.",
             "health_benefits": "Complete protein from quinoa and beans, vitamins from peppers, fiber-rich.",
             "goal_tag": "Weight Loss"
         }
@@ -1188,10 +1229,11 @@
             "fat": 8,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Hummus (3 tbsp)\n\u00e2\u20ac\u00a2 Carrots (2, cut into sticks)\n\u00e2\u20ac\u00a2 Cucumber (1/2, sliced)\n\u00e2\u20ac\u00a2 Paprika (pinch)",
+            "ingredients": "â€¢ Hummus (3 tbsp)\nâ€¢ Carrots (2, cut into sticks)\nâ€¢ Cucumber (1/2, sliced)\nâ€¢ Paprika (pinch)",
             "health_benefits": "Chickpea-based hummus provides plant protein and fiber. Carrots are rich in beta-carotene for eye health. Low calorie and highly satisfying snack.",
             "recipe_steps": "1. Peel and cut carrots into thin sticks.\n2. Slice cucumber into rounds.\n3. Spoon hummus into a small bowl.\n4. Sprinkle paprika on hummus.\n5. Serve veggies alongside for dipping.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Roasted Chickpeas",
@@ -1201,10 +1243,11 @@
             "fat": 6,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Chickpeas (150g, cooked)\n\u00e2\u20ac\u00a2 Olive oil (1 tsp)\n\u00e2\u20ac\u00a2 Cumin (1/2 tsp)\n\u00e2\u20ac\u00a2 Paprika (1/2 tsp)\n\u00e2\u20ac\u00a2 Salt\n\u00e2\u20ac\u00a2 Chili flakes (optional)",
+            "ingredients": "â€¢ Chickpeas (150g, cooked)\nâ€¢ Olive oil (1 tsp)\nâ€¢ Cumin (1/2 tsp)\nâ€¢ Paprika (1/2 tsp)\nâ€¢ Salt\nâ€¢ Chili flakes (optional)",
             "health_benefits": "High in plant protein and fiber. Very low in fat. Crunchy, satisfying snack that curbs cravings without the guilt. Rich in iron and manganese.",
             "recipe_steps": "1. Drain and pat chickpeas very dry.\n2. Toss with olive oil, cumin, paprika, and salt.\n3. Spread on baking sheet in single layer.\n4. Bake at 200C for 25-30 minutes until crispy.\n5. Let cool completely before eating (they crisp up more).",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Fruit Salad Bowl",
@@ -1214,10 +1257,11 @@
             "fat": 1,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Apple (1/2, diced)\n\u00e2\u20ac\u00a2 Banana (1/2, sliced)\n\u00e2\u20ac\u00a2 Orange segments (1/2)\n\u00e2\u20ac\u00a2 Pomegranate seeds (2 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice\n\u00e2\u20ac\u00a2 Honey or agave (1 tsp, optional)",
+            "ingredients": "â€¢ Apple (1/2, diced)\nâ€¢ Banana (1/2, sliced)\nâ€¢ Orange segments (1/2)\nâ€¢ Pomegranate seeds (2 tbsp)\nâ€¢ Lemon juice\nâ€¢ Honey or agave (1 tsp, optional)",
             "health_benefits": "Rich in vitamins C, A, and potassium. Natural sugars provide quick energy without a crash. High water content for hydration. Fiber aids digestion.",
             "recipe_steps": "1. Wash and cut all fruits into bite-sized pieces.\n2. Combine in a bowl.\n3. Squeeze fresh lemon juice over fruits.\n4. Drizzle honey or agave if desired.\n5. Toss gently and serve immediately.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Makhana (Fox Nuts)",
@@ -1227,10 +1271,11 @@
             "fat": 4,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Makhana / fox nuts (50g)\n\u00e2\u20ac\u00a2 Ghee or coconut oil (1 tsp)\n\u00e2\u20ac\u00a2 Turmeric (pinch)\n\u00e2\u20ac\u00a2 Black pepper (pinch)\n\u00e2\u20ac\u00a2 Rock salt",
+            "ingredients": "â€¢ Makhana / fox nuts (50g)\nâ€¢ Ghee or coconut oil (1 tsp)\nâ€¢ Turmeric (pinch)\nâ€¢ Black pepper (pinch)\nâ€¢ Rock salt",
             "health_benefits": "Makhana is low in calories but rich in protein and calcium. It's a traditional Ayurvedic snack that's anti-aging. Gluten-free and perfect for weight loss.",
             "recipe_steps": "1. Dry roast makhana in a pan on low heat for 5-7 minutes.\n2. Add ghee or coconut oil and stir well.\n3. Sprinkle turmeric, black pepper, and rock salt.\n4. Roast for another 2-3 minutes until crisp.\n5. Cool and store in airtight container.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Sprout Chaat",
@@ -1240,10 +1285,11 @@
             "fat": 4,
             "diet_type": "Vegan",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Mixed sprouts (100g: moong, chana)\n\u00e2\u20ac\u00a2 Onion (1/4, finely diced)\n\u00e2\u20ac\u00a2 Tomato (1/2, diced)\n\u00e2\u20ac\u00a2 Green chutney (1 tbsp)\n\u00e2\u20ac\u00a2 Lemon juice\n\u00e2\u20ac\u00a2 Chaat masala (1/2 tsp)\n\u00e2\u20ac\u00a2 Coriander leaves",
+            "ingredients": "â€¢ Mixed sprouts (100g: moong, chana)\nâ€¢ Onion (1/4, finely diced)\nâ€¢ Tomato (1/2, diced)\nâ€¢ Green chutney (1 tbsp)\nâ€¢ Lemon juice\nâ€¢ Chaat masala (1/2 tsp)\nâ€¢ Coriander leaves",
             "health_benefits": "Sprouts are a powerhouse of enzymes, protein, and vitamins. Sprouting increases nutrient bioavailability by 300-400%. Excellent for digestion.",
             "recipe_steps": "1. Boil or steam mixed sprouts until tender (5-7 mins).\n2. Cool and transfer to a bowl.\n3. Add diced onion, tomato, and green chutney.\n4. Squeeze lemon juice and sprinkle chaat masala.\n5. Toss and garnish with coriander leaves.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Greek Yogurt with Honey",
@@ -1255,10 +1301,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Greek yogurt (150g)\n\u00e2\u20ac\u00a2 Honey (1 tbsp)\n\u00e2\u20ac\u00a2 Mixed nuts (1 tbsp, crushed)\n\u00e2\u20ac\u00a2 Cinnamon (pinch)",
+            "ingredients": "â€¢ Greek yogurt (150g)\nâ€¢ Honey (1 tbsp)\nâ€¢ Mixed nuts (1 tbsp, crushed)\nâ€¢ Cinnamon (pinch)",
             "health_benefits": "Greek yogurt is rich in probiotics and protein. Honey has natural antibacterial and soothing properties. Nuts add healthy fats and crunch.",
             "recipe_steps": "1. Spoon Greek yogurt into a bowl.\n2. Drizzle honey over the top.\n3. Sprinkle crushed mixed nuts.\n4. Add a pinch of cinnamon.\n5. Serve chilled.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Paneer Tikka Bites",
@@ -1270,10 +1317,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Paneer (100g, cubed)\n\u00e2\u20ac\u00a2 Yogurt (2 tbsp)\n\u00e2\u20ac\u00a2 Tikka masala (1 tsp)\n\u00e2\u20ac\u00a2 Bell pepper chunks\n\u00e2\u20ac\u00a2 Onion chunks\n\u00e2\u20ac\u00a2 Lemon juice\n\u00e2\u20ac\u00a2 Oil for grilling",
+            "ingredients": "â€¢ Paneer (100g, cubed)\nâ€¢ Yogurt (2 tbsp)\nâ€¢ Tikka masala (1 tsp)\nâ€¢ Bell pepper chunks\nâ€¢ Onion chunks\nâ€¢ Lemon juice\nâ€¢ Oil for grilling",
             "health_benefits": "High-protein snack from paneer with minimal carbs. Yogurt marinade is probiotic-rich. Bell peppers add vitamin C. Perfect pre-workout snack.",
             "recipe_steps": "1. Mix yogurt with tikka masala and lemon juice.\n2. Toss paneer cubes in marinade, rest 30 mins.\n3. Thread paneer, bell pepper, onion onto skewers.\n4. Grill on high heat for 3-4 mins per side.\n5. Serve hot with mint chutney.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Dhokla",
@@ -1283,10 +1331,11 @@
             "fat": 4,
             "diet_type": "Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Besan / gram flour (100g)\n\u00e2\u20ac\u00a2 Yogurt (2 tbsp)\n\u00e2\u20ac\u00a2 Eno fruit salt (1 tsp)\n\u00e2\u20ac\u00a2 Mustard seeds (1/2 tsp)\n\u00e2\u20ac\u00a2 Curry leaves\n\u00e2\u20ac\u00a2 Green chili (1)\n\u00e2\u20ac\u00a2 Sugar (1 tsp)\n\u00e2\u20ac\u00a2 Lemon juice",
+            "ingredients": "â€¢ Besan / gram flour (100g)\nâ€¢ Yogurt (2 tbsp)\nâ€¢ Eno fruit salt (1 tsp)\nâ€¢ Mustard seeds (1/2 tsp)\nâ€¢ Curry leaves\nâ€¢ Green chili (1)\nâ€¢ Sugar (1 tsp)\nâ€¢ Lemon juice",
             "health_benefits": "Steamed snack, no oil used in cooking. Besan is high in protein and fiber. Fermentation from yogurt aids digestion. A guilt-free Gujarati classic.",
             "recipe_steps": "1. Mix besan, yogurt, water, turmeric, salt, sugar into smooth batter.\n2. Just before steaming, add Eno and mix gently.\n3. Pour into greased plate, steam 15 minutes.\n4. For tadka: heat oil, add mustard seeds, curry leaves, green chili.\n5. Pour tadka over steamed dhokla, cut into squares.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Masala Chaas (Buttermilk)",
@@ -1298,10 +1347,11 @@
             "tags": [
                 "dairy"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Fresh yogurt (100ml)\n\u00e2\u20ac\u00a2 Water (150ml)\n\u00e2\u20ac\u00a2 Cumin powder (1/2 tsp)\n\u00e2\u20ac\u00a2 Mint leaves (4-5)\n\u00e2\u20ac\u00a2 Ginger (small piece, grated)\n\u00e2\u20ac\u00a2 Black salt\n\u00e2\u20ac\u00a2 Coriander leaves",
+            "ingredients": "â€¢ Fresh yogurt (100ml)\nâ€¢ Water (150ml)\nâ€¢ Cumin powder (1/2 tsp)\nâ€¢ Mint leaves (4-5)\nâ€¢ Ginger (small piece, grated)\nâ€¢ Black salt\nâ€¢ Coriander leaves",
             "health_benefits": "Probiotic-rich for gut health. Aids digestion and cools the body. Virtually no fat. Cumin improves digestion and ginger reduces bloating.",
             "recipe_steps": "1. Blend yogurt and water until smooth.\n2. Add cumin powder, grated ginger, and black salt.\n3. Tear mint and coriander leaves, add to mixture.\n4. Stir well.\n5. Serve chilled over ice.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Chicken Wings (Grilled)",
@@ -1311,10 +1361,11 @@
             "fat": 18,
             "diet_type": "Non-Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken wings (6 pieces)\n\u00e2\u20ac\u00a2 Yogurt (2 tbsp)\n\u00e2\u20ac\u00a2 Hot sauce (1 tbsp)\n\u00e2\u20ac\u00a2 Garlic powder (1/2 tsp)\n\u00e2\u20ac\u00a2 Paprika (1/2 tsp)\n\u00e2\u20ac\u00a2 Olive oil (1 tsp)\n\u00e2\u20ac\u00a2 Salt & pepper",
+            "ingredients": "â€¢ Chicken wings (6 pieces)\nâ€¢ Yogurt (2 tbsp)\nâ€¢ Hot sauce (1 tbsp)\nâ€¢ Garlic powder (1/2 tsp)\nâ€¢ Paprika (1/2 tsp)\nâ€¢ Olive oil (1 tsp)\nâ€¢ Salt & pepper",
             "health_benefits": "High protein snack for muscle recovery. Grilling reduces fat compared to frying. Capsaicin from hot sauce boosts metabolism.",
             "recipe_steps": "1. Mix yogurt, hot sauce, garlic powder, paprika, salt.\n2. Coat chicken wings in marinade, rest 1 hour.\n3. Preheat oven to 220C or heat grill.\n4. Bake/grill wings 25 minutes, flipping halfway.\n5. Serve hot with celery sticks.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Boiled Eggs with Pepper",
@@ -1326,10 +1377,11 @@
             "tags": [
                 "eggs"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Eggs (2)\n\u00e2\u20ac\u00a2 Black pepper\n\u00e2\u20ac\u00a2 Salt\n\u00e2\u20ac\u00a2 Chaat masala (optional)",
+            "ingredients": "â€¢ Eggs (2)\nâ€¢ Black pepper\nâ€¢ Salt\nâ€¢ Chaat masala (optional)",
             "health_benefits": "One of the most nutrient-dense foods on earth. Rich in complete protein, choline, and vitamin D. Zero prep, portable, and highly satisfying.",
             "recipe_steps": "1. Place eggs in a pot, cover with cold water.\n2. Bring to boil, then cook for exactly 9 minutes.\n3. Transfer to ice water for 5 minutes.\n4. Peel and slice in half.\n5. Sprinkle salt, pepper, and chaat masala.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Chicken Seekh Kebab",
@@ -1339,10 +1391,11 @@
             "fat": 12,
             "diet_type": "Non-Veg",
             "tags": [],
-            "ingredients": "\u00e2\u20ac\u00a2 Chicken mince (150g)\n\u00e2\u20ac\u00a2 Onion (1/4, finely minced)\n\u00e2\u20ac\u00a2 Ginger-garlic paste (1 tsp)\n\u00e2\u20ac\u00a2 Green chili (1, minced)\n\u00e2\u20ac\u00a2 Garam masala (1/2 tsp)\n\u00e2\u20ac\u00a2 Coriander leaves\n\u00e2\u20ac\u00a2 Egg (1, for binding)\n\u00e2\u20ac\u00a2 Oil for grilling",
+            "ingredients": "â€¢ Chicken mince (150g)\nâ€¢ Onion (1/4, finely minced)\nâ€¢ Ginger-garlic paste (1 tsp)\nâ€¢ Green chili (1, minced)\nâ€¢ Garam masala (1/2 tsp)\nâ€¢ Coriander leaves\nâ€¢ Egg (1, for binding)\nâ€¢ Oil for grilling",
             "health_benefits": "Lean chicken mince is high in protein and low in fat. Spices like garam masala aid metabolism. A flavorful, filling snack without empty carbs.",
             "recipe_steps": "1. Mix all ingredients together in a bowl.\n2. Shape mixture around metal skewers into long kebabs.\n3. Refrigerate 30 minutes to firm up.\n4. Grill on medium heat, rotating, for 12-15 minutes.\n5. Serve with mint chutney and onion rings.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Tuna Salad Cup",
@@ -1354,10 +1407,11 @@
             "tags": [
                 "seafood"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Canned tuna in water (100g)\n\u00e2\u20ac\u00a2 Celery (1 stalk, diced)\n\u00e2\u20ac\u00a2 Red onion (1 tbsp, minced)\n\u00e2\u20ac\u00a2 Olive oil (1 tsp)\n\u00e2\u20ac\u00a2 Lemon juice (1 tsp)\n\u00e2\u20ac\u00a2 Black pepper\n\u00e2\u20ac\u00a2 Lettuce cups (2)",
+            "ingredients": "â€¢ Canned tuna in water (100g)\nâ€¢ Celery (1 stalk, diced)\nâ€¢ Red onion (1 tbsp, minced)\nâ€¢ Olive oil (1 tsp)\nâ€¢ Lemon juice (1 tsp)\nâ€¢ Black pepper\nâ€¢ Lettuce cups (2)",
             "health_benefits": "Tuna is extremely high in lean protein and omega-3 fats. Low calorie and highly satiating. Great for building lean muscle mass.",
             "recipe_steps": "1. Drain tuna and flake with a fork.\n2. Mix with diced celery, red onion, olive oil, lemon juice.\n3. Season with salt and black pepper.\n4. Wash and dry lettuce leaves to form cups.\n5. Spoon tuna mixture into lettuce cups and serve.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "title": "Mixed Nuts Trail Mix",
@@ -1369,10 +1423,11 @@
             "tags": [
                 "nuts"
             ],
-            "ingredients": "\u00e2\u20ac\u00a2 Almonds (10)\n\u00e2\u20ac\u00a2 Walnuts (5)\n\u00e2\u20ac\u00a2 Cashews (8)\n\u00e2\u20ac\u00a2 Raisins (1 tbsp)\n\u00e2\u20ac\u00a2 Pumpkin seeds (1 tbsp)\n\u00e2\u20ac\u00a2 Dark chocolate chips (1 tsp)",
+            "ingredients": "â€¢ Almonds (10)\nâ€¢ Walnuts (5)\nâ€¢ Cashews (8)\nâ€¢ Raisins (1 tbsp)\nâ€¢ Pumpkin seeds (1 tbsp)\nâ€¢ Dark chocolate chips (1 tsp)",
             "health_benefits": "Almonds are rich in vitamin E and healthy fats. Walnuts are the best nut source of omega-3. Dark chocolate provides antioxidants. A balanced energy-boosting snack.",
             "recipe_steps": "1. Combine all nuts and seeds in a bowl.\n2. Add raisins and dark chocolate chips.\n3. Mix well.\n4. Portion into small bags or containers.\n5. Store in a cool, dry place for up to 2 weeks.",
-            "country": "Global"
+            "country": "Global",
+            "meal_type": "snack"
         },
         {
             "meal_type": "snack",

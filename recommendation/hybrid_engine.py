@@ -230,6 +230,13 @@ def recommend(user_id: int, diet: str, goal: str, age: int,
         title = row["name"]
         rich_data = rich_info_map.get(title, {})
 
+        if goal == "Weight Loss":
+            reason = "This low-calorie, nutrient-rich option supports your weight loss goal by keeping you full and energized."
+        elif goal in ["Muscle Gain", "Weight Gain"]:
+            reason = "High in protein and calorie-dense to support muscle recovery and healthy weight gain."
+        else:
+            reason = "A perfectly balanced meal to maintain your energy levels and healthy weight throughout the day."
+
         recommendations.append({
             "item_id": int(row["item_id"]),
             "name": title,
@@ -245,6 +252,7 @@ def recommend(user_id: int, diet: str, goal: str, age: int,
             "ingredients": rich_data.get("ingredients", f"• {title}\n• Fresh ingredients\n• Spices to taste"),
             "recipe_steps": rich_data.get("recipe_steps", "1. Gather all ingredients.\n2. Cook using standard methods until fully prepared.\n3. Serve fresh and enjoy!"),
             "health_benefits": rich_data.get("health_benefits", "Provides essential macronutrients perfectly balanced for your current goal."),
+            "recommendation_reason": reason,
         })
 
     return {

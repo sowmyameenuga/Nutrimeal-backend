@@ -84,6 +84,7 @@ class MealPlan(db.Model):
     date = db.Column(db.Date, default=date.today)
     eaten = db.Column(db.Boolean, default=False)
     completion_time = db.Column(db.String(50), nullable=True)
+    recommendation_reason = db.Column(db.Text, default="")
 
     def to_dict(self):
         return {
@@ -91,16 +92,17 @@ class MealPlan(db.Model):
             "user_id": self.user_id,
             "meal_type": self.meal_type,
             "title": self.title,
-            "calories": self.calories,
-            "protein": self.protein,
-            "carbs": self.carbs,
-            "fat": self.fat,
-            "ingredients": self.ingredients,
-            "health_benefits": self.health_benefits,
-            "recipe_steps": self.recipe_steps,
+            "calories": self.calories if self.calories is not None else 0,
+            "protein": self.protein if self.protein is not None else 0.0,
+            "carbs": self.carbs if self.carbs is not None else 0.0,
+            "fat": self.fat if self.fat is not None else 0.0,
+            "ingredients": self.ingredients if self.ingredients else "",
+            "health_benefits": self.health_benefits if self.health_benefits else "",
+            "recipe_steps": self.recipe_steps if self.recipe_steps else "",
             "date": self.date.isoformat() if self.date else None,
             "eaten": self.eaten,
             "completion_time": self.completion_time,
+            "recommendation_reason": self.recommendation_reason if self.recommendation_reason else "Recommended based on your health goals.",
         }
 
 

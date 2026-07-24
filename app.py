@@ -57,6 +57,23 @@ def create_app():
                     conn.execute(text('ALTER TABLE meal_plans ADD COLUMN completion_time VARCHAR(50)'))
                     conn.commit()
                 print("[migration] Added completion_time column to meal_plans")
+            if 'protein' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE meal_plans ADD COLUMN protein FLOAT DEFAULT 0.0'))
+                    conn.commit()
+            if 'carbs' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE meal_plans ADD COLUMN carbs FLOAT DEFAULT 0.0'))
+                    conn.commit()
+            if 'fat' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE meal_plans ADD COLUMN fat FLOAT DEFAULT 0.0'))
+                    conn.commit()
+            if 'recommendation_reason' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text('ALTER TABLE meal_plans ADD COLUMN recommendation_reason TEXT'))
+                    conn.commit()
+                print("[migration] Added recommendation_reason column to meal_plans")
 
     # ── Health check ──
     @app.route("/api/health", methods=["GET"])

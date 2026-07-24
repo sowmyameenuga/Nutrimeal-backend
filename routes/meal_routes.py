@@ -159,9 +159,18 @@ def save_meal():
         return jsonify({"error": "No data provided"}), 400
 
     meal_type = data.get("meal_type", "snack").lower()
+    
+    date_str = data.get("date")
+    if date_str:
+        try:
+            today = date.fromisoformat(date_str)
+        except ValueError:
+            today = date.today()
+    else:
+        today = date.today()
 
-    # Delete any existing meal for today of the same type to support replacement
-    MealPlan.query.filter_by(user_id=user_id, date=date.today(), meal_type=meal_type).delete()
+    # Delete any existing meal for the date of the same type to support replacement
+    MealPlan.query.filter_by(user_id=user_id, date=today, meal_type=meal_type).delete()
 
     meal = MealPlan(
         user_id=user_id,
@@ -174,9 +183,81 @@ def save_meal():
         ingredients=data.get("ingredients", ""),
         recipe_steps=data.get("recipe_steps", ""),
         health_benefits=data.get("health_benefits", ""),
-        date=date.today()
+        recommendation_reason=data.get("recommendation_reason", "Recommended based on your health goals."),
+        date=today
     )
     db.session.add(meal)
     db.session.commit()
     
     return jsonify({"message": "Meal saved successfully", "meal": meal.to_dict()}), 201
+
+
+@meal_bp.route("/replace", methods=["POST"])
+@jwt_required()
+def replace_meal():
+    """Replace a meal for a specific category and date with another AI recommendation."""
+    user_id = int(get_jwt_identity())
+    data = request.get_json() or {}
+    meal_type = data.get("meal_type", "snack").lower()
+    
+    date_str = data.get("date")
+    if date_str:
+        try:
+            today = date.fromisoformat(date_str)
+        except ValueError:
+            today = date.today()
+    else:
+        today = date.today()
+
+    profile = Profile.query.filter_by(user_id=user_id).first()
+    diet = profile.diet if profile else "Vegetarian"
+    goal = profile.goal if profile else "Maintenance"
+    age = profile.age if profile else 25
+
+    # Get recommendations from hybrid engine
+    from recommendation.hybrid_engine import recommend
+    result = recommend(
+        user_id=user_id,
+        diet=diet,
+        goal=goal,
+        age=age,
+        meal_type=meal_type,
+        top_k=5
+    )
+    recs = result.get("recommendations", [])
+    if not recs:
+        return jsonify({"error": "No replacements found"}), 404
+
+    # Find the current meal title to avoid picking the same one
+    current_meal = MealPlan.query.filter_by(user_id=user_id, date=today, meal_type=meal_type).first()
+    current_title = current_meal.title if current_meal else ""
+
+    # Filter out current meal
+    choices = [r for r in recs if r["title"] != current_title]
+    if not choices:
+        choices = recs
+
+    new_meal_data = random.choice(choices)
+
+    # Delete existing
+    MealPlan.query.filter_by(user_id=user_id, date=today, meal_type=meal_type).delete()
+
+    # Save new meal
+    new_meal = MealPlan(
+        user_id=user_id,
+        meal_type=meal_type,
+        title=new_meal_data["title"],
+        calories=new_meal_data["calories"],
+        protein=new_meal_data["protein"],
+        carbs=new_meal_data["carbs"],
+        fat=new_meal_data["fat"],
+        ingredients=new_meal_data["ingredients"],
+        recipe_steps=new_meal_data["recipe_steps"],
+        health_benefits=new_meal_data["health_benefits"],
+        recommendation_reason=new_meal_data.get("recommendation_reason", "Recommended based on your health goals."),
+        date=today
+    )
+    db.session.add(new_meal)
+    db.session.commit()
+
+    return jsonify({"message": "Meal replaced successfully", "meal": new_meal.to_dict()}), 200
