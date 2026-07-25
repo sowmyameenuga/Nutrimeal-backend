@@ -181,3 +181,81 @@ def save_meal():
     db.session.commit()
     
     return jsonify({"message": "Meal saved successfully", "meal": meal.to_dict()}), 201
+
+
+@meal_bp.route("/replace", methods=["POST"])
+@jwt_required()
+def replace_meal():
+    """Replace an existing meal in today's plan with a new one of the same type."""
+    user_id = int(get_jwt_identity())
+    data = request.get_json() or {}
+    
+    meal_type = data.get("meal_type", "").lower()
+    date_str = data.get("date")
+    old_title = data.get("old_title")
+    
+    if not meal_type:
+        return jsonify({"error": "meal_type is required"}), 400
+        
+    if date_str:
+        try:
+            target_date = date.fromisoformat(date_str)
+        except ValueError:
+            target_date = date.today()
+    else:
+        target_date = date.today()
+        
+    profile = Profile.query.filter_by(user_id=user_id).first()
+    allergy = profile.allergy if profile else "None"
+    diet = profile.diet if profile else "Veg"
+    
+    # Find the old meal to delete
+    old_meal = None
+    if old_title:
+        old_meal = MealPlan.query.filter_by(user_id=user_id, date=target_date, meal_type=meal_type, title=old_title).first()
+    
+    if not old_meal:
+        # Fallback: get any meal of this type
+        old_meal = MealPlan.query.filter_by(user_id=user_id, date=target_date, meal_type=meal_type).first()
+        
+    # Get all current meal titles to avoid duplicate selections
+    existing = MealPlan.query.filter_by(user_id=user_id, date=target_date, meal_type=meal_type).all()
+    existing_titles = {m.title for m in existing}
+    
+    pool = MEAL_LIBRARY.get(meal_type, [])
+    filtered = _filter_meals(pool, allergy, diet)
+    
+    remaining = [m for m in filtered if m["title"] not in existing_titles]
+    if not remaining:
+        remaining = filtered
+        
+    if not remaining:
+        return jsonify({"error": "No suitable replacement meal found"}), 404
+        
+    new_meal = random.choice(remaining)
+    
+    # Delete the old meal
+    if old_meal:
+        db.session.delete(old_meal)
+        
+    # Add new meal
+    plan = MealPlan(
+        user_id=user_id,
+        meal_type=meal_type,
+        title=new_meal["title"],
+        calories=new_meal["calories"],
+        protein=new_meal["protein"],
+        carbs=new_meal["carbs"],
+        fat=new_meal["fat"],
+        ingredients=new_meal["ingredients"],
+        health_benefits=new_meal["health_benefits"],
+        recipe_steps=new_meal["recipe_steps"],
+        date=target_date,
+    )
+    db.session.add(plan)
+    db.session.commit()
+    
+    return jsonify({
+        "message": "Meal replaced successfully",
+        "new_meal": plan.to_dict()
+    }), 200
