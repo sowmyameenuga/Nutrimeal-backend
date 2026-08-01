@@ -9,3 +9,4 @@ pandas
 numpy
 scikit-learn
 gunicorn
+psycopg2-binary==2.9.9
