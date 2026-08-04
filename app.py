@@ -32,6 +32,15 @@ def create_app():
 
     # ── Create tables ──
     with app.app_context():
+        # Mask password in log
+        db_uri = app.config.get("SQLALCHEMY_DATABASE_URI", "")
+        masked_uri = db_uri
+        if "@" in db_uri:
+            parts = db_uri.split("@")
+            prefix = parts[0].split(":")
+            if len(prefix) > 2:
+                masked_uri = f"{prefix[0]}:{prefix[1]}:****@{parts[1]}"
+        print(f"[Database] Initializing database with URI: {masked_uri}")
         db.create_all()
 
         # ── Auto-migrate: add missing columns to existing tables ──
