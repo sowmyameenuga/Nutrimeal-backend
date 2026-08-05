@@ -12,9 +12,13 @@ class Config:
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=7)
 
     db_url = os.environ.get("DATABASE_URL")
-    if db_url and db_url.startswith("postgres://"):
+    if not db_url:
+        # Fallback to the live cloud PostgreSQL database directly when running locally
+        db_url = "postgresql://nutrimeal_db_user:9KzZDtQKehdCwmkefUnFoX7Ljm21onP5@dpg-d9mnkj61egvs73ei202g-a.oregon-postgres.render.com/nutrimeal_db"
+        
+    if db_url.startswith("postgres://"):
         db_url = db_url.replace("postgres://", "postgresql://", 1)
 
-    SQLALCHEMY_DATABASE_URI = db_url or f"sqlite:///{os.path.join(BASE_DIR, 'nutrition_app.db')}"
+    SQLALCHEMY_DATABASE_URI = db_url
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
