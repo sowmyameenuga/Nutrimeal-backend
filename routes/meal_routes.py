@@ -72,17 +72,11 @@ def generate_meal_plan(user_id: int, profile):
 @meal_bp.route("", methods=["GET"])
 @jwt_required()
 def get_meals():
-    """Return today's meal plan grouped by type (including snacks)."""
+    """Return today's meal plan grouped by type."""
     user_id = int(get_jwt_identity())
     today = date.today()
 
     meals = MealPlan.query.filter_by(user_id=user_id, date=today).all()
-
-    # Auto-generate if no meals exist for today
-    if not meals:
-        profile = Profile.query.filter_by(user_id=user_id).first()
-        generate_meal_plan(user_id, profile)
-        meals = MealPlan.query.filter_by(user_id=user_id, date=today).all()
 
     grouped = {"breakfast": [], "lunch": [], "dinner": [], "snack": []}
     for m in meals:
@@ -164,9 +158,14 @@ def save_meal():
     if not data:
         return jsonify({"error": "No data provided"}), 400
 
+    meal_type = data.get("meal_type", "snack").lower()
+
+    # Delete any existing meal for today of the same type to support replacement
+    MealPlan.query.filter_by(user_id=user_id, date=date.today(), meal_type=meal_type).delete()
+
     meal = MealPlan(
         user_id=user_id,
-        meal_type=data.get("meal_type", "snack").lower(),
+        meal_type=meal_type,
         title=data.get("title", "Saved Meal"),
         calories=int(data.get("calories", 0)),
         protein=float(data.get("protein", 0)),
