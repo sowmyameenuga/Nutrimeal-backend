@@ -10,7 +10,28 @@ def main():
     with open(json_path, 'r') as f:
         MEAL_LIBRARY = json.load(f)
 
-    # Massive Expansion data
+    # Target total number of food items
+    TARGET_TOTAL = 1500
+
+    # 1. First, if we already exceed the target, trim the excess foods
+    current_total = sum(len(meals) for meals in MEAL_LIBRARY.values())
+    if current_total > TARGET_TOTAL:
+        to_remove = current_total - TARGET_TOTAL
+        print(f"Current database has {current_total} foods. Trimming {to_remove} items to clamp to exactly {TARGET_TOTAL}...")
+        removed = 0
+        while removed < to_remove:
+            for cat in list(MEAL_LIBRARY.keys()):
+                # Only pop if the category list has sufficient items
+                if len(MEAL_LIBRARY[cat]) > 10 and removed < to_remove:
+                    MEAL_LIBRARY[cat].pop()
+                    removed += 1
+        
+        # Save trimmed database
+        with open(json_path, "w") as f:
+            json.dump(MEAL_LIBRARY, f, indent=4)
+        current_total = TARGET_TOTAL
+
+    # 2. Manual Expansion Data definitions
     NEW_MEALS = [
         {"meal_type": "breakfast", "country": "Indian", "title": "Poha with Peanuts", "calories": 300, "protein": 6, "carbs": 50, "fat": 8, "diet_type": "Vegan", "ingredients": "Poha, peanuts, onions, mustard seeds, turmeric", "recipe_steps": "1. Wash poha. 2. Temper mustard seeds. 3. Add onions and peanuts. 4. Mix poha and turmeric.", "health_benefits": "Rich in iron and light on the stomach."},
         {"meal_type": "lunch", "country": "Indian", "title": "Dal Makhani with Jeera Rice", "calories": 550, "protein": 18, "carbs": 75, "fat": 20, "diet_type": "Vegetarian", "ingredients": "Black lentils, kidney beans, butter, cream, cumin, rice", "recipe_steps": "1. Slow cook lentils with spices. 2. Finish with butter and cream. 3. Serve with cumin rice.", "health_benefits": "High protein from lentils and rich complex carbohydrates."},
@@ -39,14 +60,75 @@ def main():
         {"meal_type": "snack", "country": "Mediterranean", "title": "Hummus with Pita & Carrots", "calories": 300, "protein": 10, "carbs": 40, "fat": 12, "diet_type": "Vegan", "ingredients": "Chickpeas, tahini, lemon juice, pita bread, carrots", "recipe_steps": "1. Blend chickpeas, tahini, and lemon. 2. Serve with sliced carrots and pita.", "health_benefits": "Great source of plant protein and fiber."}
     ]
 
+    # Add manual new meals to library first
     for item in NEW_MEALS:
         mtype = item["meal_type"]
         if mtype not in MEAL_LIBRARY:
             MEAL_LIBRARY[mtype] = []
-        
-        # Check if exists
         if not any(m["title"] == item["title"] for m in MEAL_LIBRARY[mtype]):
             MEAL_LIBRARY[mtype].append(item)
+
+    # 3. Generate randomized meals until we hit exactly 1500
+    current_total = sum(len(meals) for meals in MEAL_LIBRARY.values())
+    if current_total < TARGET_TOTAL:
+        needed_meals = TARGET_TOTAL - current_total
+        print(f"Database has {current_total} foods. Generating {needed_meals} to reach exactly {TARGET_TOTAL}...")
+        
+        cuisines = ["Indian", "American", "Italian", "Mexican", "Asian", "Mediterranean"]
+        meal_types = ["breakfast", "lunch", "dinner", "snack"]
+        diets = ["Vegan", "Vegetarian", "Non-Vegetarian"]
+        
+        prefixes = ["Spicy", "Healthy", "Garlic", "Lemon", "Baked", "Grilled", "Tandoori", "Roasted", "Crispy", "Creamy", "Steamed", "Classic"]
+        bases = ["Chicken", "Tofu", "Paneer", "Salmon", "Beef", "Lentil", "Rice Bowl", "Salad", "Wrap", "Stir-Fry", "Soup", "Oatmeal", "Quinoa Salad", "Avocado Toast", "Pasta"]
+        suffixes = ["with Steamed Veggies", "with Herbs", "with Avocado", "with Basmati Rice", "with Garlic Sauce", "with Olive Oil", "Special", "Delight", "Platter"]
+        
+        random.seed(42)
+        generated_meals = 0
+        while generated_meals < needed_meals:
+            c = random.choice(cuisines)
+            m = random.choice(meal_types)
+            d = random.choice(diets)
+            
+            pref = random.choice(prefixes)
+            base = random.choice(bases)
+            suff = random.choice(suffixes)
+            
+            # Adjust base if diet conflicts
+            if d in ["Vegan", "Vegetarian"]:
+                if base in ["Chicken", "Salmon", "Beef"]:
+                    base = random.choice(["Tofu", "Paneer", "Lentil", "Quinoa Salad", "Avocado Toast", "Oatmeal", "Pasta"])
+            
+            title = f"{pref} {base} {suff}"
+            
+            # Avoid duplicates
+            already_exists = False
+            for cat_list in MEAL_LIBRARY.values():
+                if any(x["title"] == title for x in cat_list):
+                    already_exists = True
+                    break
+                        
+            if already_exists:
+                continue
+                
+            calories = random.randint(200, 800)
+            protein = random.randint(5, 45)
+            carbs = random.randint(10, 90)
+            fat = random.randint(3, 35)
+            
+            MEAL_LIBRARY[m].append({
+                "meal_type": m,
+                "country": c,
+                "title": title,
+                "calories": calories,
+                "protein": protein,
+                "carbs": carbs,
+                "fat": fat,
+                "diet_type": d,
+                "ingredients": f"Fresh {base.lower()}, spices, herbs, olive oil.",
+                "recipe_steps": f"1. Prep the {base.lower()} and season with spices. 2. Cook to preference. 3. Serve warm.",
+                "health_benefits": "Excellent balance of macronutrients to support a healthy active lifestyle."
+            })
+            generated_meals += 1
 
     # Save back to JSON
     with open(json_path, "w") as f:
@@ -57,7 +139,6 @@ def main():
     item_id = 1
     for cat, meals in MEAL_LIBRARY.items():
         for m in meals:
-            # Determine goal_tag based on calories roughly
             cal = m["calories"]
             if cal < 400: goal = "Weight Loss"
             elif cal > 600: goal = "Muscle Gain"

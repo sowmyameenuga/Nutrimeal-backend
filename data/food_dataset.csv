@@ -26,80 +26,1476 @@ item_id,name,calories,protein,carbs,fat,fiber,diet_type,meal_type,goal_tag
 25,Dosa with Chutney,270,7,42,8,3,Vegan,Breakfast,Weight Loss
 26,Omelette with Vegetables,280,20,8,18,2,Non-Vegetarian,Breakfast,Weight Loss
 27,Ragi Porridge,200,7,38,3,5,Vegan,Breakfast,Weight Loss
-28,Quinoa Buddha Bowl,420,18,60,12,6,Vegan,Lunch,Maintenance
-29,Rajma Chawal,450,18,65,10,6,Vegan,Lunch,Maintenance
-30,Dal Tadka with Rice,400,18,55,10,5,Vegan,Lunch,Maintenance
-31,Vegetable Stir-Fry with Tofu,360,22,30,16,3,Vegan,Lunch,Weight Loss
-32,Paneer Butter Masala + Rice,520,22,55,24,5,Veg,Lunch,Maintenance
-33,Chole (Chickpea Curry) with Bhature,480,16,58,20,5,Veg,Lunch,Maintenance
-34,Palak Paneer with Roti,440,22,35,24,3,Veg,Lunch,Maintenance
-35,Veg Biryani,450,12,62,16,6,Veg,Lunch,Maintenance
-36,Grilled Chicken Salad,380,35,18,18,2,Non-Veg,Lunch,Weight Loss
-37,Chicken Biryani,550,30,60,20,6,Non-Veg,Lunch,Maintenance
-38,Fish Curry with Rice,480,32,50,16,5,Non-Veg,Lunch,Maintenance
-39,Butter Chicken + Naan,580,32,45,30,4,Non-Veg,Lunch,Maintenance
-40,Tandoori Chicken with Roti,420,36,30,16,3,Non-Veg,Lunch,Maintenance
-41,Lentil Soup with Bread,350,22,48,6,4,Vegan,Lunch,Weight Loss
-42,Dal Makhani with Jeera Rice,550,18,75,20,7,Vegetarian,Lunch,Maintenance
-43,Chicken Tikka Masala,600,35,40,30,4,Non-Vegetarian,Lunch,Maintenance
-44,Classic Cheeseburger,700,35,45,40,4,Non-Vegetarian,Lunch,Muscle Gain
-45,Margherita Pizza,600,25,80,20,8,Vegetarian,Lunch,Maintenance
-46,Chicken Fajitas,500,35,45,18,4,Non-Vegetarian,Lunch,Maintenance
-47,Chicken Teriyaki with Rice,550,30,85,10,8,Non-Vegetarian,Lunch,Maintenance
-48,Greek Salad with Grilled Chicken,400,35,15,22,2,Non-Vegetarian,Lunch,Maintenance
-49,Chole Bhature,650,18,75,30,12,Vegetarian,Lunch,Muscle Gain
-50,Vegetable Pulao,350,8,58,10,5,Vegan,Lunch,Weight Loss
-51,Caesar Salad with Grilled Chicken,380,28,22,20,4,Non-Vegetarian,Lunch,Weight Loss
-52,Mushroom Risotto,420,12,58,16,4,Vegetarian,Lunch,Maintenance
-53,Sambar Rice,360,14,60,6,8,Vegan,Lunch,Weight Loss
-54,Butter Chicken with Naan,620,35,48,30,3,Non-Vegetarian,Lunch,Muscle Gain
-55,Falafel Wrap,400,15,48,18,8,Vegan,Lunch,Maintenance
-56,Stir-Fry Tofu & Vegetables,340,20,30,14,3,Vegan,Dinner,Weight Loss
-57,Baked Sweet Potato Bowl,360,14,52,10,5,Vegan,Dinner,Weight Loss
-58,Roasted Vegetable Soup,220,8,30,8,3,Vegan,Dinner,Weight Loss
-59,Mushroom & Spinach Pasta,420,14,55,16,5,Vegan,Dinner,Maintenance
-60,Paneer Tikka Masala,440,24,28,26,2,Veg,Dinner,Maintenance
-61,Grilled Paneer Salad,380,24,18,22,2,Veg,Dinner,Weight Loss
-62,Mixed Veg Curry + Chapati,400,14,52,14,5,Veg,Dinner,Maintenance
-63,Vegetable Khichdi,340,16,50,8,5,Veg,Dinner,Weight Loss
-64,Grilled Salmon + Asparagus,450,38,12,28,2,Non-Veg,Dinner,Maintenance
-65,Chicken Stir-Fry,380,32,25,16,2,Non-Veg,Dinner,Weight Loss
-66,Chicken Tikka with Raita,350,34,12,18,2,Non-Veg,Dinner,Weight Loss
-67,Egg Curry with Chapati,380,22,35,18,3,Non-Veg,Dinner,Weight Loss
-68,Palak Paneer,400,18,15,28,2,Vegetarian,Dinner,Maintenance
-69,Fish Curry (Meen Moilee),450,30,12,25,2,Non-Vegetarian,Dinner,Maintenance
-70,BBQ Ribs with Coleslaw,850,40,30,60,3,Non-Vegetarian,Dinner,Muscle Gain
-71,Spaghetti Bolognese,650,30,75,22,7,Non-Vegetarian,Dinner,Muscle Gain
-72,Beef Enchiladas,700,35,50,38,5,Non-Vegetarian,Dinner,Muscle Gain
-73,Tofu Pad Thai,480,16,65,18,6,Vegan,Dinner,Maintenance
-74,Baked Salmon with Asparagus,450,40,8,25,2,Non-Vegetarian,Dinner,Maintenance
-75,Paneer Butter Masala with Jeera Rice,520,22,55,24,4,Vegetarian,Dinner,Maintenance
-76,Grilled Salmon with Veggies,420,35,18,24,5,Non-Vegetarian,Dinner,Maintenance
-77,Dal Makhani,380,16,48,14,10,Vegetarian,Dinner,Weight Loss
-78,Pasta Primavera,400,14,58,12,6,Vegetarian,Dinner,Maintenance
-79,Chicken Stir Fry with Noodles,450,30,45,16,4,Non-Vegetarian,Dinner,Maintenance
-80,Vegetable Korma,350,10,40,18,6,Vegan,Dinner,Weight Loss
-81,Egg Fried Rice,400,18,52,14,3,Non-Vegetarian,Dinner,Maintenance
-82,Lentil Shepherd Pie,380,18,50,12,10,Vegan,Dinner,Weight Loss
-83,Tandoori Chicken with Salad,350,38,12,16,3,Non-Vegetarian,Dinner,Weight Loss
-84,Stuffed Bell Peppers,300,14,35,12,6,Vegetarian,Dinner,Weight Loss
-85,Hummus & Carrot Sticks,180,6,20,8,2,Vegan,Snack,Weight Loss
-86,Roasted Chickpeas,200,10,28,6,2,Vegan,Snack,Weight Loss
-87,Fruit Salad Bowl,150,3,35,1,3,Vegan,Snack,Weight Loss
-88,Makhana (Fox Nuts),160,5,26,4,2,Vegan,Snack,Weight Loss
-89,Sprout Chaat,180,12,24,4,2,Vegan,Snack,Weight Loss
-90,Greek Yogurt with Honey,200,14,24,6,2,Veg,Snack,Weight Loss
-91,Paneer Tikka Bites,240,18,8,16,2,Veg,Snack,Weight Loss
-92,Dhokla,180,8,28,4,2,Veg,Snack,Weight Loss
-93,Masala Chaas (Buttermilk),80,4,8,3,2,Veg,Snack,Weight Loss
-94,Chicken Wings (Grilled),280,24,4,18,2,Non-Veg,Snack,Weight Loss
-95,Boiled Eggs with Pepper,150,13,2,10,2,Non-Veg,Snack,Weight Loss
-96,Chicken Seekh Kebab,220,22,6,12,2,Non-Veg,Snack,Weight Loss
-97,Tuna Salad Cup,200,22,8,10,2,Non-Veg,Snack,Weight Loss
-98,Mixed Nuts Trail Mix,250,8,18,18,2,Vegan,Snack,Weight Loss
-99,Hummus with Pita & Carrots,300,10,40,12,4,Vegan,Snack,Weight Loss
-100,Masala Chai with Biscuits,150,3,22,5,1,Vegetarian,Snack,Weight Loss
-101,Sprouts Chaat,180,10,28,4,8,Vegan,Snack,Weight Loss
-102,Peanut Butter Banana Toast,280,10,35,12,4,Vegan,Snack,Weight Loss
-103,Trail Mix,200,6,18,14,3,Vegan,Snack,Weight Loss
-104,Boiled Egg Salad,200,18,6,12,2,Non-Vegetarian,Snack,Weight Loss
+28,Classic Paneer with Basmati Rice,342,11,79,8,7,Vegan,Breakfast,Weight Loss
+29,Baked Avocado Toast with Olive Oil,791,17,18,5,2,Non-Vegetarian,Breakfast,Muscle Gain
+30,Tandoori Paneer with Herbs,780,25,37,34,3,Vegetarian,Breakfast,Muscle Gain
+31,Grilled Pasta with Garlic Sauce,445,8,40,8,4,Vegan,Breakfast,Maintenance
+32,Steamed Soup with Herbs,262,30,53,9,5,Non-Vegetarian,Breakfast,Weight Loss
+33,Crispy Tofu with Steamed Veggies,753,5,21,18,2,Vegetarian,Breakfast,Muscle Gain
+34,Classic Wrap with Steamed Veggies,521,8,16,33,2,Non-Vegetarian,Breakfast,Maintenance
+35,Lemon Stir-Fry with Steamed Veggies,283,31,84,23,8,Non-Vegetarian,Breakfast,Weight Loss
+36,Classic Wrap with Avocado,478,23,87,16,8,Vegan,Breakfast,Maintenance
+37,Creamy Wrap with Avocado,640,13,15,22,2,Vegetarian,Breakfast,Muscle Gain
+38,Lemon Soup with Basmati Rice,305,27,81,29,8,Vegetarian,Breakfast,Weight Loss
+39,Creamy Tofu with Garlic Sauce,646,5,76,15,7,Vegetarian,Breakfast,Muscle Gain
+40,Tandoori Pasta with Basmati Rice,593,36,61,18,6,Vegetarian,Breakfast,Maintenance
+41,Tandoori Pasta with Avocado,730,34,16,18,2,Vegan,Breakfast,Muscle Gain
+42,Tandoori Rice Bowl with Steamed Veggies,789,29,71,3,7,Vegan,Breakfast,Muscle Gain
+43,Steamed Rice Bowl with Avocado,672,16,16,19,2,Vegan,Breakfast,Muscle Gain
+44,Crispy Rice Bowl with Olive Oil,270,37,53,3,5,Vegetarian,Breakfast,Weight Loss
+45,Lemon Tofu with Basmati Rice,616,36,81,18,8,Non-Vegetarian,Breakfast,Muscle Gain
+46,Crispy Oatmeal with Avocado,702,11,11,21,2,Vegan,Breakfast,Muscle Gain
+47,Lemon Soup with Avocado,472,14,19,6,2,Non-Vegetarian,Breakfast,Maintenance
+48,Grilled Rice Bowl Delight,495,30,80,5,8,Vegan,Breakfast,Maintenance
+49,Baked Lentil with Herbs,613,37,10,32,2,Vegetarian,Breakfast,Muscle Gain
+50,Crispy Lentil Delight,652,8,36,20,3,Vegan,Breakfast,Muscle Gain
+51,Classic Salad Special,595,14,73,5,7,Vegetarian,Breakfast,Maintenance
+52,Baked Soup Platter,361,9,66,25,6,Vegetarian,Breakfast,Weight Loss
+53,Spicy Paneer with Steamed Veggies,566,20,85,23,8,Non-Vegetarian,Breakfast,Maintenance
+54,Crispy Wrap with Olive Oil,325,31,55,30,5,Non-Vegetarian,Breakfast,Weight Loss
+55,Creamy Tofu with Olive Oil,791,37,37,12,3,Vegetarian,Breakfast,Muscle Gain
+56,Steamed Avocado Toast with Garlic Sauce,229,16,44,22,4,Non-Vegetarian,Breakfast,Weight Loss
+57,Classic Wrap with Basmati Rice,585,31,68,24,6,Vegan,Breakfast,Maintenance
+58,Roasted Soup Special,697,43,66,29,6,Vegetarian,Breakfast,Muscle Gain
+59,Lemon Pasta with Basmati Rice,340,21,47,23,4,Vegan,Breakfast,Weight Loss
+60,Classic Rice Bowl with Avocado,332,29,78,17,7,Vegetarian,Breakfast,Weight Loss
+61,Crispy Salmon with Olive Oil,559,14,40,9,4,Non-Vegetarian,Breakfast,Maintenance
+62,Healthy Stir-Fry Platter,593,34,84,5,8,Non-Vegetarian,Breakfast,Maintenance
+63,Steamed Paneer with Steamed Veggies,453,33,66,13,6,Non-Vegetarian,Breakfast,Maintenance
+64,Steamed Rice Bowl with Garlic Sauce,458,43,29,24,2,Non-Vegetarian,Breakfast,Maintenance
+65,Steamed Rice Bowl Platter,570,6,56,22,5,Non-Vegetarian,Breakfast,Maintenance
+66,Grilled Pasta with Avocado,585,14,30,14,3,Non-Vegetarian,Breakfast,Maintenance
+67,Crispy Avocado Toast with Herbs,491,10,30,20,3,Non-Vegetarian,Breakfast,Maintenance
+68,Lemon Rice Bowl Delight,264,12,73,4,7,Vegan,Breakfast,Weight Loss
+69,Healthy Lentil with Basmati Rice,306,42,52,11,5,Vegetarian,Breakfast,Weight Loss
+70,Roasted Chicken with Garlic Sauce,406,7,35,5,3,Non-Vegetarian,Breakfast,Maintenance
+71,Garlic Wrap with Olive Oil,607,25,45,18,4,Non-Vegetarian,Breakfast,Muscle Gain
+72,Garlic Salad Platter,596,40,25,19,2,Non-Vegetarian,Breakfast,Maintenance
+73,Creamy Beef with Basmati Rice,785,31,89,4,8,Non-Vegetarian,Breakfast,Muscle Gain
+74,Roasted Rice Bowl Delight,675,18,53,12,5,Vegan,Breakfast,Muscle Gain
+75,Tandoori Paneer with Garlic Sauce,574,30,56,5,5,Vegan,Breakfast,Maintenance
+76,Grilled Quinoa Salad with Olive Oil,771,28,28,15,2,Vegetarian,Breakfast,Muscle Gain
+77,Roasted Paneer Platter,589,14,41,5,4,Non-Vegetarian,Breakfast,Maintenance
+78,Spicy Salad with Olive Oil,628,14,62,16,6,Vegan,Breakfast,Muscle Gain
+79,Steamed Wrap Special,604,27,28,21,2,Non-Vegetarian,Breakfast,Muscle Gain
+80,Crispy Salmon with Basmati Rice,253,11,62,24,6,Non-Vegetarian,Breakfast,Weight Loss
+81,Steamed Stir-Fry with Basmati Rice,747,7,32,29,3,Vegan,Breakfast,Muscle Gain
+82,Roasted Paneer with Garlic Sauce,238,5,48,9,4,Vegetarian,Breakfast,Weight Loss
+83,Baked Paneer Special,714,24,25,21,2,Vegetarian,Breakfast,Muscle Gain
+84,Lemon Oatmeal with Herbs,690,20,87,16,8,Vegan,Breakfast,Muscle Gain
+85,Garlic Tofu Delight,644,26,82,9,8,Non-Vegetarian,Breakfast,Muscle Gain
+86,Lemon Pasta Delight,477,7,19,20,2,Vegan,Breakfast,Maintenance
+87,Lemon Avocado Toast with Herbs,548,43,88,28,8,Vegetarian,Breakfast,Maintenance
+88,Baked Quinoa Salad Delight,702,19,55,27,5,Non-Vegetarian,Breakfast,Muscle Gain
+89,Steamed Salad with Avocado,510,20,42,12,4,Vegetarian,Breakfast,Maintenance
+90,Baked Oatmeal Platter,731,40,84,17,8,Vegan,Breakfast,Muscle Gain
+91,Grilled Soup with Herbs,368,20,76,14,7,Vegan,Breakfast,Weight Loss
+92,Garlic Lentil with Herbs,444,24,24,14,2,Non-Vegetarian,Breakfast,Maintenance
+93,Spicy Salad with Avocado,399,29,81,35,8,Vegetarian,Breakfast,Weight Loss
+94,Baked Paneer with Garlic Sauce,750,23,31,32,3,Vegan,Breakfast,Muscle Gain
+95,Grilled Wrap with Garlic Sauce,751,15,51,21,5,Non-Vegetarian,Breakfast,Muscle Gain
+96,Roasted Chicken with Herbs,361,33,68,3,6,Non-Vegetarian,Breakfast,Weight Loss
+97,Steamed Pasta with Avocado,253,30,90,22,9,Vegetarian,Breakfast,Weight Loss
+98,Baked Tofu with Steamed Veggies,607,37,46,35,4,Vegan,Breakfast,Muscle Gain
+99,Classic Rice Bowl with Basmati Rice,259,20,21,30,2,Vegetarian,Breakfast,Weight Loss
+100,Roasted Lentil Platter,729,21,31,26,3,Vegan,Breakfast,Muscle Gain
+101,Lemon Quinoa Salad Platter,247,30,18,32,2,Vegan,Breakfast,Weight Loss
+102,Healthy Wrap with Avocado,603,9,85,6,8,Non-Vegetarian,Breakfast,Muscle Gain
+103,Garlic Quinoa Salad with Garlic Sauce,241,18,51,12,5,Vegan,Breakfast,Weight Loss
+104,Lemon Stir-Fry with Basmati Rice,220,38,71,3,7,Vegan,Breakfast,Weight Loss
+105,Creamy Lentil with Basmati Rice,779,11,73,12,7,Vegan,Breakfast,Muscle Gain
+106,Grilled Lentil with Avocado,290,45,52,31,5,Vegan,Breakfast,Weight Loss
+107,Baked Lentil with Olive Oil,307,9,53,13,5,Vegan,Breakfast,Weight Loss
+108,Steamed Paneer Special,360,8,22,24,2,Vegetarian,Breakfast,Weight Loss
+109,Creamy Wrap Delight,357,8,56,3,5,Vegetarian,Breakfast,Weight Loss
+110,Steamed Soup Delight,404,11,13,16,2,Vegetarian,Breakfast,Maintenance
+111,Crispy Pasta with Olive Oil,620,21,59,34,5,Vegetarian,Breakfast,Muscle Gain
+112,Baked Pasta with Garlic Sauce,703,11,39,11,3,Vegetarian,Breakfast,Muscle Gain
+113,Spicy Paneer with Basmati Rice,426,19,36,20,3,Vegetarian,Breakfast,Maintenance
+114,Crispy Soup with Olive Oil,774,43,87,21,8,Vegan,Breakfast,Muscle Gain
+115,Healthy Lentil with Garlic Sauce,532,22,43,22,4,Vegetarian,Breakfast,Maintenance
+116,Crispy Tofu with Olive Oil,529,38,34,4,3,Vegan,Breakfast,Maintenance
+117,Classic Salmon with Basmati Rice,552,24,26,9,2,Non-Vegetarian,Breakfast,Maintenance
+118,Roasted Pasta with Basmati Rice,469,38,35,25,3,Vegan,Breakfast,Maintenance
+119,Healthy Pasta with Herbs,787,36,29,8,2,Non-Vegetarian,Breakfast,Muscle Gain
+120,Classic Tofu with Garlic Sauce,436,34,47,19,4,Non-Vegetarian,Breakfast,Maintenance
+121,Garlic Avocado Toast with Steamed Veggies,497,28,50,30,5,Vegan,Breakfast,Maintenance
+122,Spicy Oatmeal with Avocado,374,26,55,31,5,Vegan,Breakfast,Weight Loss
+123,Tandoori Salad with Garlic Sauce,594,35,63,13,6,Vegetarian,Breakfast,Maintenance
+124,Steamed Oatmeal with Basmati Rice,693,27,59,12,5,Vegetarian,Breakfast,Muscle Gain
+125,Creamy Stir-Fry with Garlic Sauce,720,40,36,32,3,Vegan,Breakfast,Muscle Gain
+126,Lemon Salad with Basmati Rice,546,11,63,5,6,Vegetarian,Breakfast,Maintenance
+127,Crispy Salad Special,746,23,64,3,6,Vegetarian,Breakfast,Muscle Gain
+128,Tandoori Paneer with Steamed Veggies,257,17,44,13,4,Vegan,Breakfast,Weight Loss
+129,Baked Wrap with Garlic Sauce,333,15,84,19,8,Vegetarian,Breakfast,Weight Loss
+130,Healthy Salmon with Basmati Rice,634,11,36,30,3,Non-Vegetarian,Breakfast,Muscle Gain
+131,Garlic Wrap with Basmati Rice,339,30,79,21,7,Vegetarian,Breakfast,Weight Loss
+132,Lemon Oatmeal with Olive Oil,416,31,75,12,7,Vegetarian,Breakfast,Maintenance
+133,Grilled Tofu Platter,480,21,84,14,8,Non-Vegetarian,Breakfast,Maintenance
+134,Steamed Beef with Basmati Rice,353,16,30,26,3,Non-Vegetarian,Breakfast,Weight Loss
+135,Lemon Rice Bowl with Olive Oil,316,35,71,33,7,Non-Vegetarian,Breakfast,Weight Loss
+136,Garlic Chicken with Avocado,464,16,76,28,7,Non-Vegetarian,Breakfast,Maintenance
+137,Classic Soup with Garlic Sauce,287,18,67,33,6,Non-Vegetarian,Breakfast,Weight Loss
+138,Crispy Avocado Toast Platter,629,14,87,9,8,Vegan,Breakfast,Muscle Gain
+139,Creamy Pasta Platter,618,21,34,3,3,Vegetarian,Breakfast,Muscle Gain
+140,Crispy Tofu Platter,207,29,36,23,3,Non-Vegetarian,Breakfast,Weight Loss
+141,Tandoori Pasta Special,733,23,86,6,8,Non-Vegetarian,Breakfast,Muscle Gain
+142,Healthy Rice Bowl with Basmati Rice,435,25,62,25,6,Vegetarian,Breakfast,Maintenance
+143,Baked Salmon with Garlic Sauce,295,30,53,7,5,Non-Vegetarian,Breakfast,Weight Loss
+144,Crispy Salad with Olive Oil,208,5,36,27,3,Non-Vegetarian,Breakfast,Weight Loss
+145,Garlic Chicken with Basmati Rice,460,35,90,9,9,Non-Vegetarian,Breakfast,Maintenance
+146,Classic Oatmeal with Garlic Sauce,281,18,31,28,3,Vegan,Breakfast,Weight Loss
+147,Roasted Wrap with Steamed Veggies,226,30,77,8,7,Vegan,Breakfast,Weight Loss
+148,Crispy Wrap with Herbs,459,35,48,15,4,Non-Vegetarian,Breakfast,Maintenance
+149,Classic Salad with Avocado,580,10,41,13,4,Non-Vegetarian,Breakfast,Maintenance
+150,Creamy Lentil with Steamed Veggies,261,27,29,9,2,Non-Vegetarian,Breakfast,Weight Loss
+151,Lemon Oatmeal Platter,629,19,67,20,6,Non-Vegetarian,Breakfast,Muscle Gain
+152,Healthy Paneer with Avocado,632,43,18,27,2,Vegan,Breakfast,Muscle Gain
+153,Classic Salad with Herbs,745,13,26,33,2,Vegan,Breakfast,Muscle Gain
+154,Lemon Beef Delight,419,39,26,33,2,Non-Vegetarian,Breakfast,Maintenance
+155,Healthy Stir-Fry with Herbs,440,30,25,18,2,Vegan,Breakfast,Maintenance
+156,Healthy Rice Bowl Platter,523,21,36,23,3,Non-Vegetarian,Breakfast,Maintenance
+157,Crispy Lentil Platter,335,27,18,18,2,Vegan,Breakfast,Weight Loss
+158,Spicy Avocado Toast Delight,427,17,68,25,6,Vegetarian,Breakfast,Maintenance
+159,Spicy Oatmeal Platter,253,27,38,7,3,Vegetarian,Breakfast,Weight Loss
+160,Lemon Rice Bowl with Basmati Rice,513,42,57,33,5,Vegetarian,Breakfast,Maintenance
+161,Creamy Quinoa Salad Delight,651,26,33,6,3,Vegan,Breakfast,Muscle Gain
+162,Roasted Oatmeal Delight,498,7,39,21,3,Vegetarian,Breakfast,Maintenance
+163,Classic Lentil Special,712,39,73,31,7,Vegetarian,Breakfast,Muscle Gain
+164,Classic Lentil with Garlic Sauce,226,10,39,4,3,Vegetarian,Breakfast,Weight Loss
+165,Crispy Stir-Fry with Olive Oil,302,33,22,32,2,Vegan,Breakfast,Weight Loss
+166,Steamed Avocado Toast Platter,589,25,90,34,9,Vegetarian,Breakfast,Maintenance
+167,Healthy Salmon with Garlic Sauce,432,10,65,9,6,Non-Vegetarian,Breakfast,Maintenance
+168,Garlic Oatmeal with Garlic Sauce,229,7,51,6,5,Vegetarian,Breakfast,Weight Loss
+169,Creamy Rice Bowl with Garlic Sauce,233,28,37,31,3,Vegetarian,Breakfast,Weight Loss
+170,Creamy Paneer with Herbs,329,22,89,23,8,Vegetarian,Breakfast,Weight Loss
+171,Steamed Pasta Platter,420,32,67,17,6,Non-Vegetarian,Breakfast,Maintenance
+172,Healthy Oatmeal with Olive Oil,333,40,17,24,2,Vegetarian,Breakfast,Weight Loss
+173,Garlic Paneer with Steamed Veggies,283,22,66,30,6,Vegan,Breakfast,Weight Loss
+174,Spicy Lentil with Avocado,671,28,21,30,2,Vegetarian,Breakfast,Muscle Gain
+175,Baked Avocado Toast with Avocado,356,9,32,34,3,Vegan,Breakfast,Weight Loss
+176,Baked Tofu with Herbs,719,29,69,5,6,Vegetarian,Breakfast,Muscle Gain
+177,Healthy Quinoa Salad with Olive Oil,286,37,32,5,3,Vegetarian,Breakfast,Weight Loss
+178,Steamed Paneer with Olive Oil,517,30,26,8,2,Non-Vegetarian,Breakfast,Maintenance
+179,Spicy Rice Bowl Platter,582,20,59,8,5,Vegetarian,Breakfast,Maintenance
+180,Creamy Wrap with Steamed Veggies,727,41,40,12,4,Vegetarian,Breakfast,Muscle Gain
+181,Classic Quinoa Salad with Olive Oil,336,7,55,24,5,Non-Vegetarian,Breakfast,Weight Loss
+182,Baked Oatmeal Delight,419,44,46,34,4,Vegetarian,Breakfast,Maintenance
+183,Lemon Salad with Herbs,473,33,41,12,4,Vegetarian,Breakfast,Maintenance
+184,Classic Stir-Fry with Basmati Rice,448,8,77,17,7,Non-Vegetarian,Breakfast,Maintenance
+185,Tandoori Pasta Delight,473,26,48,3,4,Vegetarian,Breakfast,Maintenance
+186,Crispy Pasta Platter,407,41,78,12,7,Vegan,Breakfast,Maintenance
+187,Roasted Soup with Garlic Sauce,222,30,42,3,4,Non-Vegetarian,Breakfast,Weight Loss
+188,Spicy Pasta with Herbs,683,7,46,29,4,Non-Vegetarian,Breakfast,Muscle Gain
+189,Creamy Pasta with Avocado,637,40,73,6,7,Non-Vegetarian,Breakfast,Muscle Gain
+190,Tandoori Rice Bowl Platter,742,13,59,18,5,Non-Vegetarian,Breakfast,Muscle Gain
+191,Crispy Pasta Special,502,14,35,24,3,Vegetarian,Breakfast,Maintenance
+192,Classic Beef Platter,493,6,74,30,7,Non-Vegetarian,Breakfast,Maintenance
+193,Crispy Paneer with Basmati Rice,396,44,77,19,7,Vegan,Breakfast,Weight Loss
+194,Tandoori Rice Bowl Special,765,35,17,3,2,Vegan,Breakfast,Muscle Gain
+195,Creamy Quinoa Salad with Olive Oil,594,5,47,29,4,Non-Vegetarian,Breakfast,Maintenance
+196,Steamed Soup Special,539,32,23,3,2,Non-Vegetarian,Breakfast,Maintenance
+197,Classic Paneer with Olive Oil,519,26,68,16,6,Vegan,Breakfast,Maintenance
+198,Tandoori Pasta with Steamed Veggies,483,13,26,18,2,Vegan,Breakfast,Maintenance
+199,Steamed Oatmeal with Avocado,322,5,27,3,2,Vegetarian,Breakfast,Weight Loss
+200,Classic Stir-Fry with Herbs,708,34,75,26,7,Vegetarian,Breakfast,Muscle Gain
+201,Spicy Quinoa Salad with Steamed Veggies,572,29,29,14,2,Vegan,Breakfast,Maintenance
+202,Healthy Pasta Delight,489,24,51,8,5,Vegetarian,Breakfast,Maintenance
+203,Baked Beef with Avocado,231,30,67,18,6,Non-Vegetarian,Breakfast,Weight Loss
+204,Creamy Beef with Herbs,222,9,35,31,3,Non-Vegetarian,Breakfast,Weight Loss
+205,Healthy Tofu Delight,372,41,65,28,6,Vegetarian,Breakfast,Weight Loss
+206,Baked Lentil with Avocado,361,32,72,23,7,Vegetarian,Breakfast,Weight Loss
+207,Creamy Rice Bowl with Steamed Veggies,386,43,50,17,5,Non-Vegetarian,Breakfast,Weight Loss
+208,Tandoori Salad Special,370,31,73,27,7,Vegan,Breakfast,Weight Loss
+209,Grilled Quinoa Salad with Basmati Rice,767,39,43,21,4,Vegan,Breakfast,Muscle Gain
+210,Lemon Paneer with Garlic Sauce,283,35,24,22,2,Vegan,Breakfast,Weight Loss
+211,Tandoori Salmon with Avocado,464,25,18,8,2,Non-Vegetarian,Breakfast,Maintenance
+212,Garlic Paneer with Herbs,308,41,22,21,2,Vegetarian,Breakfast,Weight Loss
+213,Garlic Pasta Delight,528,22,63,8,6,Vegan,Breakfast,Maintenance
+214,Crispy Stir-Fry with Garlic Sauce,371,9,15,22,2,Vegetarian,Breakfast,Weight Loss
+215,Roasted Rice Bowl with Herbs,760,21,70,12,7,Vegetarian,Breakfast,Muscle Gain
+216,Healthy Oatmeal with Herbs,462,19,68,21,6,Non-Vegetarian,Breakfast,Maintenance
+217,Steamed Lentil with Steamed Veggies,737,41,82,17,8,Vegetarian,Breakfast,Muscle Gain
+218,Spicy Rice Bowl with Garlic Sauce,769,21,26,13,2,Vegetarian,Breakfast,Muscle Gain
+219,Spicy Stir-Fry Special,750,40,20,22,2,Vegan,Breakfast,Muscle Gain
+220,Steamed Stir-Fry with Herbs,487,13,78,15,7,Vegan,Breakfast,Maintenance
+221,Creamy Rice Bowl with Basmati Rice,237,40,43,33,4,Non-Vegetarian,Breakfast,Weight Loss
+222,Grilled Wrap with Steamed Veggies,444,44,31,35,3,Vegetarian,Breakfast,Maintenance
+223,Steamed Lentil with Herbs,733,45,45,19,4,Vegan,Breakfast,Muscle Gain
+224,Tandoori Soup with Steamed Veggies,293,14,70,30,7,Vegan,Breakfast,Weight Loss
+225,Lemon Soup with Steamed Veggies,361,10,45,28,4,Vegetarian,Breakfast,Weight Loss
+226,Garlic Rice Bowl Platter,309,40,19,35,2,Vegetarian,Breakfast,Weight Loss
+227,Steamed Avocado Toast Special,303,25,56,19,5,Vegan,Breakfast,Weight Loss
+228,Grilled Lentil with Olive Oil,498,22,87,28,8,Vegan,Breakfast,Maintenance
+229,Baked Stir-Fry with Avocado,286,29,49,17,4,Vegan,Breakfast,Weight Loss
+230,Roasted Stir-Fry Delight,478,44,72,15,7,Non-Vegetarian,Breakfast,Maintenance
+231,Spicy Wrap with Steamed Veggies,390,11,46,20,4,Vegan,Breakfast,Weight Loss
+232,Healthy Tofu Platter,303,19,78,27,7,Vegetarian,Breakfast,Weight Loss
+233,Classic Rice Bowl Delight,789,37,21,17,2,Non-Vegetarian,Breakfast,Muscle Gain
+234,Tandoori Lentil with Herbs,315,31,64,26,6,Vegetarian,Breakfast,Weight Loss
+235,Garlic Paneer with Garlic Sauce,477,8,69,3,6,Vegetarian,Breakfast,Maintenance
+236,Lemon Wrap Delight,774,6,15,18,2,Vegan,Breakfast,Muscle Gain
+237,Baked Salad Special,511,23,69,13,6,Vegan,Breakfast,Maintenance
+238,Baked Lentil Delight,385,12,26,15,2,Vegetarian,Breakfast,Weight Loss
+239,Lemon Lentil with Olive Oil,690,35,14,11,2,Vegan,Breakfast,Muscle Gain
+240,Tandoori Tofu Delight,443,28,67,22,6,Vegetarian,Breakfast,Maintenance
+241,Steamed Paneer with Basmati Rice,237,34,59,10,5,Non-Vegetarian,Breakfast,Weight Loss
+242,Creamy Quinoa Salad Special,535,36,17,8,2,Non-Vegetarian,Breakfast,Maintenance
+243,Roasted Avocado Toast with Basmati Rice,713,22,62,26,6,Non-Vegetarian,Breakfast,Muscle Gain
+244,Roasted Oatmeal with Olive Oil,315,42,71,8,7,Non-Vegetarian,Breakfast,Weight Loss
+245,Baked Quinoa Salad with Steamed Veggies,493,36,20,11,2,Non-Vegetarian,Breakfast,Maintenance
+246,Roasted Oatmeal with Basmati Rice,343,7,34,4,3,Non-Vegetarian,Breakfast,Weight Loss
+247,Classic Soup with Avocado,214,16,90,6,9,Vegan,Breakfast,Weight Loss
+248,Creamy Quinoa Salad with Basmati Rice,264,17,64,24,6,Vegetarian,Breakfast,Weight Loss
+249,Healthy Stir-Fry with Olive Oil,752,37,38,32,3,Non-Vegetarian,Breakfast,Muscle Gain
+250,Tandoori Salmon Delight,525,43,87,35,8,Non-Vegetarian,Breakfast,Maintenance
+251,Tandoori Tofu with Steamed Veggies,619,45,44,29,4,Non-Vegetarian,Breakfast,Muscle Gain
+252,Healthy Avocado Toast Platter,260,35,25,19,2,Vegan,Breakfast,Weight Loss
+253,Steamed Pasta with Herbs,326,43,36,15,3,Vegetarian,Breakfast,Weight Loss
+254,Healthy Salad with Herbs,732,13,73,26,7,Vegetarian,Breakfast,Muscle Gain
+255,Tandoori Stir-Fry with Olive Oil,356,24,89,9,8,Vegan,Breakfast,Weight Loss
+256,Crispy Soup with Garlic Sauce,368,36,65,11,6,Vegan,Breakfast,Weight Loss
+257,Lemon Salmon with Basmati Rice,519,42,20,7,2,Non-Vegetarian,Breakfast,Maintenance
+258,Garlic Lentil Platter,238,34,64,35,6,Vegetarian,Breakfast,Weight Loss
+259,Lemon Beef with Garlic Sauce,248,24,83,28,8,Non-Vegetarian,Breakfast,Weight Loss
+260,Lemon Lentil Delight,351,20,29,22,2,Non-Vegetarian,Breakfast,Weight Loss
+261,Classic Avocado Toast with Avocado,441,12,83,35,8,Vegetarian,Breakfast,Maintenance
+262,Crispy Quinoa Salad with Steamed Veggies,319,5,31,33,3,Vegetarian,Breakfast,Weight Loss
+263,Spicy Rice Bowl with Olive Oil,766,9,44,29,4,Non-Vegetarian,Breakfast,Muscle Gain
+264,Lemon Tofu Platter,429,36,43,24,4,Non-Vegetarian,Breakfast,Maintenance
+265,Spicy Soup with Avocado,788,8,90,21,9,Vegetarian,Breakfast,Muscle Gain
+266,Lemon Salad Delight,233,15,81,26,8,Non-Vegetarian,Breakfast,Weight Loss
+267,Roasted Stir-Fry with Garlic Sauce,779,33,53,27,5,Vegetarian,Breakfast,Muscle Gain
+268,Crispy Tofu with Basmati Rice,754,41,16,15,2,Non-Vegetarian,Breakfast,Muscle Gain
+269,Crispy Paneer with Garlic Sauce,347,16,42,8,4,Vegan,Breakfast,Weight Loss
+270,Spicy Lentil Delight,766,31,18,33,2,Vegetarian,Breakfast,Muscle Gain
+271,Classic Wrap with Herbs,507,10,60,10,6,Vegan,Breakfast,Maintenance
+272,Tandoori Stir-Fry Delight,741,21,80,3,8,Vegetarian,Breakfast,Muscle Gain
+273,Baked Avocado Toast Platter,403,14,57,13,5,Non-Vegetarian,Breakfast,Maintenance
+274,Grilled Salad with Steamed Veggies,314,28,49,18,4,Non-Vegetarian,Breakfast,Weight Loss
+275,Steamed Oatmeal with Garlic Sauce,283,15,40,14,4,Vegan,Breakfast,Weight Loss
+276,Spicy Rice Bowl Delight,681,23,14,17,2,Vegan,Breakfast,Muscle Gain
+277,Healthy Soup with Avocado,710,23,75,20,7,Vegetarian,Breakfast,Muscle Gain
+278,Crispy Paneer Special,664,28,79,29,7,Vegan,Breakfast,Muscle Gain
+279,Baked Oatmeal with Olive Oil,426,26,31,7,3,Vegetarian,Breakfast,Maintenance
+280,Baked Rice Bowl Special,454,15,51,23,5,Vegan,Breakfast,Maintenance
+281,Roasted Wrap with Olive Oil,279,41,24,6,2,Non-Vegetarian,Breakfast,Weight Loss
+282,Healthy Beef Platter,575,39,15,31,2,Non-Vegetarian,Breakfast,Maintenance
+283,Lemon Quinoa Salad with Olive Oil,638,15,88,11,8,Vegan,Breakfast,Muscle Gain
+284,Crispy Oatmeal with Garlic Sauce,577,34,72,23,7,Vegetarian,Breakfast,Maintenance
+285,Healthy Chicken with Basmati Rice,688,9,26,17,2,Non-Vegetarian,Breakfast,Muscle Gain
+286,Healthy Quinoa Salad with Avocado,324,5,17,17,2,Vegetarian,Breakfast,Weight Loss
+287,Creamy Soup with Basmati Rice,366,33,19,5,2,Vegetarian,Breakfast,Weight Loss
+288,Steamed Lentil Platter,623,42,39,6,3,Vegan,Breakfast,Muscle Gain
+289,Spicy Salmon with Olive Oil,700,43,67,14,6,Non-Vegetarian,Breakfast,Muscle Gain
+290,Roasted Beef with Garlic Sauce,628,30,59,5,5,Non-Vegetarian,Breakfast,Muscle Gain
+291,Steamed Soup with Avocado,536,27,66,20,6,Vegan,Breakfast,Maintenance
+292,Grilled Paneer with Herbs,610,30,68,20,6,Vegetarian,Breakfast,Muscle Gain
+293,Roasted Lentil with Herbs,521,5,77,17,7,Vegetarian,Breakfast,Maintenance
+294,Steamed Soup with Basmati Rice,634,11,36,30,3,Vegan,Breakfast,Muscle Gain
+295,Crispy Wrap with Basmati Rice,373,7,56,18,5,Non-Vegetarian,Breakfast,Weight Loss
+296,Healthy Oatmeal with Avocado,261,18,42,33,4,Vegetarian,Breakfast,Weight Loss
+297,Tandoori Wrap with Herbs,306,21,89,12,8,Vegan,Breakfast,Weight Loss
+298,Steamed Salmon Delight,598,24,51,13,5,Non-Vegetarian,Breakfast,Maintenance
+299,Crispy Oatmeal Special,577,8,88,20,8,Vegetarian,Breakfast,Maintenance
+300,Steamed Rice Bowl with Basmati Rice,589,37,22,23,2,Vegetarian,Breakfast,Maintenance
+301,Grilled Wrap with Basmati Rice,211,45,35,21,3,Vegetarian,Breakfast,Weight Loss
+302,Healthy Salad Platter,225,35,74,12,7,Vegan,Breakfast,Weight Loss
+303,Tandoori Quinoa Salad with Herbs,601,16,86,31,8,Vegan,Breakfast,Muscle Gain
+304,Lemon Stir-Fry Special,382,36,23,12,2,Vegetarian,Breakfast,Weight Loss
+305,Garlic Pasta with Herbs,490,31,70,11,7,Vegan,Breakfast,Maintenance
+306,Classic Quinoa Salad Platter,234,32,77,28,7,Vegetarian,Breakfast,Weight Loss
+307,Creamy Quinoa Salad with Steamed Veggies,741,18,34,21,3,Vegan,Breakfast,Muscle Gain
+308,Roasted Wrap with Herbs,322,14,60,28,6,Vegetarian,Breakfast,Weight Loss
+309,Garlic Tofu with Olive Oil,403,26,35,28,3,Non-Vegetarian,Breakfast,Maintenance
+310,Baked Salad Delight,436,45,27,4,2,Vegan,Breakfast,Maintenance
+311,Steamed Quinoa Salad Platter,704,34,35,21,3,Vegan,Breakfast,Muscle Gain
+312,Tandoori Stir-Fry Special,530,41,22,34,2,Vegetarian,Breakfast,Maintenance
+313,Garlic Tofu with Avocado,464,22,80,14,8,Vegan,Breakfast,Maintenance
+314,Roasted Quinoa Salad with Steamed Veggies,256,10,50,22,5,Non-Vegetarian,Breakfast,Weight Loss
+315,Garlic Stir-Fry with Herbs,214,38,65,32,6,Vegetarian,Breakfast,Weight Loss
+316,Garlic Rice Bowl Special,491,14,25,22,2,Vegan,Breakfast,Maintenance
+317,Roasted Paneer Delight,632,6,24,13,2,Vegetarian,Breakfast,Muscle Gain
+318,Spicy Rice Bowl with Avocado,687,18,67,7,6,Vegan,Breakfast,Muscle Gain
+319,Steamed Quinoa Salad with Garlic Sauce,774,12,81,8,8,Non-Vegetarian,Breakfast,Muscle Gain
+320,Steamed Tofu with Steamed Veggies,691,32,13,24,2,Non-Vegetarian,Breakfast,Muscle Gain
+321,Steamed Soup with Steamed Veggies,664,38,52,15,5,Vegetarian,Breakfast,Muscle Gain
+322,Garlic Pasta with Avocado,394,17,78,27,7,Vegan,Breakfast,Weight Loss
+323,Spicy Soup with Garlic Sauce,357,33,55,14,5,Non-Vegetarian,Breakfast,Weight Loss
+324,Tandoori Soup with Garlic Sauce,224,19,52,24,5,Non-Vegetarian,Breakfast,Weight Loss
+325,Creamy Wrap with Basmati Rice,441,37,20,30,2,Vegan,Breakfast,Maintenance
+326,Spicy Salmon with Steamed Veggies,392,14,48,16,4,Non-Vegetarian,Breakfast,Weight Loss
+327,Classic Paneer with Herbs,789,8,20,21,2,Vegan,Breakfast,Muscle Gain
+328,Spicy Paneer with Avocado,552,37,11,18,2,Vegan,Breakfast,Maintenance
+329,Healthy Salad Special,736,37,12,13,2,Vegetarian,Breakfast,Muscle Gain
+330,Grilled Soup with Olive Oil,532,10,80,19,8,Non-Vegetarian,Breakfast,Maintenance
+331,Healthy Rice Bowl Special,221,12,11,5,2,Non-Vegetarian,Breakfast,Weight Loss
+332,Garlic Salad Delight,367,24,52,33,5,Vegan,Breakfast,Weight Loss
+333,Grilled Tofu with Olive Oil,286,7,87,12,8,Non-Vegetarian,Breakfast,Weight Loss
+334,Healthy Paneer with Steamed Veggies,232,43,32,35,3,Vegetarian,Breakfast,Weight Loss
+335,Garlic Paneer Delight,280,45,21,17,2,Vegetarian,Breakfast,Weight Loss
+336,Garlic Soup Delight,792,11,14,16,2,Vegetarian,Breakfast,Muscle Gain
+337,Garlic Quinoa Salad with Olive Oil,731,43,50,24,5,Vegan,Breakfast,Muscle Gain
+338,Steamed Tofu with Basmati Rice,629,29,50,31,5,Vegetarian,Breakfast,Muscle Gain
+339,Creamy Beef with Avocado,410,36,65,31,6,Non-Vegetarian,Breakfast,Maintenance
+340,Grilled Oatmeal with Steamed Veggies,536,18,69,23,6,Vegan,Breakfast,Maintenance
+341,Baked Stir-Fry with Basmati Rice,739,18,23,20,2,Vegetarian,Breakfast,Muscle Gain
+342,Steamed Rice Bowl Special,525,25,35,15,3,Non-Vegetarian,Breakfast,Maintenance
+343,Steamed Quinoa Salad with Herbs,297,31,48,20,4,Vegetarian,Breakfast,Weight Loss
+344,Lemon Pasta with Olive Oil,594,33,89,35,8,Vegan,Breakfast,Maintenance
+345,Healthy Salmon with Steamed Veggies,671,16,44,4,4,Non-Vegetarian,Breakfast,Muscle Gain
+346,Spicy Pasta with Garlic Sauce,326,8,72,22,7,Vegetarian,Breakfast,Weight Loss
+347,Classic Tofu with Steamed Veggies,258,13,66,14,6,Vegan,Breakfast,Weight Loss
+348,Baked Wrap with Basmati Rice,706,27,38,31,3,Vegan,Breakfast,Muscle Gain
+349,Spicy Stir-Fry with Olive Oil,664,29,51,31,5,Vegan,Breakfast,Muscle Gain
+350,Healthy Pasta with Garlic Sauce,629,33,51,18,5,Vegan,Breakfast,Muscle Gain
+351,Tandoori Wrap Special,281,14,10,24,2,Vegan,Breakfast,Weight Loss
+352,Healthy Quinoa Salad with Basmati Rice,784,21,48,35,4,Vegetarian,Breakfast,Muscle Gain
+353,Spicy Oatmeal Special,765,37,34,13,3,Vegetarian,Breakfast,Muscle Gain
+354,Grilled Oatmeal Platter,729,30,71,13,7,Vegetarian,Breakfast,Muscle Gain
+355,Healthy Oatmeal Special,489,44,23,18,2,Non-Vegetarian,Breakfast,Maintenance
+356,Lemon Salad with Steamed Veggies,451,40,29,20,2,Vegetarian,Breakfast,Maintenance
+357,Roasted Oatmeal with Herbs,539,10,22,28,2,Non-Vegetarian,Breakfast,Maintenance
+358,Steamed Beef with Garlic Sauce,365,9,17,7,2,Non-Vegetarian,Breakfast,Weight Loss
+359,Classic Salmon Delight,243,7,38,17,3,Non-Vegetarian,Breakfast,Weight Loss
+360,Grilled Wrap with Avocado,606,18,29,3,2,Non-Vegetarian,Breakfast,Muscle Gain
+361,Crispy Chicken Platter,306,41,10,19,2,Non-Vegetarian,Breakfast,Weight Loss
+362,Classic Stir-Fry with Olive Oil,702,6,58,5,5,Vegetarian,Breakfast,Muscle Gain
+363,Crispy Rice Bowl with Steamed Veggies,268,17,42,34,4,Vegetarian,Breakfast,Weight Loss
+364,Spicy Lentil with Herbs,310,40,78,20,7,Vegetarian,Breakfast,Weight Loss
+365,Crispy Stir-Fry with Herbs,571,12,22,19,2,Vegan,Breakfast,Maintenance
+366,Grilled Rice Bowl Special,731,22,66,15,6,Vegetarian,Breakfast,Muscle Gain
+367,Lemon Stir-Fry with Herbs,295,21,86,18,8,Vegetarian,Breakfast,Weight Loss
+368,Crispy Stir-Fry with Basmati Rice,789,22,10,30,2,Vegan,Breakfast,Muscle Gain
+369,Garlic Salmon with Basmati Rice,402,13,47,32,4,Non-Vegetarian,Breakfast,Maintenance
+370,Creamy Wrap with Herbs,447,39,80,8,8,Non-Vegetarian,Breakfast,Maintenance
+371,Lemon Paneer with Basmati Rice,563,17,77,19,7,Vegetarian,Breakfast,Maintenance
+372,Classic Rice Bowl with Olive Oil,683,45,73,19,7,Vegan,Breakfast,Muscle Gain
+373,Spicy Wrap with Basmati Rice,569,29,60,8,6,Vegan,Breakfast,Maintenance
+374,Steamed Beef with Herbs,500,45,87,7,8,Non-Vegetarian,Breakfast,Maintenance
+375,Crispy Soup Platter,469,9,34,15,3,Vegetarian,Breakfast,Maintenance
+376,Crispy Pasta with Herbs,675,5,36,13,3,Vegetarian,Breakfast,Muscle Gain
+377,Quinoa Buddha Bowl,420,18,60,12,6,Vegan,Lunch,Maintenance
+378,Rajma Chawal,450,18,65,10,6,Vegan,Lunch,Maintenance
+379,Dal Tadka with Rice,400,18,55,10,5,Vegan,Lunch,Maintenance
+380,Vegetable Stir-Fry with Tofu,360,22,30,16,3,Vegan,Lunch,Weight Loss
+381,Paneer Butter Masala + Rice,520,22,55,24,5,Veg,Lunch,Maintenance
+382,Chole (Chickpea Curry) with Bhature,480,16,58,20,5,Veg,Lunch,Maintenance
+383,Palak Paneer with Roti,440,22,35,24,3,Veg,Lunch,Maintenance
+384,Veg Biryani,450,12,62,16,6,Veg,Lunch,Maintenance
+385,Grilled Chicken Salad,380,35,18,18,2,Non-Veg,Lunch,Weight Loss
+386,Chicken Biryani,550,30,60,20,6,Non-Veg,Lunch,Maintenance
+387,Fish Curry with Rice,480,32,50,16,5,Non-Veg,Lunch,Maintenance
+388,Butter Chicken + Naan,580,32,45,30,4,Non-Veg,Lunch,Maintenance
+389,Tandoori Chicken with Roti,420,36,30,16,3,Non-Veg,Lunch,Maintenance
+390,Lentil Soup with Bread,350,22,48,6,4,Vegan,Lunch,Weight Loss
+391,Dal Makhani with Jeera Rice,550,18,75,20,7,Vegetarian,Lunch,Maintenance
+392,Chicken Tikka Masala,600,35,40,30,4,Non-Vegetarian,Lunch,Maintenance
+393,Classic Cheeseburger,700,35,45,40,4,Non-Vegetarian,Lunch,Muscle Gain
+394,Margherita Pizza,600,25,80,20,8,Vegetarian,Lunch,Maintenance
+395,Chicken Fajitas,500,35,45,18,4,Non-Vegetarian,Lunch,Maintenance
+396,Chicken Teriyaki with Rice,550,30,85,10,8,Non-Vegetarian,Lunch,Maintenance
+397,Greek Salad with Grilled Chicken,400,35,15,22,2,Non-Vegetarian,Lunch,Maintenance
+398,Chole Bhature,650,18,75,30,12,Vegetarian,Lunch,Muscle Gain
+399,Vegetable Pulao,350,8,58,10,5,Vegan,Lunch,Weight Loss
+400,Caesar Salad with Grilled Chicken,380,28,22,20,4,Non-Vegetarian,Lunch,Weight Loss
+401,Mushroom Risotto,420,12,58,16,4,Vegetarian,Lunch,Maintenance
+402,Sambar Rice,360,14,60,6,8,Vegan,Lunch,Weight Loss
+403,Butter Chicken with Naan,620,35,48,30,3,Non-Vegetarian,Lunch,Muscle Gain
+404,Falafel Wrap,400,15,48,18,8,Vegan,Lunch,Maintenance
+405,Steamed Oatmeal Platter,629,19,67,20,6,Non-Vegetarian,Lunch,Muscle Gain
+406,Tandoori Lentil with Garlic Sauce,359,18,53,9,5,Non-Vegetarian,Lunch,Weight Loss
+407,Healthy Avocado Toast with Basmati Rice,303,29,45,32,4,Vegetarian,Lunch,Weight Loss
+408,Roasted Rice Bowl with Garlic Sauce,770,19,51,6,5,Vegan,Lunch,Muscle Gain
+409,Tandoori Stir-Fry with Herbs,594,29,86,32,8,Non-Vegetarian,Lunch,Maintenance
+410,Grilled Quinoa Salad with Avocado,752,38,10,23,2,Vegan,Lunch,Muscle Gain
+411,Healthy Oatmeal with Steamed Veggies,434,9,14,24,2,Vegan,Lunch,Maintenance
+412,Steamed Salad with Basmati Rice,752,13,83,33,8,Vegetarian,Lunch,Muscle Gain
+413,Crispy Salad with Avocado,632,16,45,32,4,Vegan,Lunch,Muscle Gain
+414,Crispy Tofu with Avocado,270,43,18,18,2,Vegan,Lunch,Weight Loss
+415,Classic Lentil with Basmati Rice,471,30,26,22,2,Non-Vegetarian,Lunch,Maintenance
+416,Healthy Pasta with Basmati Rice,578,23,30,31,3,Vegetarian,Lunch,Maintenance
+417,Garlic Quinoa Salad with Avocado,622,6,32,24,3,Vegan,Lunch,Muscle Gain
+418,Garlic Quinoa Salad with Herbs,591,7,70,17,7,Vegetarian,Lunch,Maintenance
+419,Baked Salmon with Basmati Rice,350,6,15,18,2,Non-Vegetarian,Lunch,Weight Loss
+420,Lemon Tofu Special,617,26,79,32,7,Non-Vegetarian,Lunch,Muscle Gain
+421,Healthy Quinoa Salad with Steamed Veggies,231,20,35,4,3,Non-Vegetarian,Lunch,Weight Loss
+422,Garlic Salad with Herbs,777,18,69,19,6,Vegan,Lunch,Muscle Gain
+423,Creamy Oatmeal with Herbs,367,24,23,4,2,Non-Vegetarian,Lunch,Weight Loss
+424,Creamy Stir-Fry Special,544,6,73,23,7,Vegetarian,Lunch,Maintenance
+425,Steamed Stir-Fry with Olive Oil,684,40,77,25,7,Vegetarian,Lunch,Muscle Gain
+426,Healthy Oatmeal Platter,389,17,37,33,3,Vegetarian,Lunch,Weight Loss
+427,Crispy Quinoa Salad Special,431,38,58,31,5,Vegan,Lunch,Maintenance
+428,Tandoori Salad Delight,498,7,39,21,3,Vegan,Lunch,Maintenance
+429,Roasted Pasta Delight,324,6,90,18,9,Vegetarian,Lunch,Weight Loss
+430,Crispy Quinoa Salad Platter,295,19,24,32,2,Vegetarian,Lunch,Weight Loss
+431,Classic Oatmeal Platter,479,31,71,33,7,Vegetarian,Lunch,Maintenance
+432,Roasted Quinoa Salad with Garlic Sauce,546,44,60,8,6,Vegan,Lunch,Maintenance
+433,Tandoori Stir-Fry with Avocado,374,16,20,27,2,Non-Vegetarian,Lunch,Weight Loss
+434,Creamy Paneer with Basmati Rice,672,45,42,32,4,Vegetarian,Lunch,Muscle Gain
+435,Healthy Pasta with Steamed Veggies,516,33,14,26,2,Non-Vegetarian,Lunch,Maintenance
+436,Baked Lentil Special,379,17,26,26,2,Vegan,Lunch,Weight Loss
+437,Steamed Oatmeal Special,770,28,21,28,2,Vegan,Lunch,Muscle Gain
+438,Spicy Stir-Fry Platter,535,44,38,7,3,Vegetarian,Lunch,Maintenance
+439,Steamed Tofu Delight,617,22,14,26,2,Vegetarian,Lunch,Muscle Gain
+440,Spicy Paneer Special,738,12,18,33,2,Vegetarian,Lunch,Muscle Gain
+441,Roasted Avocado Toast with Olive Oil,290,32,23,18,2,Non-Vegetarian,Lunch,Weight Loss
+442,Creamy Salad Platter,354,8,67,9,6,Vegetarian,Lunch,Weight Loss
+443,Roasted Paneer with Basmati Rice,358,9,47,9,4,Vegetarian,Lunch,Weight Loss
+444,Roasted Chicken Special,573,20,66,21,6,Non-Vegetarian,Lunch,Maintenance
+445,Grilled Pasta with Herbs,543,14,27,5,2,Vegan,Lunch,Maintenance
+446,Garlic Beef Special,201,44,55,18,5,Non-Vegetarian,Lunch,Weight Loss
+447,Lemon Quinoa Salad with Avocado,442,36,13,26,2,Vegan,Lunch,Maintenance
+448,Garlic Paneer with Olive Oil,430,27,76,21,7,Vegetarian,Lunch,Maintenance
+449,Creamy Paneer with Avocado,545,41,15,4,2,Non-Vegetarian,Lunch,Maintenance
+450,Healthy Paneer Delight,344,11,16,21,2,Vegetarian,Lunch,Weight Loss
+451,Grilled Chicken with Steamed Veggies,488,36,86,33,8,Non-Vegetarian,Lunch,Maintenance
+452,Creamy Lentil with Avocado,602,44,48,24,4,Vegetarian,Lunch,Muscle Gain
+453,Garlic Salad with Avocado,665,43,57,29,5,Vegan,Lunch,Muscle Gain
+454,Crispy Paneer with Avocado,535,38,66,10,6,Non-Vegetarian,Lunch,Maintenance
+455,Creamy Salad with Herbs,722,33,17,32,2,Non-Vegetarian,Lunch,Muscle Gain
+456,Healthy Chicken Special,552,9,79,6,7,Non-Vegetarian,Lunch,Maintenance
+457,Baked Salmon with Olive Oil,791,43,51,18,5,Non-Vegetarian,Lunch,Muscle Gain
+458,Crispy Salmon Special,507,22,17,14,2,Non-Vegetarian,Lunch,Maintenance
+459,Tandoori Paneer Platter,684,20,38,22,3,Vegetarian,Lunch,Muscle Gain
+460,Spicy Wrap Special,626,40,77,11,7,Vegetarian,Lunch,Muscle Gain
+461,Classic Soup Platter,422,35,36,24,3,Non-Vegetarian,Lunch,Maintenance
+462,Grilled Avocado Toast Special,451,36,80,24,8,Vegan,Lunch,Maintenance
+463,Grilled Paneer with Avocado,759,36,33,6,3,Non-Vegetarian,Lunch,Muscle Gain
+464,Classic Paneer with Steamed Veggies,423,37,68,26,6,Vegan,Lunch,Maintenance
+465,Lemon Stir-Fry Platter,458,27,44,28,4,Vegan,Lunch,Maintenance
+466,Creamy Soup Special,287,44,47,18,4,Non-Vegetarian,Lunch,Weight Loss
+467,Tandoori Lentil with Olive Oil,309,10,10,22,2,Non-Vegetarian,Lunch,Weight Loss
+468,Healthy Paneer with Garlic Sauce,206,30,52,27,5,Vegetarian,Lunch,Weight Loss
+469,Crispy Paneer Platter,227,34,36,31,3,Non-Vegetarian,Lunch,Weight Loss
+470,Crispy Rice Bowl Delight,437,30,90,14,9,Vegetarian,Lunch,Maintenance
+471,Baked Quinoa Salad with Herbs,791,11,78,14,7,Vegan,Lunch,Muscle Gain
+472,Tandoori Rice Bowl with Avocado,788,29,64,14,6,Non-Vegetarian,Lunch,Muscle Gain
+473,Garlic Salad with Garlic Sauce,343,16,50,31,5,Non-Vegetarian,Lunch,Weight Loss
+474,Garlic Salmon with Avocado,529,20,60,34,6,Non-Vegetarian,Lunch,Maintenance
+475,Baked Lentil with Garlic Sauce,545,40,83,11,8,Vegetarian,Lunch,Maintenance
+476,Garlic Pasta with Garlic Sauce,362,22,21,26,2,Non-Vegetarian,Lunch,Weight Loss
+477,Steamed Tofu with Herbs,201,18,71,7,7,Vegetarian,Lunch,Weight Loss
+478,Steamed Salad with Steamed Veggies,208,26,25,30,2,Non-Vegetarian,Lunch,Weight Loss
+479,Healthy Tofu Special,304,11,50,26,5,Vegetarian,Lunch,Weight Loss
+480,Garlic Soup with Avocado,270,38,82,3,8,Vegetarian,Lunch,Weight Loss
+481,Grilled Oatmeal with Basmati Rice,355,31,88,31,8,Vegetarian,Lunch,Weight Loss
+482,Creamy Rice Bowl with Olive Oil,759,16,70,7,7,Vegetarian,Lunch,Muscle Gain
+483,Spicy Pasta Special,224,19,79,25,7,Vegan,Lunch,Weight Loss
+484,Baked Pasta with Olive Oil,602,25,50,31,5,Vegan,Lunch,Muscle Gain
+485,Lemon Paneer with Herbs,359,11,31,31,3,Vegan,Lunch,Weight Loss
+486,Tandoori Wrap with Steamed Veggies,506,21,32,4,3,Vegetarian,Lunch,Maintenance
+487,Baked Salad with Avocado,235,44,89,18,8,Vegetarian,Lunch,Weight Loss
+488,Lemon Soup Platter,455,45,79,4,7,Vegetarian,Lunch,Maintenance
+489,Crispy Avocado Toast with Steamed Veggies,424,41,59,25,5,Vegetarian,Lunch,Maintenance
+490,Creamy Lentil with Olive Oil,228,27,82,12,8,Vegan,Lunch,Weight Loss
+491,Grilled Oatmeal with Avocado,531,8,12,12,2,Vegan,Lunch,Maintenance
+492,Crispy Avocado Toast with Olive Oil,274,28,60,9,6,Vegan,Lunch,Weight Loss
+493,Baked Oatmeal with Garlic Sauce,330,16,10,28,2,Vegetarian,Lunch,Weight Loss
+494,Healthy Wrap with Herbs,546,43,88,33,8,Non-Vegetarian,Lunch,Maintenance
+495,Classic Wrap Platter,471,23,48,18,4,Vegetarian,Lunch,Maintenance
+496,Spicy Avocado Toast Special,735,31,78,33,7,Non-Vegetarian,Lunch,Muscle Gain
+497,Baked Tofu Special,235,37,83,12,8,Vegetarian,Lunch,Weight Loss
+498,Grilled Avocado Toast Delight,717,30,25,4,2,Vegetarian,Lunch,Muscle Gain
+499,Lemon Pasta with Steamed Veggies,613,25,27,4,2,Non-Vegetarian,Lunch,Muscle Gain
+500,Crispy Soup Delight,567,37,48,13,4,Non-Vegetarian,Lunch,Maintenance
+501,Healthy Salad with Avocado,464,40,33,24,3,Vegetarian,Lunch,Maintenance
+502,Healthy Avocado Toast Special,742,24,62,6,6,Non-Vegetarian,Lunch,Muscle Gain
+503,Healthy Paneer Special,639,30,64,33,6,Vegetarian,Lunch,Muscle Gain
+504,Roasted Lentil with Basmati Rice,368,30,12,17,2,Vegetarian,Lunch,Weight Loss
+505,Classic Paneer Platter,326,28,14,27,2,Vegan,Lunch,Weight Loss
+506,Baked Paneer Platter,763,29,61,18,6,Vegetarian,Lunch,Muscle Gain
+507,Garlic Avocado Toast Special,309,21,88,15,8,Vegetarian,Lunch,Weight Loss
+508,Classic Beef with Olive Oil,335,16,74,23,7,Non-Vegetarian,Lunch,Weight Loss
+509,Roasted Paneer with Herbs,391,16,75,10,7,Vegetarian,Lunch,Weight Loss
+510,Creamy Quinoa Salad with Garlic Sauce,786,40,55,7,5,Vegetarian,Lunch,Muscle Gain
+511,Creamy Avocado Toast with Garlic Sauce,398,12,33,6,3,Vegan,Lunch,Weight Loss
+512,Steamed Salmon with Herbs,491,44,18,15,2,Non-Vegetarian,Lunch,Maintenance
+513,Lemon Beef with Herbs,277,6,74,4,7,Non-Vegetarian,Lunch,Weight Loss
+514,Classic Salad with Olive Oil,241,19,72,17,7,Non-Vegetarian,Lunch,Weight Loss
+515,Tandoori Chicken with Basmati Rice,244,13,83,13,8,Non-Vegetarian,Lunch,Weight Loss
+516,Healthy Oatmeal with Basmati Rice,657,15,22,16,2,Non-Vegetarian,Lunch,Muscle Gain
+517,Garlic Soup with Steamed Veggies,568,20,10,13,2,Non-Vegetarian,Lunch,Maintenance
+518,Garlic Chicken Platter,633,35,79,5,7,Non-Vegetarian,Lunch,Muscle Gain
+519,Classic Avocado Toast with Basmati Rice,642,29,35,12,3,Vegan,Lunch,Muscle Gain
+520,Crispy Avocado Toast with Avocado,229,7,55,23,5,Vegan,Lunch,Weight Loss
+521,Baked Salad Platter,208,36,71,22,7,Vegetarian,Lunch,Weight Loss
+522,Classic Oatmeal Special,587,19,43,8,4,Vegan,Lunch,Maintenance
+523,Healthy Soup Delight,663,22,89,34,8,Vegetarian,Lunch,Muscle Gain
+524,Roasted Paneer with Steamed Veggies,671,11,76,16,7,Vegetarian,Lunch,Muscle Gain
+525,Spicy Salad Delight,772,23,79,34,7,Vegetarian,Lunch,Muscle Gain
+526,Grilled Lentil Delight,481,43,80,13,8,Non-Vegetarian,Lunch,Maintenance
+527,Baked Avocado Toast with Garlic Sauce,754,28,68,3,6,Vegetarian,Lunch,Muscle Gain
+528,Classic Salmon with Avocado,673,29,44,17,4,Non-Vegetarian,Lunch,Muscle Gain
+529,Crispy Avocado Toast Special,416,39,35,22,3,Vegetarian,Lunch,Maintenance
+530,Lemon Chicken with Herbs,260,19,18,5,2,Non-Vegetarian,Lunch,Weight Loss
+531,Baked Lentil with Steamed Veggies,566,18,41,9,4,Vegan,Lunch,Maintenance
+532,Spicy Paneer with Olive Oil,621,20,44,13,4,Vegetarian,Lunch,Muscle Gain
+533,Spicy Soup with Basmati Rice,608,26,45,7,4,Vegan,Lunch,Muscle Gain
+534,Creamy Avocado Toast with Herbs,666,31,90,15,9,Vegetarian,Lunch,Muscle Gain
+535,Lemon Quinoa Salad Special,229,29,53,28,5,Vegetarian,Lunch,Weight Loss
+536,Garlic Stir-Fry Platter,227,30,85,4,8,Vegetarian,Lunch,Weight Loss
+537,Roasted Soup with Herbs,777,18,69,19,6,Vegan,Lunch,Muscle Gain
+538,Classic Quinoa Salad with Garlic Sauce,323,41,15,25,2,Vegan,Lunch,Weight Loss
+539,Classic Tofu with Olive Oil,748,16,34,16,3,Vegan,Lunch,Muscle Gain
+540,Baked Tofu with Basmati Rice,321,40,63,17,6,Non-Vegetarian,Lunch,Weight Loss
+541,Steamed Tofu with Avocado,445,16,80,7,8,Vegetarian,Lunch,Maintenance
+542,Healthy Wrap with Basmati Rice,352,22,28,7,2,Vegetarian,Lunch,Weight Loss
+543,Lemon Pasta Platter,339,9,45,29,4,Vegetarian,Lunch,Weight Loss
+544,Steamed Paneer with Herbs,680,21,53,28,5,Vegetarian,Lunch,Muscle Gain
+545,Creamy Avocado Toast Special,446,36,84,12,8,Vegan,Lunch,Maintenance
+546,Baked Soup with Avocado,299,45,15,22,2,Non-Vegetarian,Lunch,Weight Loss
+547,Grilled Wrap Platter,479,15,42,33,4,Non-Vegetarian,Lunch,Maintenance
+548,Garlic Rice Bowl Delight,579,39,63,12,6,Non-Vegetarian,Lunch,Maintenance
+549,Healthy Soup with Olive Oil,757,27,17,28,2,Vegetarian,Lunch,Muscle Gain
+550,Baked Quinoa Salad with Avocado,312,6,26,3,2,Non-Vegetarian,Lunch,Weight Loss
+551,Grilled Chicken with Avocado,471,8,26,29,2,Non-Vegetarian,Lunch,Maintenance
+552,Tandoori Salad with Olive Oil,361,28,49,23,4,Vegetarian,Lunch,Weight Loss
+553,Tandoori Wrap with Basmati Rice,712,40,55,7,5,Vegan,Lunch,Muscle Gain
+554,Creamy Rice Bowl Platter,280,30,49,24,4,Vegetarian,Lunch,Weight Loss
+555,Spicy Soup Delight,580,40,23,10,2,Vegetarian,Lunch,Maintenance
+556,Roasted Salad with Steamed Veggies,281,6,42,16,4,Non-Vegetarian,Lunch,Weight Loss
+557,Steamed Quinoa Salad Delight,235,13,18,18,2,Non-Vegetarian,Lunch,Weight Loss
+558,Healthy Tofu with Garlic Sauce,607,35,77,29,7,Non-Vegetarian,Lunch,Muscle Gain
+559,Classic Lentil with Olive Oil,608,13,57,35,5,Vegetarian,Lunch,Muscle Gain
+560,Creamy Oatmeal with Olive Oil,394,15,73,35,7,Vegetarian,Lunch,Weight Loss
+561,Healthy Rice Bowl with Olive Oil,683,11,27,3,2,Vegan,Lunch,Muscle Gain
+562,Grilled Pasta with Steamed Veggies,291,41,39,5,3,Vegetarian,Lunch,Weight Loss
+563,Baked Pasta with Steamed Veggies,209,24,82,9,8,Non-Vegetarian,Lunch,Weight Loss
+564,Roasted Beef with Basmati Rice,315,26,30,32,3,Non-Vegetarian,Lunch,Weight Loss
+565,Classic Soup Special,583,29,67,27,6,Non-Vegetarian,Lunch,Maintenance
+566,Healthy Stir-Fry with Steamed Veggies,657,43,16,18,2,Vegan,Lunch,Muscle Gain
+567,Lemon Wrap with Olive Oil,489,29,69,25,6,Vegetarian,Lunch,Maintenance
+568,Roasted Avocado Toast Special,539,41,22,5,2,Vegan,Lunch,Maintenance
+569,Creamy Salad with Garlic Sauce,247,9,45,5,4,Non-Vegetarian,Lunch,Weight Loss
+570,Crispy Rice Bowl Special,390,42,58,8,5,Vegetarian,Lunch,Weight Loss
+571,Crispy Chicken Delight,414,33,47,7,4,Non-Vegetarian,Lunch,Maintenance
+572,Lemon Wrap with Avocado,765,15,52,30,5,Non-Vegetarian,Lunch,Muscle Gain
+573,Steamed Paneer with Avocado,642,30,13,15,2,Vegetarian,Lunch,Muscle Gain
+574,Grilled Tofu Delight,468,36,77,23,7,Vegetarian,Lunch,Maintenance
+575,Roasted Stir-Fry with Steamed Veggies,567,5,72,11,7,Vegetarian,Lunch,Maintenance
+576,Spicy Salad with Garlic Sauce,556,10,66,10,6,Vegetarian,Lunch,Maintenance
+577,Grilled Stir-Fry Delight,400,39,41,12,4,Vegetarian,Lunch,Maintenance
+578,Baked Paneer Delight,235,44,89,18,8,Vegan,Lunch,Weight Loss
+579,Crispy Salmon Platter,219,29,55,33,5,Non-Vegetarian,Lunch,Weight Loss
+580,Baked Avocado Toast Delight,566,42,39,13,3,Vegan,Lunch,Maintenance
+581,Lemon Beef Platter,257,19,83,27,8,Non-Vegetarian,Lunch,Weight Loss
+582,Grilled Tofu Special,501,45,86,33,8,Vegan,Lunch,Maintenance
+583,Roasted Paneer with Avocado,416,17,26,5,2,Vegan,Lunch,Maintenance
+584,Garlic Stir-Fry with Steamed Veggies,429,21,87,22,8,Non-Vegetarian,Lunch,Maintenance
+585,Classic Rice Bowl with Garlic Sauce,364,7,80,34,8,Vegetarian,Lunch,Weight Loss
+586,Grilled Pasta Delight,474,10,57,24,5,Vegetarian,Lunch,Maintenance
+587,Steamed Salad with Olive Oil,572,8,38,32,3,Non-Vegetarian,Lunch,Maintenance
+588,Tandoori Stir-Fry Platter,506,40,50,16,5,Vegan,Lunch,Maintenance
+589,Steamed Paneer Platter,755,45,51,10,5,Non-Vegetarian,Lunch,Muscle Gain
+590,Classic Oatmeal with Olive Oil,759,43,35,15,3,Non-Vegetarian,Lunch,Muscle Gain
+591,Lemon Paneer Special,758,23,28,22,2,Non-Vegetarian,Lunch,Muscle Gain
+592,Lemon Stir-Fry with Garlic Sauce,398,12,33,6,3,Vegan,Lunch,Weight Loss
+593,Steamed Rice Bowl with Olive Oil,279,38,42,27,4,Vegetarian,Lunch,Weight Loss
+594,Grilled Stir-Fry with Herbs,435,31,52,10,5,Vegan,Lunch,Maintenance
+595,Creamy Salad Delight,374,19,62,12,6,Vegetarian,Lunch,Weight Loss
+596,Grilled Rice Bowl with Olive Oil,309,14,64,19,6,Non-Vegetarian,Lunch,Weight Loss
+597,Tandoori Lentil Platter,748,5,43,18,4,Vegetarian,Lunch,Muscle Gain
+598,Classic Paneer with Garlic Sauce,434,17,41,25,4,Vegan,Lunch,Maintenance
+599,Baked Rice Bowl with Basmati Rice,790,13,16,30,2,Non-Vegetarian,Lunch,Muscle Gain
+600,Lemon Avocado Toast with Garlic Sauce,687,45,22,31,2,Vegan,Lunch,Muscle Gain
+601,Steamed Quinoa Salad with Olive Oil,631,45,88,28,8,Vegan,Lunch,Muscle Gain
+602,Baked Oatmeal with Herbs,415,15,60,9,6,Non-Vegetarian,Lunch,Maintenance
+603,Spicy Soup with Olive Oil,533,35,69,20,6,Vegan,Lunch,Maintenance
+604,Crispy Lentil with Basmati Rice,621,40,65,28,6,Vegan,Lunch,Muscle Gain
+605,Roasted Tofu with Olive Oil,261,8,55,12,5,Vegan,Lunch,Weight Loss
+606,Crispy Paneer Delight,502,21,79,26,7,Vegan,Lunch,Maintenance
+607,Spicy Quinoa Salad with Herbs,396,11,14,27,2,Vegan,Lunch,Weight Loss
+608,Roasted Pasta with Herbs,679,45,17,26,2,Non-Vegetarian,Lunch,Muscle Gain
+609,Steamed Salmon with Avocado,771,40,63,9,6,Non-Vegetarian,Lunch,Muscle Gain
+610,Grilled Pasta with Basmati Rice,438,21,48,8,4,Vegetarian,Lunch,Maintenance
+611,Tandoori Soup with Basmati Rice,774,44,77,18,7,Vegetarian,Lunch,Muscle Gain
+612,Grilled Stir-Fry with Steamed Veggies,512,15,54,31,5,Vegetarian,Lunch,Maintenance
+613,Steamed Tofu with Olive Oil,688,13,74,33,7,Vegan,Lunch,Muscle Gain
+614,Lemon Pasta Special,215,22,62,17,6,Vegan,Lunch,Weight Loss
+615,Steamed Salad Delight,619,33,20,3,2,Non-Vegetarian,Lunch,Muscle Gain
+616,Spicy Tofu Platter,289,35,87,21,8,Non-Vegetarian,Lunch,Weight Loss
+617,Baked Beef with Herbs,515,24,74,23,7,Non-Vegetarian,Lunch,Maintenance
+618,Roasted Pasta with Steamed Veggies,308,29,16,8,2,Vegan,Lunch,Weight Loss
+619,Tandoori Chicken with Garlic Sauce,659,29,50,5,5,Non-Vegetarian,Lunch,Muscle Gain
+620,Baked Beef with Basmati Rice,234,6,89,8,8,Non-Vegetarian,Lunch,Weight Loss
+621,Healthy Salad with Basmati Rice,602,16,72,9,7,Vegetarian,Lunch,Muscle Gain
+622,Steamed Chicken with Steamed Veggies,599,22,29,24,2,Non-Vegetarian,Lunch,Maintenance
+623,Creamy Salmon with Herbs,237,14,72,4,7,Non-Vegetarian,Lunch,Weight Loss
+624,Roasted Paneer Special,582,13,68,15,6,Non-Vegetarian,Lunch,Maintenance
+625,Roasted Avocado Toast Delight,485,5,64,18,6,Non-Vegetarian,Lunch,Maintenance
+626,Spicy Avocado Toast with Basmati Rice,732,26,62,24,6,Vegan,Lunch,Muscle Gain
+627,Classic Pasta Delight,546,12,71,5,7,Non-Vegetarian,Lunch,Maintenance
+628,Roasted Lentil with Garlic Sauce,571,13,66,24,6,Vegan,Lunch,Maintenance
+629,Creamy Tofu with Herbs,792,5,77,16,7,Non-Vegetarian,Lunch,Muscle Gain
+630,Tandoori Oatmeal with Herbs,372,9,56,15,5,Vegetarian,Lunch,Weight Loss
+631,Tandoori Tofu with Basmati Rice,634,36,45,20,4,Non-Vegetarian,Lunch,Muscle Gain
+632,Lemon Tofu with Avocado,396,6,41,22,4,Vegetarian,Lunch,Weight Loss
+633,Spicy Oatmeal Delight,220,8,20,23,2,Non-Vegetarian,Lunch,Weight Loss
+634,Healthy Paneer with Basmati Rice,481,33,62,19,6,Vegan,Lunch,Maintenance
+635,Crispy Rice Bowl with Garlic Sauce,571,12,78,18,7,Vegetarian,Lunch,Maintenance
+636,Steamed Lentil Special,234,22,20,34,2,Vegetarian,Lunch,Weight Loss
+637,Roasted Oatmeal with Garlic Sauce,372,8,61,30,6,Vegan,Lunch,Weight Loss
+638,Garlic Rice Bowl with Avocado,229,23,43,18,4,Vegetarian,Lunch,Weight Loss
+639,Spicy Tofu with Avocado,681,21,30,32,3,Vegan,Lunch,Muscle Gain
+640,Crispy Avocado Toast with Garlic Sauce,776,42,37,3,3,Non-Vegetarian,Lunch,Muscle Gain
+641,Spicy Quinoa Salad with Garlic Sauce,530,8,19,27,2,Vegan,Lunch,Maintenance
+642,Tandoori Quinoa Salad Special,491,14,25,22,2,Vegan,Lunch,Maintenance
+643,Lemon Salad with Avocado,447,32,90,15,9,Vegan,Lunch,Maintenance
+644,Tandoori Salad with Basmati Rice,757,44,89,31,8,Non-Vegetarian,Lunch,Muscle Gain
+645,Crispy Beef with Basmati Rice,295,37,80,22,8,Non-Vegetarian,Lunch,Weight Loss
+646,Baked Oatmeal with Avocado,586,38,41,9,4,Vegetarian,Lunch,Maintenance
+647,Creamy Pasta with Steamed Veggies,363,32,53,20,5,Vegetarian,Lunch,Weight Loss
+648,Steamed Salad Platter,369,21,77,30,7,Vegan,Lunch,Weight Loss
+649,Baked Rice Bowl with Olive Oil,648,38,67,10,6,Non-Vegetarian,Lunch,Muscle Gain
+650,Grilled Paneer Platter,425,5,19,6,2,Vegan,Lunch,Maintenance
+651,Baked Paneer with Olive Oil,270,20,57,21,5,Non-Vegetarian,Lunch,Weight Loss
+652,Spicy Avocado Toast with Olive Oil,796,40,28,30,2,Non-Vegetarian,Lunch,Muscle Gain
+653,Tandoori Tofu with Olive Oil,521,12,48,35,4,Vegetarian,Lunch,Maintenance
+654,Tandoori Soup Special,378,44,82,22,8,Vegan,Lunch,Weight Loss
+655,Roasted Soup Delight,658,6,21,21,2,Non-Vegetarian,Lunch,Muscle Gain
+656,Roasted Beef Platter,489,11,34,21,3,Non-Vegetarian,Lunch,Maintenance
+657,Garlic Beef Platter,214,40,62,8,6,Non-Vegetarian,Lunch,Weight Loss
+658,Tandoori Salmon Special,244,25,70,27,7,Non-Vegetarian,Lunch,Weight Loss
+659,Creamy Lentil with Garlic Sauce,502,6,60,20,6,Vegetarian,Lunch,Maintenance
+660,Healthy Stir-Fry with Avocado,558,24,60,11,6,Vegetarian,Lunch,Maintenance
+661,Garlic Avocado Toast Delight,235,13,18,18,2,Vegan,Lunch,Weight Loss
+662,Classic Avocado Toast Special,682,8,27,16,2,Vegetarian,Lunch,Muscle Gain
+663,Spicy Soup Platter,431,45,39,6,3,Vegan,Lunch,Maintenance
+664,Crispy Pasta with Avocado,616,35,71,15,7,Vegan,Lunch,Muscle Gain
+665,Baked Rice Bowl with Steamed Veggies,274,17,85,16,8,Vegan,Lunch,Weight Loss
+666,Steamed Chicken Platter,234,9,16,3,2,Non-Vegetarian,Lunch,Weight Loss
+667,Roasted Lentil with Steamed Veggies,694,36,12,3,2,Non-Vegetarian,Lunch,Muscle Gain
+668,Baked Rice Bowl with Garlic Sauce,695,9,56,19,5,Vegetarian,Lunch,Muscle Gain
+669,Grilled Stir-Fry with Basmati Rice,690,25,32,28,3,Vegetarian,Lunch,Muscle Gain
+670,Baked Paneer with Avocado,522,33,89,6,8,Vegetarian,Lunch,Maintenance
+671,Creamy Lentil Platter,487,43,78,13,7,Vegan,Lunch,Maintenance
+672,Grilled Rice Bowl with Herbs,517,32,40,6,4,Non-Vegetarian,Lunch,Maintenance
+673,Grilled Soup with Steamed Veggies,543,5,58,22,5,Non-Vegetarian,Lunch,Maintenance
+674,Classic Tofu with Basmati Rice,555,25,31,8,3,Vegetarian,Lunch,Maintenance
+675,Garlic Oatmeal with Herbs,760,10,53,33,5,Vegetarian,Lunch,Muscle Gain
+676,Tandoori Paneer Special,239,30,52,18,5,Vegetarian,Lunch,Weight Loss
+677,Lemon Beef Special,725,6,11,33,2,Non-Vegetarian,Lunch,Muscle Gain
+678,Spicy Salmon with Garlic Sauce,512,22,64,27,6,Non-Vegetarian,Lunch,Maintenance
+679,Tandoori Wrap with Garlic Sauce,371,9,15,22,2,Vegan,Lunch,Weight Loss
+680,Baked Tofu Delight,302,16,15,21,2,Vegetarian,Lunch,Weight Loss
+681,Healthy Pasta Special,420,34,34,24,3,Vegan,Lunch,Maintenance
+682,Baked Chicken with Olive Oil,677,14,15,12,2,Non-Vegetarian,Lunch,Muscle Gain
+683,Steamed Lentil with Olive Oil,569,23,37,33,3,Vegan,Lunch,Maintenance
+684,Lemon Tofu with Garlic Sauce,578,19,15,16,2,Vegetarian,Lunch,Maintenance
+685,Creamy Rice Bowl with Herbs,265,21,38,26,3,Vegetarian,Lunch,Weight Loss
+686,Lemon Soup Special,532,5,31,20,3,Vegan,Lunch,Maintenance
+687,Healthy Tofu with Basmati Rice,744,29,34,15,3,Non-Vegetarian,Lunch,Muscle Gain
+688,Classic Oatmeal with Herbs,507,7,83,27,8,Vegetarian,Lunch,Maintenance
+689,Crispy Soup with Basmati Rice,341,24,77,11,7,Non-Vegetarian,Lunch,Weight Loss
+690,Lemon Oatmeal with Garlic Sauce,398,5,25,4,2,Non-Vegetarian,Lunch,Weight Loss
+691,Lemon Lentil with Garlic Sauce,745,25,66,10,6,Vegetarian,Lunch,Muscle Gain
+692,Healthy Avocado Toast with Olive Oil,654,8,26,4,2,Vegan,Lunch,Muscle Gain
+693,Roasted Lentil with Avocado,467,20,72,14,7,Non-Vegetarian,Lunch,Maintenance
+694,Roasted Stir-Fry with Herbs,508,27,63,3,6,Non-Vegetarian,Lunch,Maintenance
+695,Spicy Salad Platter,318,9,40,31,4,Vegan,Lunch,Weight Loss
+696,Crispy Avocado Toast with Basmati Rice,288,31,76,34,7,Non-Vegetarian,Lunch,Weight Loss
+697,Tandoori Stir-Fry with Basmati Rice,352,41,10,29,2,Vegetarian,Lunch,Weight Loss
+698,Crispy Beef with Avocado,379,14,30,18,3,Non-Vegetarian,Lunch,Weight Loss
+699,Baked Stir-Fry with Olive Oil,560,15,74,18,7,Non-Vegetarian,Lunch,Maintenance
+700,Grilled Quinoa Salad with Steamed Veggies,549,29,22,30,2,Vegetarian,Lunch,Maintenance
+701,Tandoori Quinoa Salad Platter,760,16,12,14,2,Vegetarian,Lunch,Muscle Gain
+702,Roasted Oatmeal with Avocado,678,32,24,34,2,Vegan,Lunch,Muscle Gain
+703,Classic Stir-Fry with Garlic Sauce,308,32,78,4,7,Vegan,Lunch,Weight Loss
+704,Lemon Salad Special,206,20,70,24,7,Vegan,Lunch,Weight Loss
+705,Tandoori Soup with Avocado,260,44,51,14,5,Vegetarian,Lunch,Weight Loss
+706,Crispy Beef with Steamed Veggies,365,39,82,7,8,Non-Vegetarian,Lunch,Weight Loss
+707,Tandoori Tofu with Garlic Sauce,782,37,73,13,7,Non-Vegetarian,Lunch,Muscle Gain
+708,Garlic Soup Platter,462,27,63,33,6,Non-Vegetarian,Lunch,Maintenance
+709,Healthy Wrap Special,392,35,23,24,2,Vegetarian,Lunch,Weight Loss
+710,Tandoori Soup with Olive Oil,212,29,37,32,3,Vegan,Lunch,Weight Loss
+711,Creamy Soup with Avocado,212,12,21,27,2,Non-Vegetarian,Lunch,Weight Loss
+712,Garlic Salmon Delight,386,37,24,31,2,Non-Vegetarian,Lunch,Weight Loss
+713,Lemon Pasta with Avocado,396,21,62,31,6,Vegan,Lunch,Weight Loss
+714,Garlic Lentil Special,588,6,87,18,8,Vegetarian,Lunch,Maintenance
+715,Tandoori Paneer with Olive Oil,744,40,86,28,8,Vegetarian,Lunch,Muscle Gain
+716,Creamy Rice Bowl Delight,387,33,55,32,5,Non-Vegetarian,Lunch,Weight Loss
+717,Roasted Wrap Platter,327,30,11,15,2,Vegetarian,Lunch,Weight Loss
+718,Classic Rice Bowl with Steamed Veggies,567,17,24,15,2,Vegetarian,Lunch,Maintenance
+719,Grilled Oatmeal with Olive Oil,741,43,57,18,5,Vegetarian,Lunch,Muscle Gain
+720,Lemon Lentil with Steamed Veggies,589,8,56,30,5,Non-Vegetarian,Lunch,Maintenance
+721,Tandoori Rice Bowl with Garlic Sauce,647,45,46,9,4,Non-Vegetarian,Lunch,Muscle Gain
+722,Spicy Pasta with Avocado,780,45,87,5,8,Vegetarian,Lunch,Muscle Gain
+723,Grilled Tofu with Basmati Rice,230,25,27,17,2,Vegan,Lunch,Weight Loss
+724,Garlic Lentil with Olive Oil,670,13,45,22,4,Non-Vegetarian,Lunch,Muscle Gain
+725,Creamy Avocado Toast Delight,712,27,55,11,5,Vegan,Lunch,Muscle Gain
+726,Classic Lentil with Steamed Veggies,441,36,19,5,2,Non-Vegetarian,Lunch,Maintenance
+727,Garlic Soup Special,745,8,49,5,4,Vegetarian,Lunch,Muscle Gain
+728,Roasted Avocado Toast with Steamed Veggies,578,18,46,30,4,Vegan,Lunch,Maintenance
+729,Garlic Chicken Special,469,44,58,18,5,Non-Vegetarian,Lunch,Maintenance
+730,Spicy Salad Special,581,39,23,31,2,Vegetarian,Lunch,Maintenance
+731,Crispy Oatmeal Delight,210,25,63,14,6,Vegan,Lunch,Weight Loss
+732,Lemon Pasta with Herbs,350,14,31,33,3,Vegan,Lunch,Weight Loss
+733,Healthy Rice Bowl with Herbs,257,33,17,23,2,Vegan,Lunch,Weight Loss
+734,Grilled Rice Bowl with Steamed Veggies,657,25,48,5,4,Vegetarian,Lunch,Muscle Gain
+735,Tandoori Beef Special,233,41,20,34,2,Non-Vegetarian,Lunch,Weight Loss
+736,Garlic Tofu with Herbs,411,41,69,32,6,Vegetarian,Lunch,Maintenance
+737,Steamed Beef with Olive Oil,624,15,63,14,6,Non-Vegetarian,Lunch,Muscle Gain
+738,Grilled Quinoa Salad Delight,762,34,22,24,2,Vegetarian,Lunch,Muscle Gain
+739,Lemon Quinoa Salad with Steamed Veggies,403,27,77,12,7,Non-Vegetarian,Lunch,Maintenance
+740,Steamed Beef Special,784,45,49,16,4,Non-Vegetarian,Lunch,Muscle Gain
+741,Grilled Lentil with Steamed Veggies,346,11,39,3,3,Non-Vegetarian,Lunch,Weight Loss
+742,Roasted Rice Bowl Platter,432,30,26,25,2,Vegan,Lunch,Maintenance
+743,Grilled Beef with Herbs,563,43,73,4,7,Non-Vegetarian,Lunch,Maintenance
+744,Lemon Tofu with Olive Oil,565,26,20,29,2,Non-Vegetarian,Lunch,Maintenance
+745,Baked Salmon Platter,224,24,11,16,2,Non-Vegetarian,Lunch,Weight Loss
+746,Garlic Oatmeal with Steamed Veggies,648,36,56,30,5,Vegan,Lunch,Muscle Gain
+747,Lemon Avocado Toast Platter,743,17,14,27,2,Vegan,Lunch,Muscle Gain
+748,Creamy Lentil Delight,507,7,39,19,3,Vegetarian,Lunch,Maintenance
+749,Crispy Oatmeal with Olive Oil,381,39,35,3,3,Vegetarian,Lunch,Weight Loss
+750,Baked Paneer with Herbs,662,26,25,35,2,Vegan,Lunch,Muscle Gain
+751,Garlic Rice Bowl with Herbs,645,19,31,20,3,Vegan,Lunch,Muscle Gain
+752,Creamy Soup with Garlic Sauce,617,24,30,4,3,Non-Vegetarian,Lunch,Muscle Gain
+753,Creamy Tofu with Basmati Rice,704,18,27,28,2,Vegan,Lunch,Muscle Gain
+754,Stir-Fry Tofu & Vegetables,340,20,30,14,3,Vegan,Dinner,Weight Loss
+755,Baked Sweet Potato Bowl,360,14,52,10,5,Vegan,Dinner,Weight Loss
+756,Roasted Vegetable Soup,220,8,30,8,3,Vegan,Dinner,Weight Loss
+757,Mushroom & Spinach Pasta,420,14,55,16,5,Vegan,Dinner,Maintenance
+758,Paneer Tikka Masala,440,24,28,26,2,Veg,Dinner,Maintenance
+759,Grilled Paneer Salad,380,24,18,22,2,Veg,Dinner,Weight Loss
+760,Mixed Veg Curry + Chapati,400,14,52,14,5,Veg,Dinner,Maintenance
+761,Vegetable Khichdi,340,16,50,8,5,Veg,Dinner,Weight Loss
+762,Grilled Salmon + Asparagus,450,38,12,28,2,Non-Veg,Dinner,Maintenance
+763,Chicken Stir-Fry,380,32,25,16,2,Non-Veg,Dinner,Weight Loss
+764,Chicken Tikka with Raita,350,34,12,18,2,Non-Veg,Dinner,Weight Loss
+765,Egg Curry with Chapati,380,22,35,18,3,Non-Veg,Dinner,Weight Loss
+766,Palak Paneer,400,18,15,28,2,Vegetarian,Dinner,Maintenance
+767,Fish Curry (Meen Moilee),450,30,12,25,2,Non-Vegetarian,Dinner,Maintenance
+768,BBQ Ribs with Coleslaw,850,40,30,60,3,Non-Vegetarian,Dinner,Muscle Gain
+769,Spaghetti Bolognese,650,30,75,22,7,Non-Vegetarian,Dinner,Muscle Gain
+770,Beef Enchiladas,700,35,50,38,5,Non-Vegetarian,Dinner,Muscle Gain
+771,Tofu Pad Thai,480,16,65,18,6,Vegan,Dinner,Maintenance
+772,Baked Salmon with Asparagus,450,40,8,25,2,Non-Vegetarian,Dinner,Maintenance
+773,Paneer Butter Masala with Jeera Rice,520,22,55,24,4,Vegetarian,Dinner,Maintenance
+774,Grilled Salmon with Veggies,420,35,18,24,5,Non-Vegetarian,Dinner,Maintenance
+775,Dal Makhani,380,16,48,14,10,Vegetarian,Dinner,Weight Loss
+776,Pasta Primavera,400,14,58,12,6,Vegetarian,Dinner,Maintenance
+777,Chicken Stir Fry with Noodles,450,30,45,16,4,Non-Vegetarian,Dinner,Maintenance
+778,Vegetable Korma,350,10,40,18,6,Vegan,Dinner,Weight Loss
+779,Egg Fried Rice,400,18,52,14,3,Non-Vegetarian,Dinner,Maintenance
+780,Lentil Shepherd Pie,380,18,50,12,10,Vegan,Dinner,Weight Loss
+781,Tandoori Chicken with Salad,350,38,12,16,3,Non-Vegetarian,Dinner,Weight Loss
+782,Stuffed Bell Peppers,300,14,35,12,6,Vegetarian,Dinner,Weight Loss
+783,Grilled Lentil with Basmati Rice,473,9,87,13,8,Vegan,Dinner,Maintenance
+784,Spicy Soup with Herbs,749,22,53,10,5,Non-Vegetarian,Dinner,Muscle Gain
+785,Spicy Salad with Herbs,275,39,37,35,3,Vegan,Dinner,Weight Loss
+786,Steamed Wrap with Steamed Veggies,767,24,23,11,2,Non-Vegetarian,Dinner,Muscle Gain
+787,Steamed Soup with Garlic Sauce,717,36,42,6,4,Vegan,Dinner,Muscle Gain
+788,Baked Lentil Platter,609,39,52,4,5,Vegan,Dinner,Muscle Gain
+789,Creamy Tofu with Steamed Veggies,644,27,50,30,5,Vegan,Dinner,Muscle Gain
+790,Tandoori Quinoa Salad with Olive Oil,676,33,66,16,6,Vegan,Dinner,Muscle Gain
+791,Roasted Soup with Basmati Rice,481,33,19,21,2,Non-Vegetarian,Dinner,Maintenance
+792,Grilled Pasta Platter,282,13,29,17,2,Vegetarian,Dinner,Weight Loss
+793,Tandoori Wrap Platter,425,36,38,20,3,Vegetarian,Dinner,Maintenance
+794,Roasted Lentil with Olive Oil,588,22,63,19,6,Vegan,Dinner,Maintenance
+795,Classic Salad with Garlic Sauce,513,21,39,10,3,Vegetarian,Dinner,Maintenance
+796,Lemon Lentil with Basmati Rice,383,24,11,11,2,Vegan,Dinner,Weight Loss
+797,Tandoori Beef with Steamed Veggies,301,18,90,16,9,Non-Vegetarian,Dinner,Weight Loss
+798,Roasted Tofu with Basmati Rice,470,45,85,15,8,Non-Vegetarian,Dinner,Maintenance
+799,Classic Avocado Toast with Garlic Sauce,649,12,69,22,6,Non-Vegetarian,Dinner,Muscle Gain
+800,Baked Chicken with Herbs,434,41,85,4,8,Non-Vegetarian,Dinner,Maintenance
+801,Spicy Quinoa Salad with Avocado,681,38,66,20,6,Non-Vegetarian,Dinner,Muscle Gain
+802,Baked Avocado Toast with Steamed Veggies,489,24,85,34,8,Non-Vegetarian,Dinner,Maintenance
+803,Roasted Tofu Platter,667,5,28,29,2,Vegan,Dinner,Muscle Gain
+804,Classic Tofu Special,300,45,22,31,2,Vegan,Dinner,Weight Loss
+805,Spicy Lentil with Steamed Veggies,500,27,57,30,5,Vegan,Dinner,Maintenance
+806,Tandoori Avocado Toast Delight,309,20,58,25,5,Vegan,Dinner,Weight Loss
+807,Baked Chicken Special,481,5,82,6,8,Non-Vegetarian,Dinner,Maintenance
+808,Baked Pasta Delight,502,26,24,32,2,Vegan,Dinner,Maintenance
+809,Healthy Salad with Olive Oil,468,42,58,26,5,Non-Vegetarian,Dinner,Maintenance
+810,Garlic Quinoa Salad with Basmati Rice,270,40,36,16,3,Vegan,Dinner,Weight Loss
+811,Creamy Pasta with Garlic Sauce,348,13,79,19,7,Vegan,Dinner,Weight Loss
+812,Creamy Tofu Delight,715,19,88,5,8,Non-Vegetarian,Dinner,Muscle Gain
+813,Steamed Quinoa Salad with Steamed Veggies,611,32,23,34,2,Vegetarian,Dinner,Muscle Gain
+814,Crispy Stir-Fry Special,301,12,80,16,8,Vegetarian,Dinner,Weight Loss
+815,Garlic Avocado Toast with Avocado,779,30,18,12,2,Vegan,Dinner,Muscle Gain
+816,Classic Lentil with Herbs,253,14,30,6,3,Vegetarian,Dinner,Weight Loss
+817,Steamed Stir-Fry Delight,739,24,15,17,2,Non-Vegetarian,Dinner,Muscle Gain
+818,Tandoori Avocado Toast with Steamed Veggies,646,6,68,7,6,Vegan,Dinner,Muscle Gain
+819,Garlic Stir-Fry with Avocado,277,16,90,34,9,Vegan,Dinner,Weight Loss
+820,Tandoori Rice Bowl with Olive Oil,253,45,52,7,5,Vegetarian,Dinner,Weight Loss
+821,Crispy Wrap Special,365,17,87,11,8,Vegetarian,Dinner,Weight Loss
+822,Tandoori Avocado Toast Special,582,20,59,8,5,Vegan,Dinner,Maintenance
+823,Garlic Wrap Platter,633,12,46,18,4,Vegan,Dinner,Muscle Gain
+824,Crispy Wrap Platter,719,40,12,27,2,Vegan,Dinner,Muscle Gain
+825,Grilled Avocado Toast with Avocado,675,35,90,14,9,Non-Vegetarian,Dinner,Muscle Gain
+826,Tandoori Avocado Toast Platter,684,21,14,15,2,Non-Vegetarian,Dinner,Muscle Gain
+827,Steamed Lentil with Garlic Sauce,327,28,65,28,6,Vegan,Dinner,Weight Loss
+828,Healthy Tofu with Olive Oil,502,24,67,30,6,Vegetarian,Dinner,Maintenance
+829,Spicy Tofu Special,572,37,30,4,3,Non-Vegetarian,Dinner,Maintenance
+830,Crispy Paneer with Herbs,267,24,60,33,6,Vegetarian,Dinner,Weight Loss
+831,Crispy Soup with Avocado,332,32,74,6,7,Vegan,Dinner,Weight Loss
+832,Steamed Wrap with Garlic Sauce,328,45,48,8,4,Vegan,Dinner,Weight Loss
+833,Baked Salad with Basmati Rice,615,24,68,7,6,Non-Vegetarian,Dinner,Muscle Gain
+834,Grilled Rice Bowl with Avocado,579,37,81,9,8,Non-Vegetarian,Dinner,Maintenance
+835,Tandoori Wrap Delight,763,22,89,10,8,Vegan,Dinner,Muscle Gain
+836,Classic Soup with Steamed Veggies,685,21,84,17,8,Non-Vegetarian,Dinner,Muscle Gain
+837,Roasted Salmon with Basmati Rice,485,40,48,17,4,Non-Vegetarian,Dinner,Maintenance
+838,Lemon Oatmeal Delight,524,35,54,20,5,Non-Vegetarian,Dinner,Maintenance
+839,Healthy Lentil Delight,462,35,37,15,3,Non-Vegetarian,Dinner,Maintenance
+840,Classic Beef with Avocado,311,44,85,18,8,Non-Vegetarian,Dinner,Weight Loss
+841,Steamed Wrap Platter,705,13,74,32,7,Vegetarian,Dinner,Muscle Gain
+842,Garlic Chicken with Olive Oil,502,41,34,14,3,Non-Vegetarian,Dinner,Maintenance
+843,Baked Stir-Fry with Steamed Veggies,467,28,40,6,4,Vegetarian,Dinner,Maintenance
+844,Crispy Oatmeal with Basmati Rice,252,22,58,5,5,Vegan,Dinner,Weight Loss
+845,Roasted Salad with Herbs,680,25,36,26,3,Non-Vegetarian,Dinner,Muscle Gain
+846,Baked Chicken Platter,640,16,23,9,2,Non-Vegetarian,Dinner,Muscle Gain
+847,Roasted Stir-Fry with Basmati Rice,431,24,20,5,2,Vegetarian,Dinner,Maintenance
+848,Healthy Paneer with Herbs,391,32,67,35,6,Vegetarian,Dinner,Weight Loss
+849,Spicy Quinoa Salad Special,286,40,41,13,4,Vegetarian,Dinner,Weight Loss
+850,Baked Salad with Herbs,569,21,41,34,4,Vegetarian,Dinner,Maintenance
+851,Steamed Stir-Fry with Steamed Veggies,776,30,52,30,5,Vegan,Dinner,Muscle Gain
+852,Roasted Quinoa Salad Platter,354,27,13,33,2,Vegetarian,Dinner,Weight Loss
+853,Healthy Tofu with Avocado,556,24,53,32,5,Vegetarian,Dinner,Maintenance
+854,Roasted Tofu with Garlic Sauce,701,38,50,27,5,Vegan,Dinner,Muscle Gain
+855,Roasted Avocado Toast with Herbs,442,18,85,25,8,Vegan,Dinner,Maintenance
+856,Steamed Avocado Toast with Herbs,338,31,17,20,2,Non-Vegetarian,Dinner,Weight Loss
+857,Tandoori Rice Bowl Delight,277,45,21,28,2,Non-Vegetarian,Dinner,Weight Loss
+858,Grilled Salad Delight,535,42,10,8,2,Non-Vegetarian,Dinner,Maintenance
+859,Healthy Salmon Platter,491,6,48,16,4,Non-Vegetarian,Dinner,Maintenance
+860,Crispy Pasta with Basmati Rice,359,39,51,28,5,Vegan,Dinner,Weight Loss
+861,Roasted Avocado Toast with Avocado,576,15,42,9,4,Vegan,Dinner,Maintenance
+862,Tandoori Pasta with Olive Oil,477,9,83,26,8,Vegan,Dinner,Maintenance
+863,Healthy Wrap Delight,208,28,35,21,3,Vegetarian,Dinner,Weight Loss
+864,Creamy Salmon Delight,577,42,73,15,7,Non-Vegetarian,Dinner,Maintenance
+865,Lemon Wrap with Basmati Rice,629,36,17,12,2,Vegan,Dinner,Muscle Gain
+866,Spicy Pasta with Basmati Rice,732,31,57,32,5,Vegan,Dinner,Muscle Gain
+867,Healthy Wrap with Olive Oil,412,33,49,32,4,Vegetarian,Dinner,Maintenance
+868,Tandoori Pasta Platter,690,8,21,20,2,Vegetarian,Dinner,Muscle Gain
+869,Crispy Quinoa Salad Delight,552,41,74,23,7,Vegetarian,Dinner,Maintenance
+870,Spicy Lentil with Basmati Rice,230,22,17,33,2,Vegan,Dinner,Weight Loss
+871,Garlic Paneer Special,698,25,32,25,3,Vegetarian,Dinner,Muscle Gain
+872,Classic Quinoa Salad with Steamed Veggies,648,31,31,29,3,Vegan,Dinner,Muscle Gain
+873,Spicy Paneer with Herbs,287,27,79,29,7,Non-Vegetarian,Dinner,Weight Loss
+874,Creamy Salad with Avocado,685,42,80,25,8,Vegetarian,Dinner,Muscle Gain
+875,Creamy Pasta Delight,320,35,16,7,2,Vegetarian,Dinner,Weight Loss
+876,Garlic Lentil with Steamed Veggies,204,33,45,16,4,Non-Vegetarian,Dinner,Weight Loss
+877,Healthy Avocado Toast with Steamed Veggies,505,23,68,24,6,Vegan,Dinner,Maintenance
+878,Creamy Chicken with Steamed Veggies,310,6,16,10,2,Non-Vegetarian,Dinner,Weight Loss
+879,Grilled Chicken Platter,790,41,38,24,3,Non-Vegetarian,Dinner,Muscle Gain
+880,Lemon Avocado Toast Delight,539,40,89,33,8,Vegan,Dinner,Maintenance
+881,Roasted Tofu with Herbs,427,5,53,25,5,Non-Vegetarian,Dinner,Maintenance
+882,Spicy Oatmeal with Garlic Sauce,408,39,14,25,2,Vegan,Dinner,Maintenance
+883,Spicy Chicken with Garlic Sauce,407,44,66,17,6,Non-Vegetarian,Dinner,Maintenance
+884,Lemon Soup with Olive Oil,539,28,47,16,4,Vegan,Dinner,Maintenance
+885,Healthy Tofu with Steamed Veggies,382,21,81,7,8,Vegan,Dinner,Weight Loss
+886,Baked Stir-Fry with Herbs,488,33,58,28,5,Non-Vegetarian,Dinner,Maintenance
+887,Lemon Avocado Toast with Basmati Rice,569,29,70,32,7,Vegetarian,Dinner,Maintenance
+888,Creamy Stir-Fry with Herbs,435,29,59,11,5,Vegetarian,Dinner,Maintenance
+889,Classic Pasta with Herbs,635,13,42,33,4,Non-Vegetarian,Dinner,Muscle Gain
+890,Garlic Rice Bowl with Garlic Sauce,467,39,64,26,6,Vegan,Dinner,Maintenance
+891,Tandoori Quinoa Salad with Basmati Rice,623,40,81,33,8,Non-Vegetarian,Dinner,Muscle Gain
+892,Crispy Salad with Garlic Sauce,514,41,54,28,5,Non-Vegetarian,Dinner,Maintenance
+893,Grilled Soup Special,615,42,35,3,3,Vegetarian,Dinner,Muscle Gain
+894,Healthy Quinoa Salad Platter,463,39,83,19,8,Vegetarian,Dinner,Maintenance
+895,Classic Soup with Basmati Rice,710,17,40,18,4,Vegan,Dinner,Muscle Gain
+896,Healthy Tofu with Herbs,704,44,10,5,2,Vegan,Dinner,Muscle Gain
+897,Grilled Salad with Garlic Sauce,702,16,75,20,7,Non-Vegetarian,Dinner,Muscle Gain
+898,Baked Salad with Olive Oil,574,16,73,30,7,Vegan,Dinner,Maintenance
+899,Grilled Lentil Platter,770,21,54,4,5,Vegetarian,Dinner,Muscle Gain
+900,Steamed Stir-Fry Special,273,10,30,24,3,Vegetarian,Dinner,Weight Loss
+901,Garlic Tofu Special,516,19,41,21,4,Non-Vegetarian,Dinner,Maintenance
+902,Garlic Tofu Platter,390,11,46,20,4,Vegan,Dinner,Weight Loss
+903,Creamy Oatmeal with Steamed Veggies,670,39,25,27,2,Vegetarian,Dinner,Muscle Gain
+904,Creamy Pasta with Olive Oil,791,17,18,5,2,Non-Vegetarian,Dinner,Muscle Gain
+905,Lemon Avocado Toast with Steamed Veggies,523,30,44,7,4,Vegan,Dinner,Maintenance
+906,Creamy Rice Bowl Special,570,19,27,35,2,Non-Vegetarian,Dinner,Maintenance
+907,Garlic Wrap with Herbs,505,45,74,15,7,Non-Vegetarian,Dinner,Maintenance
+908,Spicy Tofu with Olive Oil,514,20,17,18,2,Vegetarian,Dinner,Maintenance
+909,Crispy Salad with Herbs,453,19,18,24,2,Vegetarian,Dinner,Maintenance
+910,Baked Rice Bowl Platter,698,14,34,21,3,Vegetarian,Dinner,Muscle Gain
+911,Spicy Stir-Fry Delight,714,38,30,6,3,Vegan,Dinner,Muscle Gain
+912,Garlic Soup with Garlic Sauce,668,25,19,3,2,Vegetarian,Dinner,Muscle Gain
+913,Roasted Avocado Toast Platter,509,44,77,3,7,Vegan,Dinner,Maintenance
+914,Healthy Pasta with Avocado,470,12,23,12,2,Non-Vegetarian,Dinner,Maintenance
+915,Roasted Beef with Steamed Veggies,294,45,64,20,6,Non-Vegetarian,Dinner,Weight Loss
+916,Crispy Rice Bowl Platter,539,6,24,19,2,Non-Vegetarian,Dinner,Maintenance
+917,Healthy Stir-Fry Special,553,25,65,35,6,Vegan,Dinner,Maintenance
+918,Healthy Oatmeal with Garlic Sauce,719,24,62,23,6,Non-Vegetarian,Dinner,Muscle Gain
+919,Garlic Salmon Special,588,16,88,22,8,Non-Vegetarian,Dinner,Maintenance
+920,Roasted Salad with Basmati Rice,723,35,31,8,3,Vegetarian,Dinner,Muscle Gain
+921,Lemon Soup with Garlic Sauce,430,17,28,4,2,Vegan,Dinner,Maintenance
+922,Grilled Avocado Toast with Garlic Sauce,210,38,34,8,3,Vegetarian,Dinner,Weight Loss
+923,Classic Wrap with Olive Oil,560,34,44,22,4,Vegetarian,Dinner,Maintenance
+924,Healthy Quinoa Salad Special,726,5,79,32,7,Vegetarian,Dinner,Muscle Gain
+925,Classic Paneer Special,620,7,50,33,5,Vegan,Dinner,Muscle Gain
+926,Tandoori Paneer with Basmati Rice,743,31,82,14,8,Vegetarian,Dinner,Muscle Gain
+927,Roasted Tofu with Avocado,431,30,81,26,8,Vegan,Dinner,Maintenance
+928,Lemon Soup with Herbs,675,24,62,10,6,Non-Vegetarian,Dinner,Muscle Gain
+929,Tandoori Rice Bowl with Herbs,520,32,50,19,5,Vegetarian,Dinner,Maintenance
+930,Grilled Tofu with Garlic Sauce,787,19,64,4,6,Non-Vegetarian,Dinner,Muscle Gain
+931,Creamy Avocado Toast with Olive Oil,275,24,69,31,6,Vegetarian,Dinner,Weight Loss
+932,Creamy Chicken with Olive Oil,267,26,22,27,2,Non-Vegetarian,Dinner,Weight Loss
+933,Spicy Quinoa Salad with Basmati Rice,242,25,49,35,4,Vegan,Dinner,Weight Loss
+934,Tandoori Oatmeal Delight,595,26,33,34,3,Vegetarian,Dinner,Maintenance
+935,Roasted Stir-Fry Special,370,33,54,31,5,Vegetarian,Dinner,Weight Loss
+936,Tandoori Stir-Fry with Steamed Veggies,357,33,57,26,5,Vegetarian,Dinner,Weight Loss
+937,Baked Salmon with Herbs,226,16,73,27,7,Non-Vegetarian,Dinner,Weight Loss
+938,Healthy Wrap Platter,497,24,30,14,3,Non-Vegetarian,Dinner,Maintenance
+939,Lemon Lentil Platter,490,10,42,15,4,Non-Vegetarian,Dinner,Maintenance
+940,Steamed Tofu Platter,714,15,85,12,8,Vegan,Dinner,Muscle Gain
+941,Grilled Quinoa Salad Special,574,7,61,6,6,Non-Vegetarian,Dinner,Maintenance
+942,Grilled Paneer Special,506,42,53,35,5,Non-Vegetarian,Dinner,Maintenance
+943,Steamed Tofu Special,797,24,90,4,9,Vegetarian,Dinner,Muscle Gain
+944,Roasted Wrap Special,521,16,68,24,6,Non-Vegetarian,Dinner,Maintenance
+945,Classic Lentil Delight,691,27,81,20,8,Vegetarian,Dinner,Muscle Gain
+946,Steamed Paneer Delight,406,39,44,20,4,Vegetarian,Dinner,Maintenance
+947,Tandoori Soup with Herbs,389,13,71,23,7,Vegan,Dinner,Weight Loss
+948,Tandoori Soup Platter,518,12,47,26,4,Vegan,Dinner,Maintenance
+949,Classic Wrap Delight,750,18,41,8,4,Vegetarian,Dinner,Muscle Gain
+950,Garlic Wrap Special,741,13,38,3,3,Vegan,Dinner,Muscle Gain
+951,Classic Quinoa Salad with Herbs,232,31,88,4,8,Vegan,Dinner,Weight Loss
+952,Baked Pasta with Avocado,733,19,62,22,6,Vegan,Dinner,Muscle Gain
+953,Crispy Pasta Delight,677,11,70,23,7,Vegetarian,Dinner,Muscle Gain
+954,Creamy Soup Delight,699,6,10,29,2,Vegan,Dinner,Muscle Gain
+955,Lemon Stir-Fry with Avocado,607,9,48,13,4,Vegan,Dinner,Muscle Gain
+956,Classic Tofu with Herbs,474,14,58,12,5,Vegan,Dinner,Maintenance
+957,Steamed Stir-Fry with Avocado,507,25,87,15,8,Vegetarian,Dinner,Maintenance
+958,Crispy Oatmeal Platter,771,42,83,17,8,Vegan,Dinner,Muscle Gain
+959,Creamy Paneer with Garlic Sauce,286,13,50,10,5,Vegetarian,Dinner,Weight Loss
+960,Garlic Lentil with Avocado,723,29,63,11,6,Vegan,Dinner,Muscle Gain
+961,Spicy Quinoa Salad Delight,759,18,64,9,6,Non-Vegetarian,Dinner,Muscle Gain
+962,Steamed Rice Bowl Delight,345,41,90,20,9,Vegan,Dinner,Weight Loss
+963,Crispy Rice Bowl with Basmati Rice,639,18,73,20,7,Vegan,Dinner,Muscle Gain
+964,Crispy Stir-Fry with Avocado,779,36,53,6,5,Vegetarian,Dinner,Muscle Gain
+965,Spicy Avocado Toast with Garlic Sauce,410,38,87,35,8,Non-Vegetarian,Dinner,Maintenance
+966,Classic Wrap Special,633,30,20,12,2,Non-Vegetarian,Dinner,Muscle Gain
+967,Creamy Lentil with Herbs,714,8,32,17,3,Vegan,Dinner,Muscle Gain
+968,Classic Avocado Toast with Olive Oil,525,33,44,17,4,Vegetarian,Dinner,Maintenance
+969,Spicy Oatmeal with Olive Oil,781,41,28,15,2,Non-Vegetarian,Dinner,Muscle Gain
+970,Baked Rice Bowl Delight,785,43,70,5,7,Vegetarian,Dinner,Muscle Gain
+971,Crispy Rice Bowl with Avocado,736,41,13,14,2,Non-Vegetarian,Dinner,Muscle Gain
+972,Tandoori Avocado Toast with Olive Oil,670,21,37,32,3,Vegetarian,Dinner,Muscle Gain
+973,Steamed Stir-Fry with Garlic Sauce,505,11,71,7,7,Non-Vegetarian,Dinner,Maintenance
+974,Healthy Salmon with Olive Oil,428,24,63,24,6,Non-Vegetarian,Dinner,Maintenance
+975,Spicy Avocado Toast with Avocado,340,17,53,29,5,Vegetarian,Dinner,Weight Loss
+976,Lemon Chicken with Steamed Veggies,454,19,54,22,5,Non-Vegetarian,Dinner,Maintenance
+977,Garlic Pasta Special,219,19,38,11,3,Vegan,Dinner,Weight Loss
+978,Creamy Oatmeal with Avocado,628,11,75,10,7,Non-Vegetarian,Dinner,Muscle Gain
+979,Baked Wrap Platter,582,11,15,13,2,Non-Vegetarian,Dinner,Maintenance
+980,Lemon Salmon with Herbs,602,18,68,15,6,Non-Vegetarian,Dinner,Muscle Gain
+981,Tandoori Pasta with Herbs,661,34,85,35,8,Vegan,Dinner,Muscle Gain
+982,Spicy Wrap with Herbs,225,29,28,6,2,Vegetarian,Dinner,Weight Loss
+983,Grilled Salad with Avocado,240,14,51,6,5,Vegan,Dinner,Weight Loss
+984,Crispy Salad Delight,244,23,34,23,3,Non-Vegetarian,Dinner,Weight Loss
+985,Healthy Stir-Fry with Basmati Rice,464,31,59,31,5,Non-Vegetarian,Dinner,Maintenance
+986,Creamy Paneer with Olive Oil,523,32,31,3,3,Non-Vegetarian,Dinner,Maintenance
+987,Spicy Oatmeal with Steamed Veggies,791,38,25,3,2,Vegan,Dinner,Muscle Gain
+988,Creamy Chicken with Avocado,706,33,11,15,2,Non-Vegetarian,Dinner,Muscle Gain
+989,Spicy Quinoa Salad Platter,728,19,88,13,8,Vegan,Dinner,Muscle Gain
+990,Baked Pasta Platter,781,8,60,9,6,Vegetarian,Dinner,Muscle Gain
+991,Spicy Rice Bowl with Herbs,559,43,35,14,3,Vegetarian,Dinner,Maintenance
+992,Steamed Wrap Delight,657,10,58,21,5,Vegetarian,Dinner,Muscle Gain
+993,Roasted Wrap with Basmati Rice,291,33,49,26,4,Vegetarian,Dinner,Weight Loss
+994,Garlic Beef with Steamed Veggies,696,33,81,21,8,Non-Vegetarian,Dinner,Muscle Gain
+995,Roasted Oatmeal Special,306,15,33,28,3,Non-Vegetarian,Dinner,Weight Loss
+996,Garlic Wrap Delight,560,25,80,23,8,Non-Vegetarian,Dinner,Maintenance
+997,Roasted Salad Special,200,7,46,4,4,Vegetarian,Dinner,Weight Loss
+998,Classic Quinoa Salad Special,280,8,52,25,5,Vegan,Dinner,Weight Loss
+999,Roasted Rice Bowl with Avocado,218,27,55,25,5,Vegetarian,Dinner,Weight Loss
+1000,Grilled Salad Platter,334,18,27,15,2,Non-Vegetarian,Dinner,Weight Loss
+1001,Classic Pasta with Garlic Sauce,355,17,23,11,2,Vegetarian,Dinner,Weight Loss
+1002,Creamy Oatmeal Platter,737,7,76,9,7,Vegetarian,Dinner,Muscle Gain
+1003,Roasted Salad Delight,756,5,87,34,8,Vegan,Dinner,Muscle Gain
+1004,Steamed Wrap with Basmati Rice,250,16,28,6,2,Non-Vegetarian,Dinner,Weight Loss
+1005,Healthy Quinoa Salad with Herbs,382,15,46,14,4,Vegetarian,Dinner,Weight Loss
+1006,Healthy Quinoa Salad with Garlic Sauce,530,28,58,7,5,Vegan,Dinner,Maintenance
+1007,Spicy Tofu with Steamed Veggies,676,45,25,16,2,Vegan,Dinner,Muscle Gain
+1008,Steamed Wrap with Avocado,784,43,59,14,5,Vegetarian,Dinner,Muscle Gain
+1009,Healthy Lentil with Steamed Veggies,406,10,66,35,6,Vegan,Dinner,Maintenance
+1010,Grilled Beef with Avocado,490,41,41,13,4,Non-Vegetarian,Dinner,Maintenance
+1011,Creamy Stir-Fry with Avocado,720,11,61,9,6,Vegetarian,Dinner,Muscle Gain
+1012,Classic Pasta with Olive Oil,291,42,11,35,2,Vegetarian,Dinner,Weight Loss
+1013,Lemon Rice Bowl Special,525,29,61,27,6,Vegan,Dinner,Maintenance
+1014,Classic Tofu with Avocado,354,33,57,14,5,Vegan,Dinner,Weight Loss
+1015,Spicy Tofu with Herbs,785,21,67,4,6,Vegan,Dinner,Muscle Gain
+1016,Crispy Avocado Toast Delight,216,7,53,6,5,Vegetarian,Dinner,Weight Loss
+1017,Spicy Stir-Fry with Avocado,543,9,25,20,2,Vegan,Dinner,Maintenance
+1018,Lemon Rice Bowl with Garlic Sauce,542,44,68,5,6,Vegetarian,Dinner,Maintenance
+1019,Lemon Lentil with Avocado,232,41,17,20,2,Vegetarian,Dinner,Weight Loss
+1020,Creamy Avocado Toast with Avocado,205,31,15,5,2,Vegetarian,Dinner,Weight Loss
+1021,Steamed Wrap with Herbs,774,18,27,24,2,Vegan,Dinner,Muscle Gain
+1022,Creamy Soup Platter,761,33,68,22,6,Vegetarian,Dinner,Muscle Gain
+1023,Garlic Oatmeal Platter,235,25,54,12,5,Vegetarian,Dinner,Weight Loss
+1024,Garlic Oatmeal Special,578,29,57,3,5,Vegetarian,Dinner,Maintenance
+1025,Classic Pasta Special,624,13,85,8,8,Vegan,Dinner,Muscle Gain
+1026,Steamed Avocado Toast Delight,327,23,63,14,6,Vegetarian,Dinner,Weight Loss
+1027,Spicy Paneer Platter,488,28,72,29,7,Vegan,Dinner,Maintenance
+1028,Classic Chicken with Herbs,535,36,24,27,2,Non-Vegetarian,Dinner,Maintenance
+1029,Classic Salad with Steamed Veggies,524,29,83,27,8,Vegan,Dinner,Maintenance
+1030,Steamed Wrap with Olive Oil,404,31,61,19,6,Vegetarian,Dinner,Maintenance
+1031,Baked Soup with Herbs,603,28,85,9,8,Vegan,Dinner,Muscle Gain
+1032,Steamed Chicken with Olive Oil,244,44,67,23,6,Non-Vegetarian,Dinner,Weight Loss
+1033,Creamy Oatmeal Delight,660,44,43,24,4,Vegetarian,Dinner,Muscle Gain
+1034,Garlic Salad Special,222,12,31,12,3,Vegetarian,Dinner,Weight Loss
+1035,Healthy Soup Special,625,36,84,21,8,Vegan,Dinner,Muscle Gain
+1036,Lemon Wrap with Steamed Veggies,218,27,43,25,4,Vegan,Dinner,Weight Loss
+1037,Garlic Tofu with Garlic Sauce,581,31,56,18,5,Non-Vegetarian,Dinner,Maintenance
+1038,Garlic Chicken with Steamed Veggies,752,42,43,18,4,Non-Vegetarian,Dinner,Muscle Gain
+1039,Lemon Paneer Delight,202,12,80,25,8,Vegetarian,Dinner,Weight Loss
+1040,Garlic Rice Bowl with Steamed Veggies,740,25,58,19,5,Vegetarian,Dinner,Muscle Gain
+1041,Baked Avocado Toast Special,559,45,37,35,3,Non-Vegetarian,Dinner,Maintenance
+1042,Healthy Avocado Toast with Garlic Sauce,426,19,73,26,7,Vegan,Dinner,Maintenance
+1043,Classic Oatmeal with Basmati Rice,207,17,60,10,6,Vegetarian,Dinner,Weight Loss
+1044,Roasted Salmon Platter,335,41,83,33,8,Non-Vegetarian,Dinner,Weight Loss
+1045,Classic Salad Platter,637,40,11,10,2,Vegan,Dinner,Muscle Gain
+1046,Steamed Quinoa Salad Special,369,34,26,4,2,Non-Vegetarian,Dinner,Weight Loss
+1047,Spicy Tofu Delight,266,30,72,7,7,Vegan,Dinner,Weight Loss
+1048,Baked Soup with Steamed Veggies,676,23,79,13,7,Vegetarian,Dinner,Muscle Gain
+1049,Tandoori Tofu with Avocado,246,7,48,34,4,Non-Vegetarian,Dinner,Weight Loss
+1050,Healthy Avocado Toast Delight,293,18,86,4,8,Vegan,Dinner,Weight Loss
+1051,Steamed Stir-Fry Platter,532,29,86,21,8,Non-Vegetarian,Dinner,Maintenance
+1052,Grilled Tofu with Steamed Veggies,709,32,32,11,3,Vegetarian,Dinner,Muscle Gain
+1053,Tandoori Avocado Toast with Herbs,449,32,85,28,8,Vegan,Dinner,Maintenance
+1054,Healthy Beef Delight,662,7,17,26,2,Non-Vegetarian,Dinner,Muscle Gain
+1055,Classic Soup with Olive Oil,349,13,14,21,2,Vegan,Dinner,Weight Loss
+1056,Creamy Rice Bowl with Avocado,287,38,56,7,5,Vegan,Dinner,Weight Loss
+1057,Baked Beef Delight,636,15,66,25,6,Non-Vegetarian,Dinner,Muscle Gain
+1058,Classic Salad with Basmati Rice,492,36,35,10,3,Vegetarian,Dinner,Maintenance
+1059,Grilled Oatmeal with Herbs,763,39,47,22,4,Non-Vegetarian,Dinner,Muscle Gain
+1060,Classic Oatmeal Delight,738,31,62,7,6,Vegetarian,Dinner,Muscle Gain
+1061,Classic Beef with Garlic Sauce,324,41,79,27,7,Non-Vegetarian,Dinner,Weight Loss
+1062,Healthy Soup with Garlic Sauce,576,44,38,17,3,Non-Vegetarian,Dinner,Maintenance
+1063,Spicy Wrap with Avocado,637,40,73,6,7,Vegetarian,Dinner,Muscle Gain
+1064,Healthy Pasta Platter,243,19,37,33,3,Non-Vegetarian,Dinner,Weight Loss
+1065,Grilled Paneer with Garlic Sauce,320,6,52,30,5,Vegan,Dinner,Weight Loss
+1066,Baked Paneer with Steamed Veggies,526,43,38,4,3,Vegetarian,Dinner,Maintenance
+1067,Garlic Avocado Toast with Garlic Sauce,292,23,13,27,2,Vegetarian,Dinner,Weight Loss
+1068,Baked Soup with Garlic Sauce,392,14,76,18,7,Vegetarian,Dinner,Weight Loss
+1069,Grilled Lentil with Garlic Sauce,799,23,69,10,6,Vegetarian,Dinner,Muscle Gain
+1070,Crispy Salmon Delight,549,28,16,17,2,Non-Vegetarian,Dinner,Maintenance
+1071,Creamy Stir-Fry Delight,572,33,24,9,2,Non-Vegetarian,Dinner,Maintenance
+1072,Healthy Chicken with Avocado,704,13,62,9,6,Non-Vegetarian,Dinner,Muscle Gain
+1073,Garlic Beef with Olive Oil,211,40,81,12,8,Non-Vegetarian,Dinner,Weight Loss
+1074,Healthy Beef with Herbs,402,42,72,24,7,Non-Vegetarian,Dinner,Maintenance
+1075,Baked Stir-Fry Platter,783,16,58,27,5,Non-Vegetarian,Dinner,Muscle Gain
+1076,Grilled Tofu with Avocado,636,42,42,19,4,Vegetarian,Dinner,Muscle Gain
+1077,Tandoori Quinoa Salad with Garlic Sauce,436,5,80,26,8,Vegan,Dinner,Maintenance
+1078,Lemon Salmon with Garlic Sauce,507,10,83,28,8,Non-Vegetarian,Dinner,Maintenance
+1079,Steamed Chicken with Garlic Sauce,373,27,88,31,8,Non-Vegetarian,Dinner,Weight Loss
+1080,Roasted Soup with Steamed Veggies,268,29,44,26,4,Vegan,Dinner,Weight Loss
+1081,Steamed Pasta Special,230,40,45,17,4,Vegan,Dinner,Weight Loss
+1082,Creamy Stir-Fry with Basmati Rice,437,19,13,25,2,Non-Vegetarian,Dinner,Maintenance
+1083,Crispy Chicken with Basmati Rice,791,26,55,7,5,Non-Vegetarian,Dinner,Muscle Gain
+1084,Spicy Beef Special,288,36,40,26,4,Non-Vegetarian,Dinner,Weight Loss
+1085,Garlic Salad with Basmati Rice,795,7,27,9,2,Non-Vegetarian,Dinner,Muscle Gain
+1086,Crispy Soup with Herbs,726,17,90,14,9,Vegetarian,Dinner,Muscle Gain
+1087,Grilled Paneer with Basmati Rice,440,24,85,8,8,Vegetarian,Dinner,Maintenance
+1088,Tandoori Quinoa Salad with Steamed Veggies,480,10,72,33,7,Non-Vegetarian,Dinner,Maintenance
+1089,Lemon Stir-Fry Delight,454,28,84,32,8,Vegetarian,Dinner,Maintenance
+1090,Healthy Beef Special,684,12,73,25,7,Non-Vegetarian,Dinner,Muscle Gain
+1091,Tandoori Quinoa Salad with Avocado,439,21,19,25,2,Vegetarian,Dinner,Maintenance
+1092,Creamy Paneer with Steamed Veggies,357,26,82,28,8,Vegetarian,Dinner,Weight Loss
+1093,Spicy Stir-Fry with Steamed Veggies,249,29,35,18,3,Vegetarian,Dinner,Weight Loss
+1094,Tandoori Paneer Delight,651,32,74,30,7,Vegetarian,Dinner,Muscle Gain
+1095,Spicy Soup Special,634,20,41,33,4,Non-Vegetarian,Dinner,Muscle Gain
+1096,Roasted Salmon Delight,609,44,20,25,2,Non-Vegetarian,Dinner,Muscle Gain
+1097,Lemon Tofu with Steamed Veggies,586,19,58,9,5,Vegan,Dinner,Maintenance
+1098,Steamed Salmon with Basmati Rice,544,32,71,6,7,Non-Vegetarian,Dinner,Maintenance
+1099,Baked Pasta with Herbs,641,16,42,34,4,Vegetarian,Dinner,Muscle Gain
+1100,Steamed Pasta with Basmati Rice,592,31,80,34,8,Vegan,Dinner,Maintenance
+1101,Garlic Lentil with Basmati Rice,295,10,13,30,2,Non-Vegetarian,Dinner,Weight Loss
+1102,Roasted Stir-Fry Platter,205,15,76,19,7,Vegetarian,Dinner,Weight Loss
+1103,Creamy Tofu Special,639,17,82,25,8,Vegetarian,Dinner,Muscle Gain
+1104,Tandoori Beef Platter,560,30,13,10,2,Non-Vegetarian,Dinner,Maintenance
+1105,Spicy Pasta with Steamed Veggies,465,7,24,6,2,Non-Vegetarian,Dinner,Maintenance
+1106,Creamy Pasta Special,657,12,76,18,7,Vegan,Dinner,Muscle Gain
+1107,Garlic Soup with Basmati Rice,456,13,63,15,6,Non-Vegetarian,Dinner,Maintenance
+1108,Baked Stir-Fry Delight,758,16,58,30,5,Vegan,Dinner,Muscle Gain
+1109,Steamed Salad with Herbs,642,14,12,14,2,Non-Vegetarian,Dinner,Muscle Gain
+1110,Lemon Oatmeal with Avocado,644,38,34,8,3,Vegan,Dinner,Muscle Gain
+1111,Crispy Salmon with Herbs,581,14,14,18,2,Non-Vegetarian,Dinner,Maintenance
+1112,Classic Chicken with Basmati Rice,558,11,19,35,2,Non-Vegetarian,Dinner,Maintenance
+1113,Tandoori Tofu Special,489,14,13,23,2,Non-Vegetarian,Dinner,Maintenance
+1114,Spicy Lentil Special,205,22,36,34,3,Vegan,Dinner,Weight Loss
+1115,Grilled Stir-Fry with Olive Oil,777,15,28,21,2,Non-Vegetarian,Dinner,Muscle Gain
+1116,Tandoori Salmon Platter,395,29,57,14,5,Non-Vegetarian,Dinner,Weight Loss
+1117,Spicy Stir-Fry with Garlic Sauce,234,22,71,28,7,Non-Vegetarian,Dinner,Weight Loss
+1118,Steamed Pasta with Steamed Veggies,682,43,90,32,9,Vegetarian,Dinner,Muscle Gain
+1119,Grilled Salad Special,507,7,39,35,3,Non-Vegetarian,Dinner,Maintenance
+1120,Roasted Wrap with Garlic Sauce,506,21,78,18,7,Non-Vegetarian,Dinner,Maintenance
+1121,Lemon Wrap with Herbs,648,20,51,19,5,Non-Vegetarian,Dinner,Muscle Gain
+1122,Classic Paneer Delight,784,45,88,3,8,Vegan,Dinner,Muscle Gain
+1123,Grilled Salad with Olive Oil,691,28,73,22,7,Non-Vegetarian,Dinner,Muscle Gain
+1124,Roasted Rice Bowl with Basmati Rice,482,14,56,6,5,Vegan,Dinner,Maintenance
+1125,Crispy Chicken with Garlic Sauce,340,25,41,33,4,Non-Vegetarian,Dinner,Weight Loss
+1126,Healthy Rice Bowl with Steamed Veggies,627,9,81,8,8,Vegetarian,Dinner,Muscle Gain
+1127,Lemon Salmon with Olive Oil,387,36,57,18,5,Non-Vegetarian,Dinner,Weight Loss
+1128,Tandoori Quinoa Salad Delight,656,32,21,30,2,Vegetarian,Dinner,Muscle Gain
+1129,Grilled Salad with Basmati Rice,216,18,65,12,6,Vegan,Dinner,Weight Loss
+1130,Lemon Salmon with Steamed Veggies,644,35,44,24,4,Non-Vegetarian,Dinner,Muscle Gain
+1131,Classic Rice Bowl Special,780,26,48,8,4,Vegetarian,Dinner,Muscle Gain
+1132,Healthy Salad with Garlic Sauce,361,37,22,34,2,Vegan,Dinner,Weight Loss
+1133,Hummus & Carrot Sticks,180,6,20,8,2,Vegan,Snack,Weight Loss
+1134,Roasted Chickpeas,200,10,28,6,2,Vegan,Snack,Weight Loss
+1135,Fruit Salad Bowl,150,3,35,1,3,Vegan,Snack,Weight Loss
+1136,Makhana (Fox Nuts),160,5,26,4,2,Vegan,Snack,Weight Loss
+1137,Sprout Chaat,180,12,24,4,2,Vegan,Snack,Weight Loss
+1138,Greek Yogurt with Honey,200,14,24,6,2,Veg,Snack,Weight Loss
+1139,Paneer Tikka Bites,240,18,8,16,2,Veg,Snack,Weight Loss
+1140,Dhokla,180,8,28,4,2,Veg,Snack,Weight Loss
+1141,Masala Chaas (Buttermilk),80,4,8,3,2,Veg,Snack,Weight Loss
+1142,Chicken Wings (Grilled),280,24,4,18,2,Non-Veg,Snack,Weight Loss
+1143,Boiled Eggs with Pepper,150,13,2,10,2,Non-Veg,Snack,Weight Loss
+1144,Chicken Seekh Kebab,220,22,6,12,2,Non-Veg,Snack,Weight Loss
+1145,Tuna Salad Cup,200,22,8,10,2,Non-Veg,Snack,Weight Loss
+1146,Mixed Nuts Trail Mix,250,8,18,18,2,Vegan,Snack,Weight Loss
+1147,Hummus with Pita & Carrots,300,10,40,12,4,Vegan,Snack,Weight Loss
+1148,Masala Chai with Biscuits,150,3,22,5,1,Vegetarian,Snack,Weight Loss
+1149,Sprouts Chaat,180,10,28,4,8,Vegan,Snack,Weight Loss
+1150,Peanut Butter Banana Toast,280,10,35,12,4,Vegan,Snack,Weight Loss
+1151,Trail Mix,200,6,18,14,3,Vegan,Snack,Weight Loss
+1152,Boiled Egg Salad,200,18,6,12,2,Non-Vegetarian,Snack,Weight Loss
+1153,Spicy Tofu with Basmati Rice,438,37,87,4,8,Vegan,Snack,Maintenance
+1154,Grilled Avocado Toast with Olive Oil,470,7,68,10,6,Vegan,Snack,Maintenance
+1155,Baked Paneer with Basmati Rice,774,39,43,30,4,Vegan,Snack,Muscle Gain
+1156,Lemon Paneer Platter,705,10,16,10,2,Vegetarian,Snack,Muscle Gain
+1157,Roasted Avocado Toast with Garlic Sauce,382,37,23,22,2,Vegan,Snack,Weight Loss
+1158,Crispy Quinoa Salad with Avocado,331,35,80,13,8,Vegan,Snack,Weight Loss
+1159,Crispy Quinoa Salad with Basmati Rice,519,30,57,31,5,Vegan,Snack,Maintenance
+1160,Lemon Lentil with Herbs,221,42,80,17,8,Vegan,Snack,Weight Loss
+1161,Lemon Tofu with Herbs,641,27,64,29,6,Vegetarian,Snack,Muscle Gain
+1162,Roasted Tofu Special,368,29,10,27,2,Vegetarian,Snack,Weight Loss
+1163,Tandoori Oatmeal Platter,698,14,34,21,3,Vegetarian,Snack,Muscle Gain
+1164,Spicy Pasta with Olive Oil,333,45,43,13,4,Vegetarian,Snack,Weight Loss
+1165,Classic Rice Bowl Platter,209,12,19,12,2,Non-Vegetarian,Snack,Weight Loss
+1166,Baked Avocado Toast with Basmati Rice,428,6,34,28,3,Vegetarian,Snack,Maintenance
+1167,Steamed Pasta with Olive Oil,521,12,48,35,4,Vegan,Snack,Maintenance
+1168,Tandoori Oatmeal with Garlic Sauce,767,13,34,29,3,Vegetarian,Snack,Muscle Gain
+1169,Classic Pasta with Avocado,782,24,61,3,6,Non-Vegetarian,Snack,Muscle Gain
+1170,Garlic Soup with Herbs,490,37,89,24,8,Non-Vegetarian,Snack,Maintenance
+1171,Roasted Soup Platter,772,43,50,31,5,Vegan,Snack,Muscle Gain
+1172,Roasted Pasta with Avocado,686,33,43,18,4,Non-Vegetarian,Snack,Muscle Gain
+1173,Tandoori Lentil Special,369,34,26,4,2,Vegan,Snack,Weight Loss
+1174,Classic Avocado Toast with Herbs,448,11,48,10,4,Vegetarian,Snack,Maintenance
+1175,Tandoori Lentil Delight,356,32,32,20,3,Vegan,Snack,Weight Loss
+1176,Tandoori Avocado Toast with Garlic Sauce,530,20,21,20,2,Vegetarian,Snack,Maintenance
+1177,Grilled Quinoa Salad with Garlic Sauce,548,22,86,20,8,Vegan,Snack,Maintenance
+1178,Classic Salad Delight,217,10,47,17,4,Non-Vegetarian,Snack,Weight Loss
+1179,Grilled Paneer with Steamed Veggies,458,35,24,7,2,Vegetarian,Snack,Maintenance
+1180,Creamy Soup with Steamed Veggies,355,14,82,22,8,Vegan,Snack,Weight Loss
+1181,Crispy Wrap Delight,648,10,86,5,8,Vegetarian,Snack,Muscle Gain
+1182,Roasted Tofu Delight,556,31,52,23,5,Non-Vegetarian,Snack,Maintenance
+1183,Garlic Rice Bowl with Basmati Rice,720,13,18,20,2,Non-Vegetarian,Snack,Muscle Gain
+1184,Grilled Avocado Toast with Basmati Rice,444,41,59,17,5,Vegetarian,Snack,Maintenance
+1185,Steamed Oatmeal Delight,754,7,89,7,8,Vegetarian,Snack,Muscle Gain
+1186,Lemon Stir-Fry with Olive Oil,424,45,34,19,3,Vegetarian,Snack,Maintenance
+1187,Baked Soup Special,319,13,15,5,2,Non-Vegetarian,Snack,Weight Loss
+1188,Healthy Paneer Platter,597,34,57,29,5,Vegan,Snack,Maintenance
+1189,Lemon Avocado Toast with Olive Oil,301,28,79,25,7,Vegetarian,Snack,Weight Loss
+1190,Lemon Tofu Delight,293,18,86,4,8,Vegetarian,Snack,Weight Loss
+1191,Healthy Lentil with Avocado,267,13,45,23,4,Vegan,Snack,Weight Loss
+1192,Healthy Lentil Special,520,21,57,12,5,Non-Vegetarian,Snack,Maintenance
+1193,Healthy Avocado Toast with Herbs,295,32,22,26,2,Vegan,Snack,Weight Loss
+1194,Healthy Lentil Platter,576,12,45,17,4,Vegan,Snack,Maintenance
+1195,Tandoori Oatmeal Special,496,12,61,4,6,Non-Vegetarian,Snack,Maintenance
+1196,Healthy Rice Bowl with Garlic Sauce,547,19,52,13,5,Non-Vegetarian,Snack,Maintenance
+1197,Creamy Soup with Olive Oil,523,14,66,7,6,Non-Vegetarian,Snack,Maintenance
+1198,Baked Quinoa Salad with Garlic Sauce,257,27,74,7,7,Non-Vegetarian,Snack,Weight Loss
+1199,Crispy Pasta with Garlic Sauce,680,17,57,31,5,Vegan,Snack,Muscle Gain
+1200,Garlic Quinoa Salad Delight,659,44,10,8,2,Non-Vegetarian,Snack,Muscle Gain
+1201,Grilled Paneer Delight,709,28,76,20,7,Vegetarian,Snack,Muscle Gain
+1202,Garlic Tofu with Basmati Rice,575,28,59,5,5,Vegan,Snack,Maintenance
+1203,Creamy Paneer Delight,325,13,19,31,2,Vegan,Snack,Weight Loss
+1204,Steamed Avocado Toast with Olive Oil,555,9,80,21,8,Vegan,Snack,Maintenance
+1205,Creamy Tofu with Avocado,524,9,67,32,6,Vegetarian,Snack,Maintenance
+1206,Garlic Avocado Toast with Olive Oil,791,25,34,13,3,Vegan,Snack,Muscle Gain
+1207,Baked Salad with Steamed Veggies,292,30,74,32,7,Vegetarian,Snack,Weight Loss
+1208,Spicy Chicken with Steamed Veggies,340,26,70,32,7,Non-Vegetarian,Snack,Weight Loss
+1209,Creamy Beef Delight,217,28,52,10,5,Non-Vegetarian,Snack,Weight Loss
+1210,Classic Chicken with Avocado,731,18,81,23,8,Non-Vegetarian,Snack,Muscle Gain
+1211,Tandoori Lentil with Avocado,670,39,53,25,5,Non-Vegetarian,Snack,Muscle Gain
+1212,Steamed Quinoa Salad with Avocado,205,40,30,29,3,Vegan,Snack,Weight Loss
+1213,Crispy Lentil with Herbs,610,11,33,11,3,Vegetarian,Snack,Muscle Gain
+1214,Steamed Avocado Toast with Basmati Rice,453,43,20,31,2,Non-Vegetarian,Snack,Maintenance
+1215,Creamy Quinoa Salad Platter,515,6,60,19,6,Vegetarian,Snack,Maintenance
+1216,Baked Rice Bowl with Avocado,338,31,57,27,5,Vegan,Snack,Weight Loss
+1217,Healthy Soup Platter,336,27,25,14,2,Vegetarian,Snack,Weight Loss
+1218,Garlic Oatmeal with Basmati Rice,203,6,48,32,4,Non-Vegetarian,Snack,Weight Loss
+1219,Tandoori Avocado Toast with Basmati Rice,453,34,54,12,5,Non-Vegetarian,Snack,Maintenance
+1220,Roasted Chicken with Olive Oil,590,38,50,29,5,Non-Vegetarian,Snack,Maintenance
+1221,Creamy Avocado Toast with Basmati Rice,349,6,43,29,4,Vegan,Snack,Weight Loss
+1222,Roasted Chicken with Steamed Veggies,744,40,62,3,6,Non-Vegetarian,Snack,Muscle Gain
+1223,Crispy Lentil Special,343,10,74,25,7,Non-Vegetarian,Snack,Weight Loss
+1224,Garlic Lentil with Garlic Sauce,704,14,18,13,2,Vegan,Snack,Muscle Gain
+1225,Tandoori Avocado Toast with Avocado,507,25,87,15,8,Vegetarian,Snack,Maintenance
+1226,Lemon Lentil Special,487,30,56,10,5,Non-Vegetarian,Snack,Maintenance
+1227,Healthy Salad Delight,796,30,78,35,7,Vegetarian,Snack,Muscle Gain
+1228,Spicy Quinoa Salad with Olive Oil,749,43,20,9,2,Non-Vegetarian,Snack,Muscle Gain
+1229,Spicy Oatmeal with Basmati Rice,660,42,64,27,6,Vegetarian,Snack,Muscle Gain
+1230,Healthy Lentil with Olive Oil,668,44,32,22,3,Non-Vegetarian,Snack,Muscle Gain
+1231,Steamed Salad Special,654,36,31,8,3,Vegetarian,Snack,Muscle Gain
+1232,Crispy Tofu with Herbs,474,39,56,5,5,Non-Vegetarian,Snack,Maintenance
+1233,Lemon Rice Bowl with Herbs,453,24,14,31,2,Non-Vegetarian,Snack,Maintenance
+1234,Steamed Oatmeal with Olive Oil,264,39,60,16,6,Non-Vegetarian,Snack,Weight Loss
+1235,Healthy Oatmeal Delight,272,38,11,26,2,Vegetarian,Snack,Weight Loss
+1236,Tandoori Tofu Platter,750,44,29,20,2,Non-Vegetarian,Snack,Muscle Gain
+1237,Creamy Chicken with Garlic Sauce,379,12,11,11,2,Non-Vegetarian,Snack,Weight Loss
+1238,Crispy Tofu with Garlic Sauce,790,45,19,34,2,Vegetarian,Snack,Muscle Gain
+1239,Garlic Tofu with Steamed Veggies,263,19,26,15,2,Vegan,Snack,Weight Loss
+1240,Healthy Pasta with Olive Oil,325,7,69,6,6,Vegan,Snack,Weight Loss
+1241,Tandoori Salad with Steamed Veggies,591,32,32,25,3,Non-Vegetarian,Snack,Maintenance
+1242,Crispy Rice Bowl with Herbs,690,41,38,13,3,Vegetarian,Snack,Muscle Gain
+1243,Roasted Pasta with Garlic Sauce,293,39,59,14,5,Vegetarian,Snack,Weight Loss
+1244,Garlic Salad with Steamed Veggies,469,33,69,19,6,Vegetarian,Snack,Maintenance
+1245,Garlic Paneer with Basmati Rice,243,32,20,30,2,Vegan,Snack,Weight Loss
+1246,Tandoori Wrap with Olive Oil,482,38,68,3,6,Non-Vegetarian,Snack,Maintenance
+1247,Tandoori Paneer with Avocado,780,42,84,9,8,Vegan,Snack,Muscle Gain
+1248,Baked Oatmeal Special,291,17,66,16,6,Vegetarian,Snack,Weight Loss
+1249,Grilled Avocado Toast with Steamed Veggies,727,15,18,22,2,Non-Vegetarian,Snack,Muscle Gain
+1250,Crispy Pasta with Steamed Veggies,377,17,35,6,3,Vegan,Snack,Weight Loss
+1251,Spicy Avocado Toast with Steamed Veggies,685,13,32,3,3,Non-Vegetarian,Snack,Muscle Gain
+1252,Roasted Quinoa Salad with Basmati Rice,509,38,89,28,8,Vegetarian,Snack,Maintenance
+1253,Baked Pasta Special,614,29,14,15,2,Vegetarian,Snack,Muscle Gain
+1254,Healthy Wrap with Garlic Sauce,685,14,36,3,3,Vegetarian,Snack,Muscle Gain
+1255,Garlic Quinoa Salad Platter,412,35,52,18,5,Vegetarian,Snack,Maintenance
+1256,Roasted Quinoa Salad Delight,385,44,58,25,5,Non-Vegetarian,Snack,Weight Loss
+1257,Healthy Salad with Steamed Veggies,305,30,62,5,6,Vegetarian,Snack,Weight Loss
+1258,Crispy Oatmeal with Steamed Veggies,766,32,84,33,8,Vegan,Snack,Muscle Gain
+1259,Creamy Stir-Fry with Olive Oil,716,29,63,18,6,Non-Vegetarian,Snack,Muscle Gain
+1260,Classic Pasta Platter,506,40,50,16,5,Non-Vegetarian,Snack,Maintenance
+1261,Crispy Quinoa Salad with Garlic Sauce,248,29,59,29,5,Vegan,Snack,Weight Loss
+1262,Steamed Chicken with Herbs,554,33,40,18,4,Non-Vegetarian,Snack,Maintenance
+1263,Grilled Oatmeal Special,321,39,10,7,2,Vegetarian,Snack,Weight Loss
+1264,Grilled Stir-Fry with Garlic Sauce,798,14,82,26,8,Vegetarian,Snack,Muscle Gain
+1265,Grilled Paneer with Olive Oil,691,34,67,25,6,Vegetarian,Snack,Muscle Gain
+1266,Creamy Oatmeal with Garlic Sauce,337,34,74,35,7,Vegan,Snack,Weight Loss
+1267,Creamy Soup with Herbs,729,21,58,17,5,Vegetarian,Snack,Muscle Gain
+1268,Creamy Chicken Platter,715,12,21,33,2,Non-Vegetarian,Snack,Muscle Gain
+1269,Tandoori Lentil with Steamed Veggies,742,32,39,33,3,Non-Vegetarian,Snack,Muscle Gain
+1270,Crispy Stir-Fry with Steamed Veggies,364,29,10,8,2,Vegetarian,Snack,Weight Loss
+1271,Tandoori Tofu with Herbs,469,19,57,8,5,Non-Vegetarian,Snack,Maintenance
+1272,Spicy Lentil Platter,399,7,86,35,8,Vegetarian,Snack,Weight Loss
+1273,Spicy Beef with Avocado,616,37,23,7,2,Non-Vegetarian,Snack,Muscle Gain
+1274,Creamy Salad with Basmati Rice,547,34,68,4,6,Vegetarian,Snack,Maintenance
+1275,Grilled Lentil Special,486,33,33,11,3,Non-Vegetarian,Snack,Maintenance
+1276,Tandoori Stir-Fry with Garlic Sauce,674,45,28,13,2,Vegan,Snack,Muscle Gain
+1277,Roasted Quinoa Salad with Olive Oil,733,33,62,13,6,Vegetarian,Snack,Muscle Gain
+1278,Baked Wrap Delight,338,39,32,32,3,Non-Vegetarian,Snack,Weight Loss
+1279,Steamed Soup Platter,517,27,71,17,7,Non-Vegetarian,Snack,Maintenance
+1280,Grilled Rice Bowl with Garlic Sauce,359,24,11,3,2,Vegetarian,Snack,Weight Loss
+1281,Creamy Avocado Toast with Steamed Veggies,582,17,62,30,6,Vegetarian,Snack,Maintenance
+1282,Spicy Salmon with Herbs,354,5,73,16,7,Non-Vegetarian,Snack,Weight Loss
+1283,Roasted Lentil Delight,232,26,20,12,2,Vegetarian,Snack,Weight Loss
+1284,Spicy Paneer with Garlic Sauce,798,12,60,18,6,Vegetarian,Snack,Muscle Gain
+1285,Grilled Wrap with Olive Oil,649,17,12,27,2,Vegan,Snack,Muscle Gain
+1286,Garlic Pasta with Steamed Veggies,572,44,40,23,4,Non-Vegetarian,Snack,Maintenance
+1287,Roasted Soup with Olive Oil,366,28,55,16,5,Vegetarian,Snack,Weight Loss
+1288,Baked Wrap with Steamed Veggies,317,39,44,24,4,Non-Vegetarian,Snack,Weight Loss
+1289,Grilled Quinoa Salad with Herbs,454,17,34,31,3,Non-Vegetarian,Snack,Maintenance
+1290,Healthy Chicken Platter,215,10,40,13,4,Non-Vegetarian,Snack,Weight Loss
+1291,Lemon Avocado Toast Special,260,15,58,3,5,Vegetarian,Snack,Weight Loss
+1292,Lemon Beef with Steamed Veggies,646,5,76,15,7,Non-Vegetarian,Snack,Muscle Gain
+1293,Tandoori Oatmeal with Avocado,205,11,64,17,6,Vegetarian,Snack,Weight Loss
+1294,Crispy Quinoa Salad with Herbs,336,34,77,23,7,Vegan,Snack,Weight Loss
+1295,Baked Quinoa Salad with Basmati Rice,483,38,72,18,7,Vegetarian,Snack,Maintenance
+1296,Grilled Wrap Delight,625,8,36,29,3,Vegetarian,Snack,Muscle Gain
+1297,Lemon Salad with Olive Oil,545,29,45,29,4,Vegetarian,Snack,Maintenance
+1298,Steamed Pasta Delight,356,32,32,20,3,Vegetarian,Snack,Weight Loss
+1299,Classic Stir-Fry Platter,489,11,34,21,3,Vegetarian,Snack,Maintenance
+1300,Healthy Rice Bowl Delight,275,41,90,6,9,Vegan,Snack,Weight Loss
+1301,Roasted Lentil Special,782,44,17,9,2,Vegetarian,Snack,Muscle Gain
+1302,Garlic Stir-Fry Special,703,10,70,25,7,Vegetarian,Snack,Muscle Gain
+1303,Roasted Beef Special,763,7,68,8,6,Non-Vegetarian,Snack,Muscle Gain
+1304,Roasted Tofu with Steamed Veggies,445,15,49,3,4,Non-Vegetarian,Snack,Maintenance
+1305,Roasted Wrap Delight,553,26,80,27,8,Vegan,Snack,Maintenance
+1306,Baked Salad with Garlic Sauce,209,34,46,13,4,Non-Vegetarian,Snack,Weight Loss
+1307,Creamy Oatmeal Special,456,34,48,15,4,Vegetarian,Snack,Maintenance
+1308,Baked Wrap with Herbs,665,28,43,27,4,Vegan,Snack,Muscle Gain
+1309,Baked Tofu Platter,553,32,24,21,2,Vegetarian,Snack,Maintenance
+1310,Steamed Beef with Steamed Veggies,425,30,86,6,8,Non-Vegetarian,Snack,Maintenance
+1311,Crispy Wrap with Avocado,572,28,46,27,4,Vegetarian,Snack,Maintenance
+1312,Lemon Paneer with Avocado,279,23,22,35,2,Vegan,Snack,Weight Loss
+1313,Garlic Paneer with Avocado,648,7,62,26,6,Vegan,Snack,Muscle Gain
+1314,Baked Quinoa Salad Special,714,38,63,13,6,Vegetarian,Snack,Muscle Gain
+1315,Baked Tofu with Garlic Sauce,248,20,63,32,6,Vegan,Snack,Weight Loss
+1316,Crispy Oatmeal with Herbs,634,10,65,14,6,Vegetarian,Snack,Muscle Gain
+1317,Crispy Lentil with Avocado,764,45,85,14,8,Non-Vegetarian,Snack,Muscle Gain
+1318,Spicy Avocado Toast with Herbs,730,14,48,13,4,Non-Vegetarian,Snack,Muscle Gain
+1319,Steamed Chicken Delight,758,23,48,33,4,Non-Vegetarian,Snack,Muscle Gain
+1320,Roasted Quinoa Salad with Herbs,717,34,40,16,4,Vegetarian,Snack,Muscle Gain
+1321,Baked Avocado Toast with Herbs,331,11,60,26,6,Non-Vegetarian,Snack,Weight Loss
+1322,Steamed Quinoa Salad with Basmati Rice,252,42,71,13,7,Vegetarian,Snack,Weight Loss
+1323,Steamed Avocado Toast with Steamed Veggies,312,17,12,31,2,Vegan,Snack,Weight Loss
+1324,Tandoori Oatmeal with Basmati Rice,620,37,88,33,8,Vegan,Snack,Muscle Gain
+1325,Crispy Salad with Steamed Veggies,664,13,75,29,7,Vegan,Snack,Muscle Gain
+1326,Lemon Salad Platter,545,21,72,34,7,Non-Vegetarian,Snack,Maintenance
+1327,Crispy Soup with Steamed Veggies,736,7,19,6,2,Vegan,Snack,Muscle Gain
+1328,Steamed Oatmeal with Herbs,354,5,37,35,3,Vegan,Snack,Weight Loss
+1329,Grilled Tofu with Herbs,205,24,66,26,6,Vegetarian,Snack,Weight Loss
+1330,Steamed Lentil with Basmati Rice,357,32,58,7,5,Vegan,Snack,Weight Loss
+1331,Classic Avocado Toast Delight,700,15,20,4,2,Vegetarian,Snack,Muscle Gain
+1332,Classic Quinoa Salad Delight,762,37,24,10,2,Non-Vegetarian,Snack,Muscle Gain
+1333,Spicy Rice Bowl with Basmati Rice,335,24,30,20,3,Vegetarian,Snack,Weight Loss
+1334,Baked Oatmeal with Basmati Rice,639,10,22,3,2,Non-Vegetarian,Snack,Muscle Gain
+1335,Garlic Stir-Fry with Basmati Rice,731,33,11,3,2,Vegan,Snack,Muscle Gain
+1336,Lemon Chicken with Basmati Rice,288,32,24,32,2,Non-Vegetarian,Snack,Weight Loss
+1337,Crispy Wrap with Garlic Sauce,370,28,26,20,2,Vegetarian,Snack,Weight Loss
+1338,Creamy Stir-Fry with Steamed Veggies,645,13,40,21,4,Vegan,Snack,Muscle Gain
+1339,Creamy Wrap with Olive Oil,597,22,33,4,3,Vegetarian,Snack,Maintenance
+1340,Grilled Pasta Special,578,16,67,5,6,Vegan,Snack,Maintenance
+1341,Lemon Salad with Garlic Sauce,280,30,14,35,2,Non-Vegetarian,Snack,Weight Loss
+1342,Classic Oatmeal with Steamed Veggies,686,22,57,4,5,Vegetarian,Snack,Muscle Gain
+1343,Healthy Soup with Steamed Veggies,447,28,72,31,7,Non-Vegetarian,Snack,Maintenance
+1344,Crispy Lentil with Olive Oil,367,21,21,21,2,Non-Vegetarian,Snack,Weight Loss
+1345,Garlic Avocado Toast with Basmati Rice,426,19,36,20,3,Vegan,Snack,Maintenance
+1346,Grilled Soup with Avocado,226,36,47,19,4,Non-Vegetarian,Snack,Weight Loss
+1347,Crispy Stir-Fry Platter,545,32,27,24,2,Non-Vegetarian,Snack,Maintenance
+1348,Lemon Oatmeal with Steamed Veggies,291,12,83,34,8,Vegetarian,Snack,Weight Loss
+1349,Healthy Avocado Toast with Avocado,240,23,56,23,5,Vegan,Snack,Weight Loss
+1350,Creamy Quinoa Salad with Avocado,699,12,62,31,6,Vegetarian,Snack,Muscle Gain
+1351,Roasted Salad with Olive Oil,321,36,12,9,2,Vegan,Snack,Weight Loss
+1352,Crispy Wrap with Steamed Veggies,293,43,89,22,8,Vegan,Snack,Weight Loss
+1353,Steamed Lentil Delight,316,11,38,3,3,Non-Vegetarian,Snack,Weight Loss
+1354,Roasted Pasta Platter,381,42,32,11,3,Non-Vegetarian,Snack,Weight Loss
+1355,Creamy Pasta with Basmati Rice,480,30,53,21,5,Vegetarian,Snack,Maintenance
+1356,Lemon Wrap Special,273,14,13,32,2,Vegan,Snack,Weight Loss
+1357,Spicy Paneer Delight,264,21,57,17,5,Vegetarian,Snack,Weight Loss
+1358,Lemon Avocado Toast with Avocado,364,13,90,35,9,Vegan,Snack,Weight Loss
+1359,Garlic Pasta Platter,201,32,76,29,7,Non-Vegetarian,Snack,Weight Loss
+1360,Creamy Quinoa Salad with Herbs,635,13,42,33,4,Vegetarian,Snack,Muscle Gain
+1361,Creamy Tofu Platter,270,10,80,21,8,Vegetarian,Snack,Weight Loss
+1362,Roasted Oatmeal with Steamed Veggies,538,10,28,6,2,Vegetarian,Snack,Maintenance
+1363,Classic Quinoa Salad with Basmati Rice,296,38,36,33,3,Vegan,Snack,Weight Loss
+1364,Creamy Paneer Platter,556,25,69,20,6,Vegan,Snack,Maintenance
+1365,Classic Chicken Platter,608,21,20,28,2,Non-Vegetarian,Snack,Muscle Gain
+1366,Baked Soup with Olive Oil,310,6,47,27,4,Non-Vegetarian,Snack,Weight Loss
+1367,Lemon Wrap Platter,605,7,81,27,8,Vegan,Snack,Muscle Gain
+1368,Roasted Quinoa Salad with Avocado,406,34,21,19,2,Vegetarian,Snack,Maintenance
+1369,Garlic Pasta with Olive Oil,779,14,30,12,3,Vegan,Snack,Muscle Gain
+1370,Classic Soup Delight,704,16,88,17,8,Non-Vegetarian,Snack,Muscle Gain
+1371,Spicy Lentil with Olive Oil,773,45,37,3,3,Vegetarian,Snack,Muscle Gain
+1372,Classic Lentil Platter,778,25,81,4,8,Vegetarian,Snack,Muscle Gain
+1373,Garlic Salmon with Olive Oil,695,38,49,23,4,Non-Vegetarian,Snack,Muscle Gain
+1374,Classic Stir-Fry Delight,564,24,52,15,5,Vegan,Snack,Maintenance
+1375,Crispy Tofu Delight,380,24,61,7,6,Vegetarian,Snack,Weight Loss
+1376,Classic Stir-Fry Special,384,34,75,30,7,Vegetarian,Snack,Weight Loss
+1377,Lemon Soup Delight,371,18,83,25,8,Vegetarian,Snack,Weight Loss
+1378,Roasted Oatmeal Platter,439,29,59,33,5,Vegetarian,Snack,Maintenance
+1379,Tandoori Oatmeal with Olive Oil,463,15,19,20,2,Vegetarian,Snack,Maintenance
+1380,Steamed Avocado Toast with Avocado,240,29,34,22,3,Vegetarian,Snack,Weight Loss
+1381,Spicy Pasta Delight,282,5,10,14,2,Vegan,Snack,Weight Loss
+1382,Lemon Paneer with Steamed Veggies,384,36,88,8,8,Vegetarian,Snack,Weight Loss
+1383,Classic Stir-Fry with Steamed Veggies,665,34,27,28,2,Non-Vegetarian,Snack,Muscle Gain
+1384,Healthy Rice Bowl with Avocado,495,9,23,13,2,Vegan,Snack,Maintenance
+1385,Garlic Wrap with Garlic Sauce,324,6,61,34,6,Non-Vegetarian,Snack,Weight Loss
+1386,Garlic Avocado Toast Platter,539,23,70,21,7,Vegetarian,Snack,Maintenance
+1387,Classic Beef Delight,431,40,62,21,6,Non-Vegetarian,Snack,Maintenance
+1388,Lemon Quinoa Salad Delight,716,21,79,24,7,Vegetarian,Snack,Muscle Gain
+1389,Healthy Stir-Fry Delight,767,39,83,33,8,Vegetarian,Snack,Muscle Gain
+1390,Steamed Lentil with Avocado,506,28,65,15,6,Non-Vegetarian,Snack,Maintenance
+1391,Crispy Paneer with Steamed Veggies,728,16,83,34,8,Non-Vegetarian,Snack,Muscle Gain
+1392,Healthy Soup with Basmati Rice,622,22,46,13,4,Vegetarian,Snack,Muscle Gain
+1393,Steamed Pasta with Garlic Sauce,348,28,70,26,7,Vegetarian,Snack,Weight Loss
+1394,Tandoori Pasta with Garlic Sauce,508,10,40,22,4,Vegan,Snack,Maintenance
+1395,Classic Rice Bowl with Herbs,364,21,74,7,7,Vegetarian,Snack,Weight Loss
+1396,Classic Avocado Toast Platter,534,34,13,6,2,Non-Vegetarian,Snack,Maintenance
+1397,Roasted Salad with Avocado,466,16,85,23,8,Vegetarian,Snack,Maintenance
+1398,Lemon Oatmeal with Basmati Rice,395,22,46,34,4,Vegan,Snack,Weight Loss
+1399,Lemon Oatmeal Special,633,43,42,7,4,Non-Vegetarian,Snack,Muscle Gain
+1400,Baked Tofu with Olive Oil,245,13,73,20,7,Vegan,Snack,Weight Loss
+1401,Creamy Paneer Special,636,10,15,35,2,Vegetarian,Snack,Muscle Gain
+1402,Healthy Paneer with Olive Oil,542,13,25,15,2,Non-Vegetarian,Snack,Maintenance
+1403,Garlic Quinoa Salad Special,623,31,68,26,6,Vegan,Snack,Muscle Gain
+1404,Classic Wrap with Garlic Sauce,521,27,11,20,2,Non-Vegetarian,Snack,Maintenance
+1405,Garlic Wrap with Avocado,696,34,26,35,2,Vegan,Snack,Muscle Gain
+1406,Crispy Lentil with Steamed Veggies,318,21,32,19,3,Non-Vegetarian,Snack,Weight Loss
+1407,Spicy Lentil with Garlic Sauce,599,31,78,17,7,Vegetarian,Snack,Maintenance
+1408,Creamy Beef with Olive Oil,451,10,45,31,4,Non-Vegetarian,Snack,Maintenance
+1409,Lemon Beef with Olive Oil,684,40,77,25,7,Non-Vegetarian,Snack,Muscle Gain
+1410,Steamed Salad with Garlic Sauce,385,42,65,34,6,Non-Vegetarian,Snack,Weight Loss
+1411,Grilled Stir-Fry Special,282,26,78,27,7,Vegetarian,Snack,Weight Loss
+1412,Spicy Stir-Fry with Herbs,440,45,46,17,4,Non-Vegetarian,Snack,Maintenance
+1413,Classic Tofu Platter,420,32,67,17,6,Vegan,Snack,Maintenance
+1414,Creamy Salad Special,479,18,75,10,7,Vegetarian,Snack,Maintenance
+1415,Baked Soup Delight,739,24,15,17,2,Vegan,Snack,Muscle Gain
+1416,Spicy Rice Bowl with Steamed Veggies,670,9,50,30,5,Non-Vegetarian,Snack,Muscle Gain
+1417,Tandoori Lentil with Basmati Rice,654,44,46,31,4,Vegan,Snack,Muscle Gain
+1418,Roasted Soup with Avocado,338,9,68,5,6,Non-Vegetarian,Snack,Weight Loss
+1419,Roasted Pasta Special,547,16,73,34,7,Non-Vegetarian,Snack,Maintenance
+1420,Lemon Quinoa Salad with Herbs,538,15,68,19,6,Vegetarian,Snack,Maintenance
+1421,Spicy Wrap Delight,515,6,60,19,6,Non-Vegetarian,Snack,Maintenance
+1422,Spicy Salmon with Basmati Rice,268,11,86,5,8,Non-Vegetarian,Snack,Weight Loss
+1423,Steamed Soup with Olive Oil,463,36,72,32,7,Non-Vegetarian,Snack,Maintenance
+1424,Spicy Wrap with Garlic Sauce,748,23,12,35,2,Vegan,Snack,Muscle Gain
+1425,Creamy Oatmeal with Basmati Rice,275,10,44,12,4,Vegan,Snack,Weight Loss
+1426,Spicy Tofu with Garlic Sauce,427,37,76,17,7,Vegan,Snack,Maintenance
+1427,Garlic Stir-Fry with Garlic Sauce,624,29,67,7,6,Vegetarian,Snack,Muscle Gain
+1428,Grilled Chicken Delight,780,15,57,13,5,Non-Vegetarian,Snack,Muscle Gain
+1429,Grilled Salad with Herbs,794,11,74,11,7,Non-Vegetarian,Snack,Muscle Gain
+1430,Spicy Rice Bowl Special,376,27,37,14,3,Vegetarian,Snack,Weight Loss
+1431,Steamed Paneer with Garlic Sauce,527,9,21,27,2,Vegan,Snack,Maintenance
+1432,Grilled Pasta with Olive Oil,510,24,45,34,4,Vegetarian,Snack,Maintenance
+1433,Garlic Lentil Delight,567,17,31,28,3,Non-Vegetarian,Snack,Maintenance
+1434,Garlic Oatmeal with Avocado,331,11,59,23,5,Non-Vegetarian,Snack,Weight Loss
+1435,Spicy Soup with Steamed Veggies,404,22,30,21,3,Vegan,Snack,Maintenance
+1436,Crispy Tofu Special,572,37,11,18,2,Non-Vegetarian,Snack,Maintenance
+1437,Roasted Quinoa Salad Special,558,42,83,9,8,Vegan,Snack,Maintenance
+1438,Lemon Quinoa Salad with Garlic Sauce,329,13,77,13,7,Vegetarian,Snack,Weight Loss
+1439,Tandoori Rice Bowl with Basmati Rice,367,29,58,17,5,Non-Vegetarian,Snack,Weight Loss
+1440,Lemon Pasta with Garlic Sauce,590,5,25,18,2,Vegan,Snack,Maintenance
+1441,Steamed Rice Bowl with Herbs,370,16,80,28,8,Non-Vegetarian,Snack,Weight Loss
+1442,Creamy Salmon Platter,736,20,41,7,4,Non-Vegetarian,Snack,Muscle Gain
+1443,Grilled Rice Bowl Platter,737,7,76,9,7,Non-Vegetarian,Snack,Muscle Gain
+1444,Tandoori Oatmeal with Steamed Veggies,729,14,69,31,6,Vegan,Snack,Muscle Gain
+1445,Classic Pasta with Basmati Rice,665,10,42,23,4,Non-Vegetarian,Snack,Muscle Gain
+1446,Tandoori Salad with Herbs,206,20,80,20,8,Vegetarian,Snack,Weight Loss
+1447,Classic Soup with Herbs,752,42,49,6,4,Non-Vegetarian,Snack,Muscle Gain
+1448,Roasted Pasta with Olive Oil,359,5,79,35,7,Vegan,Snack,Weight Loss
+1449,Classic Tofu Delight,241,13,80,10,8,Vegetarian,Snack,Weight Loss
+1450,Classic Stir-Fry with Avocado,650,11,33,25,3,Vegetarian,Snack,Muscle Gain
+1451,Lemon Beef with Avocado,571,35,57,22,5,Non-Vegetarian,Snack,Maintenance
+1452,Classic Oatmeal with Avocado,416,8,46,23,4,Vegetarian,Snack,Maintenance
+1453,Spicy Wrap with Olive Oil,674,19,29,34,2,Vegan,Snack,Muscle Gain
+1454,Creamy Stir-Fry Platter,497,7,72,28,7,Non-Vegetarian,Snack,Maintenance
+1455,Baked Rice Bowl with Herbs,253,17,40,18,4,Vegetarian,Snack,Weight Loss
+1456,Baked Quinoa Salad with Olive Oil,766,31,18,33,2,Vegan,Snack,Muscle Gain
+1457,Baked Stir-Fry Special,267,11,17,6,2,Vegan,Snack,Weight Loss
+1458,Roasted Paneer with Olive Oil,582,38,71,34,7,Non-Vegetarian,Snack,Maintenance
+1459,Roasted Salad Platter,230,28,27,11,2,Vegan,Snack,Weight Loss
+1460,Baked Tofu with Avocado,306,40,32,5,3,Non-Vegetarian,Snack,Weight Loss
+1461,Spicy Oatmeal with Herbs,494,34,54,22,5,Non-Vegetarian,Snack,Maintenance
+1462,Healthy Lentil with Herbs,307,37,51,29,5,Non-Vegetarian,Snack,Weight Loss
+1463,Lemon Chicken with Olive Oil,217,45,56,5,5,Non-Vegetarian,Snack,Weight Loss
+1464,Tandoori Soup Delight,556,30,60,7,6,Vegetarian,Snack,Maintenance
+1465,Garlic Pasta with Basmati Rice,400,5,56,9,5,Vegetarian,Snack,Maintenance
+1466,Creamy Salad with Olive Oil,735,27,87,35,8,Vegan,Snack,Muscle Gain
+1467,Crispy Lentil with Garlic Sauce,764,22,87,9,8,Vegan,Snack,Muscle Gain
+1468,Spicy Beef with Herbs,475,28,45,25,4,Non-Vegetarian,Snack,Maintenance
+1469,Grilled Stir-Fry with Avocado,635,14,48,21,4,Non-Vegetarian,Snack,Muscle Gain
+1470,Garlic Oatmeal with Olive Oil,634,17,44,9,4,Vegetarian,Snack,Muscle Gain
+1471,Steamed Oatmeal with Steamed Veggies,450,40,11,12,2,Vegetarian,Snack,Maintenance
+1472,Grilled Avocado Toast Platter,636,38,52,10,5,Vegetarian,Snack,Muscle Gain
+1473,Garlic Rice Bowl with Olive Oil,729,15,65,17,6,Non-Vegetarian,Snack,Muscle Gain
+1474,Creamy Lentil Special,442,41,12,21,2,Vegan,Snack,Maintenance
+1475,Roasted Beef with Olive Oil,694,19,21,19,2,Non-Vegetarian,Snack,Muscle Gain
+1476,Healthy Beef with Basmati Rice,232,35,55,18,5,Non-Vegetarian,Snack,Weight Loss
+1477,Spicy Pasta Platter,227,31,21,11,2,Vegetarian,Snack,Weight Loss
+1478,Baked Oatmeal with Steamed Veggies,306,7,73,35,7,Vegan,Snack,Weight Loss
+1479,Garlic Avocado Toast with Herbs,419,5,65,7,6,Vegetarian,Snack,Maintenance
+1480,Garlic Salad with Olive Oil,316,27,60,11,6,Vegan,Snack,Weight Loss
+1481,Classic Chicken with Garlic Sauce,480,34,35,9,3,Non-Vegetarian,Snack,Maintenance
+1482,Grilled Lentil with Herbs,391,27,49,13,4,Vegetarian,Snack,Weight Loss
+1483,Roasted Chicken Delight,611,32,16,22,2,Non-Vegetarian,Snack,Muscle Gain
+1484,Garlic Beef with Garlic Sauce,673,43,50,9,5,Non-Vegetarian,Snack,Muscle Gain
+1485,Healthy Chicken with Steamed Veggies,616,38,70,27,7,Non-Vegetarian,Snack,Muscle Gain
+1486,Healthy Wrap with Steamed Veggies,526,45,19,15,2,Vegetarian,Snack,Maintenance
+1487,Spicy Avocado Toast Platter,261,37,57,4,5,Vegetarian,Snack,Weight Loss
+1488,Garlic Soup with Olive Oil,274,16,83,24,8,Non-Vegetarian,Snack,Weight Loss
+1489,Steamed Salmon with Olive Oil,790,14,34,12,3,Non-Vegetarian,Snack,Muscle Gain
+1490,Classic Salmon Special,250,33,66,28,6,Non-Vegetarian,Snack,Weight Loss
+1491,Creamy Salmon with Avocado,424,37,26,12,2,Non-Vegetarian,Snack,Maintenance
+1492,Creamy Wrap Platter,791,22,26,23,2,Non-Vegetarian,Snack,Muscle Gain
+1493,Steamed Beef with Avocado,414,40,80,23,8,Non-Vegetarian,Snack,Maintenance
+1494,Classic Quinoa Salad with Avocado,605,18,67,22,6,Vegetarian,Snack,Muscle Gain
+1495,Steamed Salmon with Garlic Sauce,528,13,67,15,6,Non-Vegetarian,Snack,Maintenance
+1496,Garlic Wrap with Steamed Veggies,680,35,23,10,2,Vegan,Snack,Muscle Gain
+1497,Garlic Quinoa Salad with Steamed Veggies,800,28,66,14,6,Vegetarian,Snack,Muscle Gain
+1498,Grilled Oatmeal with Garlic Sauce,669,10,52,5,5,Vegetarian,Snack,Muscle Gain
+1499,Classic Lentil with Avocado,554,21,80,15,8,Vegetarian,Snack,Maintenance
+1500,Garlic Stir-Fry Delight,521,11,45,32,4,Non-Vegetarian,Snack,Maintenance

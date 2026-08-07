@@ -13,8 +13,8 @@ class Config:
 
     db_url = os.environ.get("DATABASE_URL")
     if not db_url:
-        # Fallback to the live cloud PostgreSQL database directly when running locally
-        db_url = "postgresql://nutrimeal_db_user:9KzZDtQKehdCwmkefUnFoX7Ljm21onP5@dpg-d9mnkj61egvs73ei202g-a.oregon-postgres.render.com/nutrimeal_db"
+        # Default to live PostgreSQL database with SSL enabled
+        db_url = "postgresql://nutrimeal_db_user:9KzZDtQKehdCwmkefUnFoX7Ljm21onP5@dpg-d9mnkj61egvs73ei202g-a.oregon-postgres.render.com/nutrimeal_db?sslmode=require"
         
     if db_url.startswith("postgres://"):
         db_url = db_url.replace("postgres://", "postgresql://", 1)
