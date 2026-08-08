@@ -19,6 +19,7 @@ class User(db.Model):
     meal_plans = db.relationship("MealPlan", backref="user", lazy=True, cascade="all, delete-orphan")
     progress_logs = db.relationship("ProgressLog", backref="user", lazy=True, cascade="all, delete-orphan")
     logged_meals = db.relationship("LoggedMeal", backref="user", lazy=True, cascade="all, delete-orphan")
+    exercise_logs = db.relationship("ExerciseLog", backref="user", lazy=True, cascade="all, delete-orphan")
 
     def set_password(self, password: str):
         self.password_hash = generate_password_hash(password)
@@ -157,4 +158,30 @@ class LoggedMeal(db.Model):
             "fat": self.fat,
             "date": self.date.isoformat() if self.date else None,
             "completion_time": self.completion_time
+        }
+
+
+# ─── Exercise Log ────────────────────────────────────────────────────────────
+class ExerciseLog(db.Model):
+    __tablename__ = "exercise_logs"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    exercise_name = db.Column(db.String(100), nullable=False)
+    duration_minutes = db.Column(db.Integer, nullable=False)
+    intensity = db.Column(db.String(50), nullable=False)
+    calories_burned = db.Column(db.Integer, nullable=False)
+    exercise_date = db.Column(db.Date, default=date.today)
+    created_at = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc))
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "user_id": self.user_id,
+            "exercise_name": self.exercise_name,
+            "duration_minutes": self.duration_minutes,
+            "intensity": self.intensity,
+            "calories_burned": self.calories_burned,
+            "exercise_date": self.exercise_date.isoformat() if self.exercise_date else None,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
         }

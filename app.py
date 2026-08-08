@@ -22,6 +22,7 @@ def create_app():
     from routes.progress_routes import progress_bp
     from routes.dashboard_routes import dashboard_bp
     from routes.recommend_routes import recommend_bp
+    from routes.exercise_routes import exercise_bp
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(profile_bp)
@@ -29,6 +30,7 @@ def create_app():
     app.register_blueprint(progress_bp)
     app.register_blueprint(dashboard_bp)
     app.register_blueprint(recommend_bp)
+    app.register_blueprint(exercise_bp)
 
     # ── Create tables ──
     with app.app_context():
