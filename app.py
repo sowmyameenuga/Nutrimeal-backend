@@ -108,6 +108,15 @@ def create_app():
                     conn.commit()
                 print("[migration] Added completion_time column to logged_meals")
 
+        # profiles table
+        if 'profiles' in inspector.get_table_names():
+            columns = [col['name'] for col in inspector.get_columns('profiles')]
+            if 'activity_level' not in columns:
+                with db.engine.connect() as conn:
+                    conn.execute(text("ALTER TABLE profiles ADD COLUMN activity_level VARCHAR(50) DEFAULT 'Moderate'"))
+                    conn.commit()
+                print("[migration] Added activity_level column to profiles")
+
     # ── Health check ──
     @app.route("/api/health", methods=["GET"])
     def health():

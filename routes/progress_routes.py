@@ -1,7 +1,7 @@
 from datetime import date, timedelta
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from models import db, ProgressLog, Profile, LoggedMeal, MealPlan
+from models import db, ProgressLog, Profile, LoggedMeal, MealPlan, ExerciseLog
 
 progress_bp = Blueprint("progress", __name__, url_prefix="/api/progress")
 
@@ -199,6 +199,101 @@ def get_weekly_activity():
         })
 
     return jsonify(week_data), 200
+
+
+@progress_bp.route("/weekly_summary", methods=["GET"])
+@jwt_required()
+def get_weekly_summary():
+    """Return the last 7 days of detailed nutrition and exercise activity."""
+    user_id = int(get_jwt_identity())
+    today = date.today()
+    week_start = today - timedelta(days=6)
+
+    # 1. Fetch all logged meals for this week
+    meals = (
+        LoggedMeal.query
+        .filter(
+            LoggedMeal.user_id == user_id,
+            LoggedMeal.date >= week_start,
+            LoggedMeal.date <= today
+        )
+        .all()
+    )
+
+    # 2. Fetch all exercise logs for this week
+    exercises = (
+        ExerciseLog.query
+        .filter(
+            ExerciseLog.user_id == user_id,
+            ExerciseLog.exercise_date >= week_start,
+            ExerciseLog.exercise_date <= today
+        )
+        .all()
+    )
+
+    # Group meals by date
+    meal_map = {}
+    for m in meals:
+        d_str = m.date.isoformat()
+        if d_str not in meal_map:
+            meal_map[d_str] = []
+        meal_map[d_str].append(m)
+
+    # Group exercises by date
+    exercise_map = {}
+    for e in exercises:
+        d_str = e.exercise_date.isoformat()
+        if d_str not in exercise_map:
+            exercise_map[d_str] = []
+        exercise_map[d_str].append(e)
+
+    # Build the 7-day breakdown list
+    summary_data = []
+    for i in range(7):
+        d = week_start + timedelta(days=i)
+        d_str = d.isoformat()
+
+        day_meals = meal_map.get(d_str, [])
+        day_exercises = exercise_map.get(d_str, [])
+
+        consumed_calories = sum(m.calories or 0 for m in day_meals)
+        protein = sum(m.protein or 0.0 for m in day_meals)
+        carbs = sum(m.carbs or 0.0 for m in day_meals)
+        fat = sum(m.fat or 0.0 for m in day_meals)
+
+        burned_calories = sum(e.calories_burned or 0 for e in day_exercises)
+        net_calories = consumed_calories - burned_calories
+
+        exercise_list = []
+        for e in day_exercises:
+            exercise_list.append({
+                "exercise_name": e.exercise_name,
+                "duration_minutes": e.duration_minutes,
+                "intensity": e.intensity,
+                "calories_burned": e.calories_burned
+            })
+
+        summary_data.append({
+            "date": d_str,
+            "day_name": d.strftime("%A"),
+            "nutrition": {
+                "calories": consumed_calories,
+                "protein": protein,
+                "carbs": carbs,
+                "fat": fat
+            },
+            "exercise": {
+                "exercises": exercise_list,
+                "burned": burned_calories
+            },
+            "summary": {
+                "consumed": consumed_calories,
+                "burned": burned_calories,
+                "net": net_calories
+            }
+        })
+
+    return jsonify(summary_data), 200
 
 @progress_bp.route("/history", methods=["GET"])
 @jwt_required()

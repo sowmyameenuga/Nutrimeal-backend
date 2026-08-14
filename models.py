@@ -50,6 +50,7 @@ class Profile(db.Model):
     allergy = db.Column(db.String(50))
     diet = db.Column(db.String(30), default="Veg")  # Veg / Non-Veg / Vegan
     country = db.Column(db.String(50))
+    activity_level = db.Column(db.String(50), default="Moderate")
 
     def to_dict(self):
         return {
@@ -64,6 +65,7 @@ class Profile(db.Model):
             "allergy": self.allergy,
             "diet": self.diet,
             "country": self.country,
+            "activity_level": self.activity_level,
         }
 
 

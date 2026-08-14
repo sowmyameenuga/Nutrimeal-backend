@@ -12,8 +12,84 @@ MET_MAP = {
     "Cycling": {"Low": 4.0, "Moderate": 6.8, "High": 10.0},
     "Swimming": {"Low": 4.5, "Moderate": 6.0, "High": 8.0},
     "Weight Lifting": {"Low": 3.0, "Moderate": 5.0, "High": 6.0},
-    "Jump Rope (Skipping)": {"Low": 7.0, "Moderate": 10.0, "High": 12.0}
+    "Weight Training": {"Low": 3.0, "Moderate": 5.0, "High": 6.0},
+    "Jump Rope (Skipping)": {"Low": 7.0, "Moderate": 10.0, "High": 12.0},
+    "Jump Rope": {"Low": 7.0, "Moderate": 10.0, "High": 12.0}
 }
+
+@exercise_bp.route("/recommend", methods=["GET"])
+@jwt_required()
+def recommend_exercise():
+    """Recommend a personalized exercise based on the user's profile guidelines."""
+    user_id = int(get_jwt_identity())
+    profile = Profile.query.filter_by(user_id=user_id).first()
+
+    if not profile or not profile.weight_kg or profile.weight_kg <= 0:
+        return jsonify({
+            "error": "Valid profile data (weight) must be set in your profile to receive recommendations."
+        }), 400
+
+    age = profile.age or 30
+    weight = profile.weight_kg
+    goal = profile.goal or "Maintain Weight"
+    activity_level = getattr(profile, "activity_level", "Moderate") or "Moderate"
+
+    # Rule-based exercise selection
+    if weight > 95.0 or age > 55:
+        # Low impact
+        if goal in ["Weight Loss", "Fat Loss"]:
+            exercise_name = "Swimming"
+        else:
+            exercise_name = "Walking"
+    else:
+        if goal in ["Muscle Gain", "Weight Gain"]:
+            exercise_name = "Weight Lifting"
+        elif goal in ["Weight Loss", "Fat Loss"]:
+            if activity_level == "Active" and age < 40:
+                exercise_name = "Jump Rope (Skipping)"
+            else:
+                exercise_name = "Running"
+        else:
+            exercise_name = "Cycling"
+
+    # Determine intensity
+    if activity_level == "Sedentary":
+        intensity = "Low"
+    elif activity_level in ["Light", "Moderate"]:
+        intensity = "Moderate"
+    else:
+        intensity = "High"
+
+    # Determine duration
+    if activity_level == "Sedentary":
+        duration = 15
+    elif activity_level == "Light":
+        duration = 20
+    elif activity_level == "Moderate":
+        duration = 30
+    else:
+        duration = 45
+
+    # Age adjustments for intensity/duration
+    if age > 50 and intensity == "High":
+        intensity = "Moderate"
+    if age > 65 and duration > 20:
+        duration = 20
+
+    # Calculate calories burned dynamically
+    met = MET_MAP[exercise_name][intensity]
+    duration_hours = duration / 60.0
+    calories_burned = round(met * weight * duration_hours)
+
+    if calories_burned <= 0:
+        calories_burned = 1
+
+    return jsonify({
+        "exercise_name": exercise_name,
+        "duration_minutes": duration,
+        "intensity": intensity,
+        "calories_burned": calories_burned
+    }), 200
 
 @exercise_bp.route("/log", methods=["POST"])
 @jwt_required()

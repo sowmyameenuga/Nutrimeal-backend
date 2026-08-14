@@ -28,6 +28,7 @@ def get_profile():
             "weight_kg": None,
             "goal": None,
             "allergy": None,
+            "activity_level": "Moderate",
         }), 200
 
     return jsonify(profile.to_dict()), 200
@@ -71,6 +72,8 @@ def save_profile():
         profile.diet = data["diet"]
     if "country" in data:
         profile.country = data["country"]
+    if "activity_level" in data:
+        profile.activity_level = data["activity_level"]
 
     db.session.commit()
 
